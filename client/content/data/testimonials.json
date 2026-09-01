@@ -1,0 +1,90 @@
+[
+  {
+    "id": "t1",
+    "name": "Rohit Malhotra",
+    "role": "Managing Director, Aurora Textiles Pvt. Ltd.",
+    "location": "New Delhi",
+    "rating": 5,
+    "quote": "We came in expecting to be told our case was strong. Instead we were told exactly which part of it was weak and why, and what it would cost to fix. That single conversation saved us two years of pointless litigation.",
+    "practiceArea": "Corporate Law",
+    "successStory": "A supply agreement dispute worth a significant share of annual turnover was heading to court on a clause our previous advisers had assured us was watertight. The firm's review found the clause unenforceable as drafted and recommended settlement from a position of realism rather than bluster. The matter closed in eleven weeks with a recovery we would not have achieved after a contested trial, and our entire contract suite was redrafted afterwards.",
+    "initials": "RM"
+  },
+  {
+    "id": "t2",
+    "name": "Sunita Bhardwaj",
+    "role": "Family Law Client",
+    "location": "New Delhi",
+    "rating": 5,
+    "quote": "Meera explained the custody process to me in one sitting, in language I actually understood. After eight months of being confused by everyone else, that mattered more than I can express.",
+    "practiceArea": "Family Law",
+    "successStory": "A contested custody matter with an interim maintenance shortfall was resolved through court-referred mediation over four months. The parenting arrangement that emerged was documented in enforceable terms, and the maintenance order has been complied with since. I was told at the outset that mediation was worth attempting before litigation, and that advice was right.",
+    "initials": "SB"
+  },
+  {
+    "id": "t4",
+    "name": "Dr. Anjali Rao",
+    "role": "Consultant Physician",
+    "location": "Ghaziabad",
+    "rating": 5,
+    "quote": "An insurance claim I had written off as lost was recovered in full with interest. What stood out was the paperwork — every piece of correspondence was on record, properly, from day one.",
+    "practiceArea": "Consumer Protection",
+    "successStory": "A substantial mediclaim reimbursement was repudiated on a pre-existing condition ground that did not apply on the medical record. The firm assembled the treatment history and policy correspondence, issued a notice, and filed before the District Consumer Commission when the insurer did not respond. The claim was allowed in full with interest and litigation costs.",
+    "initials": "AR"
+  },
+  {
+    "id": "t6",
+    "name": "Naveen Kumar",
+    "role": "Proprietor, Kumar Auto Works",
+    "location": "Faridabad",
+    "rating": 5,
+    "quote": "I received a bank possession notice and assumed everything was over. They acted inside the statutory window, and we negotiated a settlement I could actually afford. The urgency was real, not performed.",
+    "practiceArea": "Banking & Finance Law",
+    "successStory": "A SARFAESI possession notice arrived while I was still trying to restructure informally with the branch. The firm filed a securitisation application within the available window to preserve my remedies, and simultaneously negotiated a one-time settlement with the lender. The settlement was documented so that the discharge of my personal guarantee was explicit, which I would never have thought to ask for.",
+    "initials": "NK"
+  },
+  {
+    "id": "t8",
+    "name": "Amarjeet Sandhu",
+    "role": "Retired Civil Servant",
+    "location": "New Delhi",
+    "rating": 5,
+    "quote": "A family partition that had been unresolved for nineteen years was settled by agreement in seven months. Four branches of the family signed. I did not believe it was possible.",
+    "practiceArea": "Property Law",
+    "successStory": "Ancestral property spread across three villages had been in dispute since my father's death, with earlier attempts at suit having collapsed. The firm reconstructed the title chain and revenue records first, then proposed a family settlement structured around what each branch actually wanted rather than equal shares on paper. All four branches executed the settlement deed and it was duly registered.",
+    "initials": "AS"
+  },
+  {
+    "id": "t9",
+    "name": "Deepak Arora",
+    "role": "Partner, Arora Steel Traders",
+    "location": "Noida",
+    "rating": 5,
+    "quote": "Three cheques had bounced and I had already wasted a month arguing with the party. They read the return memos, told me exactly how many days I had left, and the notices went out that week. Two of the three settled before trial began.",
+    "practiceArea": "Cheque Bounce",
+    "successStory": "Payment for a consignment was made by three post-dated cheques, all of which were returned unpaid. I approached the firm nineteen days after the first return memo and was told plainly that the window for the demand notice was about to close. Notices went out on all three within the statutory period, and complaints under Section 138 followed when payment did not come. A summary suit was advised in parallel, on the reasoning that recovery rather than conviction was what I actually wanted. Two cheques were settled at the summons stage and the third was decreed, with the compensation recovered in execution.",
+    "initials": "DA"
+  },
+  {
+    "id": "t10",
+    "name": "Rajesh K.",
+    "role": "Criminal Defence Client",
+    "location": "New Delhi",
+    "rating": 5,
+    "quote": "I was told at eleven at night what to say and what not to sign, and the bail application was moved on the next working day. At no stage was the outcome oversold to me.",
+    "practiceArea": "Criminal Defense",
+    "successStory": "An FIR arising out of a commercial dispute named me without any prior notice, and arrest appeared imminent. The firm took the call the same night, advised me on conduct during questioning, and moved an anticipatory bail application before the Sessions Court within two working days. Interim protection was granted and later confirmed. The quashing petition that followed narrowed the allegations considerably, and at each stage I was told candidly which parts of the case were not going to fall away.",
+    "initials": "RK"
+  },
+  {
+    "id": "t11",
+    "name": "Meghna Iyer",
+    "role": "Founder, Saffronleaf Studio",
+    "location": "Gurugram",
+    "rating": 5,
+    "quote": "A spoofed supplier invoice took a large payment out of our account on a Friday evening. The first thing they did was tell me what to preserve and whom to write to before the weekend closed the window. A good part of it came back.",
+    "practiceArea": "Cyber Law",
+    "successStory": "A supplier's email was compromised and a scheduled payment redirected to an account we had never dealt with. The firm walked me through preserving the headers and transaction records that same evening, filed on the national cybercrime portal, and escalated in writing to both the beneficiary bank and our own branch before the funds could move further. A substantial share of the amount was frozen and returned. We then had our payment approval and vendor verification process rewritten, which was the part I had not thought to ask for.",
+    "initials": "MI"
+  }
+]

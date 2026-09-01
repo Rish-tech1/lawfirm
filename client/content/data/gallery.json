@@ -1,0 +1,17 @@
+[
+  {
+    "src": "/images/gallery/reception.svg",
+    "alt": "Reception area of the firm's office with seating and the firm nameplate",
+    "caption": "Reception"
+  },
+  {
+    "src": "/images/gallery/chamber.svg",
+    "alt": "Partner's chamber with a desk, case files and reading lamp",
+    "caption": "Partner's chamber"
+  },
+  {
+    "src": "/images/gallery/workspace.svg",
+    "alt": "Associates' workspace with desks and document compilations",
+    "caption": "Associates' workspace"
+  }
+]

@@ -1,0 +1,440 @@
+@import 'tailwindcss';
+
+/* ==========================================================================
+   Fonts — self-hosted, replacing next/font/google
+   ==========================================================================
+
+   These were `Playfair_Display()` and `Inter()` from `next/font/google` in
+   app/layout.tsx. That was replaced because the loader misbehaved in two
+   measurable ways:
+
+   1. NO PRELOADS. `next-font-manifest.json` built out completely empty
+      (`{"pages":{},"app":{},"appUsingSizeAdjust":false}`), so despite
+      `preload: true` on both families not one <link rel="preload"> reached the
+      document — verified with `grep -c woff2` on the built HTML -> 0. The
+      browser could only discover the fonts by parsing the stylesheet, making
+      the critical path to the hero text HTML -> CSS -> font -> paint. Lighthouse
+      put that third hop at 750ms of render-blocking delay, and it was the whole
+      3.2s LCP: the LCP element is the hero <p>, with 704ms of element render
+      delay behind it.
+
+   2. `subsets: ['latin']` WAS IGNORED. The build emitted 31 @font-face blocks
+      across latin, latin-ext, cyrillic, cyrillic-ext, greek, greek-ext and
+      vietnamese, and 11 woff2 files totalling ~300 kB. Only the two latin files
+      below are ever fetched for English copy — `unicode-range` keeps the other
+      nine off the wire — but all 31 blocks still shipped in the stylesheet and
+      were parsed and matched on every page.
+
+   The two files in /public/fonts are the exact latin woff2 payloads next/font
+   had downloaded from Google, and the declarations below mirror its output
+   verbatim: same `unicode-range`, same `font-display: swap`, same discrete
+   weights. Rendering is therefore unchanged — this only fixes how the files are
+   discovered and drops the 29 blocks that were never used.
+
+   Both files are named in <link rel="preload"> in app/layout.tsx. If you rename
+   or replace them, update that list or they drop back to third-hop discovery.
+
+   Only these weights exist. Adding a new one in the design means adding a block
+   here, otherwise the browser synthesises it and the type looks subtly wrong:
+     Playfair Display — 400 (body-size display text), 500 (all headings)
+     Inter            — 400 (body), 500 (font-medium), 600 (font-semibold)
+   Both files are variable fonts, so the extra weights cost no extra bytes;
+   every block for a family points at the same file. */
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/playfair-display-latin.woff2') format('woff2');
+  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+0304, u+0308,
+    u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/playfair-display-latin.woff2') format('woff2');
+  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+0304, u+0308,
+    u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+0304, u+0308,
+    u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+0304, u+0308,
+    u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+0304, u+0308,
+    u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+/* Metric-matched fallbacks — this is what holds CLS at zero during the swap.
+   `font-display: swap` paints text in a fallback face first, so unless the
+   fallback occupies the same box the real font does, every line reflows when the
+   woff2 lands. These overrides are next/font's `adjustFontFallback` output,
+   copied from its generated stylesheet unchanged; the percentages are derived
+   from each font's own metrics, so do not hand-tune them. If a family is ever
+   swapped out, regenerate rather than guess. */
+@font-face {
+  font-family: 'Playfair Display Fallback';
+  src: local('Times New Roman');
+  ascent-override: 97.25%;
+  descent-override: 22.56%;
+  line-gap-override: 0%;
+  size-adjust: 111.26%;
+}
+
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial');
+  ascent-override: 90.44%;
+  descent-override: 22.52%;
+  line-gap-override: 0%;
+  size-adjust: 107.12%;
+}
+
+/* ==========================================================================
+   Design tokens — Singla & Singla Law Firm
+   Black / gold / white luxury-corporate palette.
+   Every token here becomes a Tailwind utility (e.g. --color-gold -> bg-gold).
+   ========================================================================== */
+@theme {
+  /* Brand ------------------------------------------------------------------ */
+  --color-ink: #111111;
+  --color-ink-900: #0b0b0b;
+  --color-ink-800: #191919;
+  --color-ink-700: #232323;
+  --color-ink-600: #333333;
+
+  --color-gold: #c8a75b;
+  --color-gold-300: #e2cd97;
+  --color-gold-400: #d5b874;
+  /**
+   * gold-600 and gold-700 are the *text* golds and must clear WCAG AA (4.5:1)
+   * on white and on --color-stone. The lighter --color-gold is for fills,
+   * borders and text on dark backgrounds only — at 2.8:1 on white it fails.
+   *   gold-600 on #fff = 4.75:1 · gold-700 on #fff = 7.0:1 · on stone = 5.9:1
+   */
+  --color-gold-600: #8a6f32;
+  --color-gold-700: #6f5926;
+
+  /* Neutrals --------------------------------------------------------------- */
+  --color-cream: #faf9f6;
+  --color-stone: #f2f0eb;
+  --color-line: #e4e1da;
+  --color-line-dark: #2c2c2c;
+  --color-muted: #5c5c5c;
+  --color-muted-light: #a3a3a3;
+
+  /* Typography ------------------------------------------------------------- */
+  /* The metric-matched `* Fallback` face must sit immediately after its real
+     family: `font-display: swap` renders the next family in the stack while the
+     woff2 is in flight, and that is the one whose box has to match. The generic
+     families behind it only matter if the local Times/Arial is missing too. */
+  --font-display: 'Playfair Display', 'Playfair Display Fallback', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', 'Inter Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-hero: clamp(2.5rem, 6vw, 4.75rem);
+  --text-hero--line-height: 1.05;
+  --text-hero--letter-spacing: -0.02em;
+
+  --text-display: clamp(2rem, 4vw, 3.25rem);
+  --text-display--line-height: 1.12;
+  --text-display--letter-spacing: -0.015em;
+
+  --text-title: clamp(1.5rem, 2.5vw, 2rem);
+  --text-title--line-height: 1.2;
+
+  /* Motion ----------------------------------------------------------------- */
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-shimmer: shimmer 1.6s ease-in-out infinite;
+  --animate-slow-zoom: slow-zoom 22s ease-out forwards;
+
+  /* Elevation -------------------------------------------------------------- */
+  --shadow-card: 0 1px 2px rgb(17 17 17 / 0.04), 0 12px 32px -12px rgb(17 17 17 / 0.12);
+  --shadow-card-hover: 0 2px 4px rgb(17 17 17 / 0.06), 0 24px 48px -16px rgb(17 17 17 / 0.22);
+  --shadow-gold: 0 10px 30px -12px rgb(200 167 91 / 0.55);
+
+  /* Layout ----------------------------------------------------------------- */
+  --radius-card: 0.25rem;
+}
+
+/* Shared entrance geometry for both the scroll reveal and the hero's
+   on-load entrance, so the two read as one motion language. */
+@keyframes reveal-in {
+  from {
+    opacity: 0.85;
+    transform: translate3d(var(--reveal-x, 0), var(--reveal-y, 0.75rem), 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes slow-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-color: var(--color-line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Offset anchor jumps so the sticky navbar never covers a heading. */
+    scroll-padding-top: 6rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-feature-settings: 'cv11', 'ss01';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--color-ink);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Visible, on-brand focus ring for keyboard users only. */
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-gold);
+    color: var(--color-ink);
+  }
+
+  /* Respect the OS "reduce motion" setting: kill transitions and let
+     Framer Motion's own reduced-motion handling take over. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+@layer components {
+  /* Small gold eyebrow label above section headings. */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    /* gold-700, not gold-600: at 12px/600 this is normal-size text, so it needs
+       4.5:1 against every surface it sits on. gold-600 clears that on white
+       (4.75:1) but only manages 4.19:1 on --color-stone, which Lighthouse caught
+       on the "Join Us" eyebrow of /team. gold-700 is 6.7:1 on white and 5.89:1
+       on stone, so it passes on both. */
+    color: var(--color-gold-700);
+  }
+
+  .eyebrow::before {
+    content: '';
+    width: 1.75rem;
+    height: 1px;
+    background-color: var(--color-gold);
+  }
+
+  /* Thin gold rule used to close out headings. */
+  .rule-gold {
+    width: 3.5rem;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-gold), transparent);
+  }
+
+  /* Long-form legal copy: readable measure, generous leading. */
+  .prose-legal {
+    color: var(--color-muted);
+    line-height: 1.8;
+  }
+
+  .prose-legal > * + * {
+    margin-top: 1.125rem;
+  }
+
+  .prose-legal strong {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+
+  /* Underline that wipes in on hover — used in the navbar and footer links. */
+  .link-underline {
+    position: relative;
+  }
+
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s var(--ease-luxe);
+  }
+
+  .link-underline:hover::after,
+  .link-underline[data-active='true']::after {
+    transform: scaleX(1);
+  }
+}
+
+/* ==========================================================================
+   Scroll reveal
+   --------------------------------------------------------------------------
+   CSS-driven rather than JavaScript-driven. `Reveal` is a plain server
+   component that emits `data-reveal`; a single shared IntersectionObserver
+   (`RevealObserver`) adds `data-revealed` as elements scroll in. That replaced
+   a per-instance Framer Motion component — roughly forty of them on the home
+   page alone — which cost significant hydration and main-thread time.
+
+   The hidden state is gated on `[data-reveal-ready]`, set by a tiny inline
+   script in <head>. Two consequences, both deliberate:
+     · No flash of visible content, because the attribute lands before paint.
+     · If JavaScript is disabled the attribute is never set, so nothing is ever
+       hidden and all content stays readable.
+   ========================================================================== */
+@layer components {
+  [data-reveal-ready] [data-reveal] {
+    opacity: 0;
+    transform: translate3d(var(--reveal-x, 0), var(--reveal-y, 1.5rem), 0);
+  }
+
+  [data-reveal-ready] [data-reveal][data-revealed] {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 0.65s var(--ease-luxe) var(--reveal-delay, 0ms),
+      transform 0.65s var(--ease-luxe) var(--reveal-delay, 0ms);
+  }
+
+  /* Staggered children. The delay comes from position rather than a prop, so
+     grids do not have to thread an index through every call site. */
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(1) { --reveal-delay: 0ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(2) { --reveal-delay: 80ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(3) { --reveal-delay: 160ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(4) { --reveal-delay: 240ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(5) { --reveal-delay: 300ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(6) { --reveal-delay: 360ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(7) { --reveal-delay: 410ms; }
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(8) { --reveal-delay: 460ms; }
+  /* Anything beyond eight shares a ceiling — a longer cascade reads as lag. */
+  [data-reveal-ready] [data-reveal-group] > [data-reveal]:nth-child(n + 9) { --reveal-delay: 500ms; }
+
+  /* Above-the-fold entrance. Runs from page load with no observer and no
+     hydration dependency, so it never delays Largest Contentful Paint. */
+  .reveal-on-load {
+    animation: reveal-in 0.7s var(--ease-luxe) both;
+    animation-delay: var(--reveal-delay, 0ms);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal-ready] [data-reveal] {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+
+    .reveal-on-load {
+      animation: none;
+    }
+  }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/* Subtle diagonal texture for dark sections. */
+@utility texture-dark {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgb(200 167 91 / 0.08), transparent 45%),
+    radial-gradient(circle at 85% 70%, rgb(200 167 91 / 0.06), transparent 40%);
+}
+
+/* Gold gradient text for accent words inside headings. */
+@utility text-gold-gradient {
+  background: linear-gradient(100deg, var(--color-gold-300), var(--color-gold), var(--color-gold-600));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

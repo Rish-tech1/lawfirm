@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#efece5"/>
+  <rect y="0" width="800" height="330" fill="#e5e1d7"/>
+  <!-- Feature wall with nameplate -->
+  <rect x="230" y="60" width="340" height="200" fill="#111111"/>
+  <text x="400" y="140" fill="#C8A75B" font-family="Georgia, serif" font-size="34" text-anchor="middle">Singla &amp; Singla</text>
+  <text x="400" y="184" fill="#C8A75B" font-family="Georgia, serif" font-size="16" text-anchor="middle" letter-spacing="8">LAW FIRM</text>
+  <path d="M340 208h120" stroke="#C8A75B" stroke-width="3"/>
+  <!-- Reception counter -->
+  <rect x="150" y="330" width="500" height="26" fill="#5a4c37"/>
+  <rect x="170" y="356" width="460" height="150" fill="#3b3226"/>
+  <path d="M210 420h380" stroke="#C8A75B" stroke-opacity="0.5" stroke-width="3"/>
+  <!-- Seating -->
+  <g fill="#cfc9ba">
+    <rect x="60" y="400" width="80" height="66" rx="6"/>
+    <rect x="660" y="400" width="80" height="66" rx="6"/>
+  </g>
+  <!-- Floor -->
+  <rect y="506" width="800" height="94" fill="#ddd8cc"/>
+  <path d="M0 506h800" stroke="#c4bdac" stroke-width="3"/>
+</svg>

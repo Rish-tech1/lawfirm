@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "naveen-singla",
+    "name": "Advocate Naveen Singla",
+    "designation": "Founder",
+    "qualification": "B.A. LL.B. (Hons.), LL.M. — Constitutional Law",
+    "experience": "29 years",
+    "experienceYears": 29,
+    "expertise": [
+      "Civil Litigation",
+      "Constitutional Law",
+      "Arbitration",
+      "Property Law"
+    ],
+    "email": "naveensinglaadv1@gmail.com",
+    "phone": "+91 98111 35465",
+    "linkedin": "https://www.linkedin.com/in/example-naveen-singla",
+    "bio": [
+      "Naveen Singla founded the practice in 1997, the year of his enrolment, with a straightforward conviction: clients are better served by candour than by optimism. That principle still governs how the firm takes instructions — every matter opens with an honest assessment of merits, even where the answer is that litigation is the wrong route.",
+      "He appears regularly before the High Court and appellate tribunals in civil, constitutional and arbitration matters, and has led the firm's most complex property and commercial disputes. He is also the partner clients reach when a matter has gone wrong elsewhere and needs to be rebuilt from the pleadings up."
+    ],
+    "image": "/images/team/naveen-singla.jpg",
+    "imageAlt": "Portrait of Advocate Naveen Singla, Founder",
+    "featured": true,
+    "isAdvocate": true,
+    "barCouncilId": "Enrollment no.-D-844/1997(R)"
+  },
+  {
+    "slug": "ria-goyal",
+    "name": "Advocate Ria Goyal",
+    "designation": "Senior Partner",
+    "qualification": "B.Com. LL.B., Company Secretary (ICSI)",
+    "experience": "18 years",
+    "experienceYears": 18,
+    "expertise": [
+      "Corporate Law",
+      "Taxation",
+      "Banking & Finance",
+      "Insolvency"
+    ],
+    "email": "ria.goyal@singlalawfirm.example",
+    "phone": "+91 98765 43211",
+    "linkedin": "https://www.linkedin.com/in/example-ria-goyal",
+    "bio": [
+      "Advocate Ria Goyal leads the corporate and taxation practice. A dual qualification in law and company secretaryship shapes the approach: transactions are structured with the compliance and tax consequences already accounted for, rather than discovered at filing.",
+      "The practice covers founders and family businesses through investment rounds, restructurings and successions, together with representation in scrutiny assessments and appeals before the Tribunal. It also carries the firm's SARFAESI and insolvency mandates on both the lender and borrower side."
+    ],
+    "image": "/images/team/ria-goyal.jpg",
+    "imageAlt": "Portrait of Advocate Ria Goyal, Senior Partner",
+    "imagePosition": "center",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "kushal-kumar",
+    "name": "Advocate Kushal Kumar",
+    "designation": "Partner — Family & Matrimonial Law",
+    "qualification": "B.A. LL.B., Certified Mediator (MCPC)",
+    "experience": "15 years",
+    "experienceYears": 15,
+    "expertise": [
+      "Family Law",
+      "Divorce Law",
+      "Child Custody",
+      "Mediation"
+    ],
+    "email": "kushal.kumar@singlalawfirm.example",
+    "phone": "+91 98765 43212",
+    "linkedin": "https://www.linkedin.com/in/example-kushal-kumar",
+    "bio": [
+      "Advocate Kushal Kumar heads the family and matrimonial practice and is an accredited mediator. A substantial proportion of the caseload here is resolved through negotiated settlement, which in family matters usually serves the client — and any children involved — far better than a contested judgment.",
+      "Where a matter must be litigated it is conducted firmly, with particular experience in custody, maintenance and NRI matrimonial disputes. Clients consistently describe these consultations as the first time the process was explained to them clearly."
+    ],
+    "image": "/images/team/kushal-kumar.jpg",
+    "imageAlt": "Portrait of Advocate Kushal Kumar, Partner for Family and Matrimonial Law",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "ram-gopal-goyal",
+    "name": "Ram Gopal Goyal",
+    "designation": "Advocate",
+    "qualification": "",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "bio": [
+      "Ram Gopal Goyal practises with Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/ram-gopal-goyal.jpeg",
+    "imageAlt": "Portrait of Ram Gopal Goyal",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "arjun-mavi",
+    "name": "Advocate Arjun Mavi",
+    "designation": "Advocate",
+    "qualification": "LL.B.",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "email": "arjun.mavi@singlalawfirm.example",
+    "phone": "+91 98765 43216",
+    "linkedin": "https://www.linkedin.com/in/example-arjun-mavi",
+    "bio": [
+      "Advocate Arjun Mavi practises with Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/arjun-mavi.jpg",
+    "imageAlt": "Portrait of Advocate Arjun Mavi",
+    "imagePosition": "50% 37%",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "rishabh-singla",
+    "name": "Advocate Rishabh Singla",
+    "designation": "Advocate",
+    "qualification": "LL.B.",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "email": "rishabh.singla@singlalawfirm.example",
+    "phone": "+91 98765 43217",
+    "linkedin": "https://www.linkedin.com/in/example-rishabh-singla",
+    "bio": [
+      "Advocate Rishabh Singla practises with Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/rishabh-singla.jpg",
+    "imageAlt": "Portrait of Advocate Rishabh Singla",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "akriti-mishra",
+    "name": "Advocate Akriti Mishra",
+    "designation": "Advocate",
+    "qualification": "LL.B.",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "email": "akriti.mishra@singlalawfirm.example",
+    "phone": "+91 98765 43218",
+    "linkedin": "https://www.linkedin.com/in/example-akriti-mishra",
+    "bio": [
+      "Advocate Akriti Mishra practises with Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/akriti-mishra.jpg",
+    "imageAlt": "Portrait of Advocate Akriti Mishra",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "priya-pal",
+    "name": "Advocate Priya Pal",
+    "designation": "Advocate",
+    "qualification": "LL.B.",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "email": "priya.pal@singlalawfirm.example",
+    "phone": "+91 98765 43219",
+    "linkedin": "https://www.linkedin.com/in/example-priya-pal",
+    "bio": [
+      "Advocate Priya Pal practises with Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/priya-pal.jpg",
+    "imageAlt": "Portrait of Advocate Priya Pal",
+    "featured": true,
+    "isAdvocate": true
+  },
+  {
+    "slug": "sahil-bansal",
+    "name": "Sahil Bansal",
+    "designation": "",
+    "qualification": "",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "bio": [
+      "Sahil Bansal is part of the team at Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/sahil-bansal.png",
+    "imageAlt": "Portrait of Sahil Bansal",
+    "featured": true,
+    "isAdvocate": false
+  },
+  {
+    "slug": "mayank-tomar",
+    "name": "Mayank Tomar",
+    "designation": "",
+    "qualification": "",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "bio": [
+      "Mayank Tomar is part of the team at Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/mayank-tomar.png",
+    "imageAlt": "Portrait of Mayank Tomar",
+    "featured": true,
+    "isAdvocate": false
+  },
+  {
+    "slug": "sahil-singla",
+    "name": "Sahil Singla",
+    "designation": "",
+    "qualification": "",
+    "experience": "",
+    "experienceYears": 0,
+    "expertise": [],
+    "bio": [
+      "Sahil Singla is part of the team at Singla & Singla Law Firm."
+    ],
+    "image": "/images/team/sahil-singla.png",
+    "imageAlt": "Portrait of Sahil Singla",
+    "featured": true,
+    "isAdvocate": false
+  }
+]

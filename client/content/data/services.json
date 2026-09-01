@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "legal-consultation",
+    "title": "Legal Consultation",
+    "description": "A structured first opinion on where you stand. You leave the session knowing the legal position, the realistic outcomes, the likely timeline and what it will cost — in writing, whether or not you engage us further.",
+    "icon": "chat",
+    "image": "/images/services/consultation.svg",
+    "imageAlt": "Advocate reviewing case documents with a client across a consultation table",
+    "benefits": [
+      "Written summary of position and options after the session",
+      "Candid view on merits, including when not to litigate",
+      "Fee estimate before any engagement begins",
+      "Available in person, by video call or by telephone"
+    ],
+    "ctaLabel": "Book a consultation",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "litigation-representation",
+    "title": "Litigation & Court Representation",
+    "description": "End-to-end conduct of your matter before trial courts, tribunals, District Courts and the High Court — pleadings, evidence, arguments and execution, handled by the advocate who briefed you.",
+    "icon": "gavel",
+    "image": "/images/services/litigation.svg",
+    "imageAlt": "Interior of a courtroom with the bench and advocates' podium",
+    "benefits": [
+      "Written update after every listed hearing",
+      "Continuity of counsel — no unexplained substitutions",
+      "Interim relief pursued early where assets are at risk",
+      "Execution and enforcement included in the mandate"
+    ],
+    "ctaLabel": "Discuss your case",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "legal-drafting",
+    "title": "Drafting & Documentation",
+    "description": "Agreements, deeds, petitions, replies and settlements drafted from scratch for your facts. We do not adapt templates and hope for the best — clauses are written to hold when they are tested.",
+    "icon": "document",
+    "image": "/images/services/drafting.svg",
+    "imageAlt": "Legal agreement being drafted with a fountain pen and seal",
+    "benefits": [
+      "Bespoke drafting, never recycled boilerplate",
+      "Plain-language explanation of every operative clause",
+      "Two rounds of revision included as standard",
+      "Registration and stamping handled where applicable"
+    ],
+    "ctaLabel": "Request a draft",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "legal-notices",
+    "title": "Legal Notices & Replies",
+    "description": "A properly drafted notice resolves a surprising share of disputes without litigation, and strengthens your record if it does not. We also draft measured replies to notices you have received.",
+    "icon": "mail",
+    "image": "/images/services/notice.svg",
+    "imageAlt": "Sealed legal notice envelope on a desk beside a law book",
+    "benefits": [
+      "Drafted and dispatched typically within 48 hours",
+      "Sent by registered post and email with proof of service",
+      "Framed to support the suit that may follow",
+      "Fixed fee, quoted before we begin"
+    ],
+    "ctaLabel": "Send a legal notice",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "due-diligence",
+    "title": "Due Diligence & Legal Opinion",
+    "description": "Title searches, corporate diligence and transaction opinions that tell you what you are actually buying — including the defects that cannot be cured and the risks worth walking away from.",
+    "icon": "search",
+    "image": "/images/services/diligence.svg",
+    "imageAlt": "Magnifying glass over property title documents and revenue records",
+    "benefits": [
+      "Written opinion stating risk plainly, not hedged into uselessness",
+      "Defects separated into curable and non-curable",
+      "Direct advice on whether to proceed or renegotiate",
+      "Turnaround agreed in advance to suit your deal timeline"
+    ],
+    "ctaLabel": "Order a diligence report",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "compliance-advisory",
+    "title": "Corporate Compliance Advisory",
+    "description": "Retainer advisory that keeps a business on the right side of company, tax and data protection obligations, with a calendar so filings and renewals never lapse unnoticed.",
+    "icon": "shield",
+    "image": "/images/services/compliance.svg",
+    "imageAlt": "Compliance checklist and corporate statutory registers",
+    "benefits": [
+      "Annual compliance calendar with owner and due date per item",
+      "Monthly retainer covering routine queries without per-hour billing",
+      "Policy and contract templates maintained as the law changes",
+      "Escalation path to litigation counsel within the same firm"
+    ],
+    "ctaLabel": "Enquire about a retainer",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "registration-services",
+    "title": "Registrations & Filings",
+    "description": "Company and LLP incorporation, property registration, GST registration and society formation — handled as a managed process with status visibility, not a black box.",
+    "icon": "check",
+    "image": "/images/services/registration.svg",
+    "imageAlt": "Registration certificate with an official seal and ribbon",
+    "benefits": [
+      "Document checklist provided upfront so nothing stalls midway",
+      "Government fees stated separately from professional fees",
+      "Status updates at each stage of the filing",
+      "Objections and examination reports handled without extra charge"
+    ],
+    "ctaLabel": "Start a registration",
+    "ctaHref": "/contact"
+  },
+  {
+    "slug": "online-consultation",
+    "title": "Online & NRI Consultation",
+    "description": "Video and telephone consultation for clients outside the city or abroad, with documents exchanged securely and powers of attorney arranged so you need not travel for routine appearances.",
+    "icon": "monitor",
+    "image": "/images/services/online.svg",
+    "imageAlt": "Video consultation between an advocate and a remote client",
+    "benefits": [
+      "Appointments scheduled across time zones",
+      "Secure document exchange and e-signature where permitted",
+      "Power of attorney and vakalatnama arranged remotely",
+      "Experience with NRI property, divorce and succession matters"
+    ],
+    "ctaLabel": "Book an online session",
+    "ctaHref": "/contact"
+  }
+]

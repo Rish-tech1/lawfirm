@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#e8e4da"/>
+  <!-- Window wall -->
+  <rect x="60" y="50" width="680" height="240" fill="#2b3238"/>
+  <g stroke="#C8A75B" stroke-opacity="0.35" stroke-width="4" fill="none">
+    <rect x="60" y="50" width="680" height="240"/>
+    <path d="M287 50v240M513 50v240M60 170h680"/>
+  </g>
+  <!-- Long table -->
+  <ellipse cx="400" cy="410" rx="290" ry="86" fill="#4a3f2e"/>
+  <ellipse cx="400" cy="398" rx="290" ry="86" fill="#5a4c37"/>
+  <ellipse cx="400" cy="398" rx="250" ry="66" fill="none" stroke="#C8A75B" stroke-opacity="0.4" stroke-width="2"/>
+  <!-- Chairs around it -->
+  <g fill="#31302c">
+    <rect x="120" y="300" width="58" height="70" rx="8"/>
+    <rect x="250" y="286" width="58" height="70" rx="8"/>
+    <rect x="492" y="286" width="58" height="70" rx="8"/>
+    <rect x="622" y="300" width="58" height="70" rx="8"/>
+    <rect x="180" y="470" width="62" height="74" rx="8"/>
+    <rect x="369" y="486" width="62" height="74" rx="8"/>
+    <rect x="558" y="470" width="62" height="74" rx="8"/>
+  </g>
+  <!-- Water glasses / notepads -->
+  <g fill="#f4f2ed"><rect x="330" y="380" width="40" height="14"/><rect x="430" y="380" width="40" height="14"/></g>
+  <rect y="544" width="800" height="56" fill="#d9d4c8"/>
+</svg>

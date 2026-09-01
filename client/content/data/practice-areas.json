@@ -1,0 +1,590 @@
+[
+  {
+    "slug": "corporate-law",
+    "title": "Corporate Law",
+    "tagline": "Structuring, governance and compliance for businesses at every stage.",
+    "icon": "building",
+    "featured": true,
+    "overview": [
+      "Our corporate practice advises founders, promoters, family businesses and established companies on the full commercial lifecycle — from choosing the right entity and drafting a founders' agreement, to negotiating investment rounds, restructuring shareholdings and planning an exit.",
+      "We combine transactional drafting with a working knowledge of the Companies Act, 2013, FEMA and SEBI regulations, so the paperwork we produce holds up under scrutiny from regulators, investors and, if it comes to it, a court. Where a matter touches tax, banking or a dispute already before a court, we bring in the relevant partner rather than working around the gap."
+    ],
+    "servicesOffered": [
+      "Company, LLP and partnership incorporation and structuring",
+      "Shareholders' agreements, joint ventures and founders' agreements",
+      "Commercial contract drafting, review and negotiation",
+      "Mergers, acquisitions and business transfer agreements",
+      "Corporate governance, board advisory and secretarial compliance",
+      "Due diligence for investment and acquisition transactions"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Commercial briefing",
+        "description": "We start with what the business is trying to achieve, not the document you think you need. Often the right instrument is different from the one requested."
+      },
+      {
+        "step": 2,
+        "title": "Structure and risk mapping",
+        "description": "We set out the available structures with their tax, liability and compliance consequences, and flag the two or three risks that genuinely matter."
+      },
+      {
+        "step": 3,
+        "title": "Drafting and negotiation",
+        "description": "We draft the documentation, mark up counterparty drafts and represent you in negotiations, keeping a clear record of every concession and its rationale."
+      },
+      {
+        "step": 4,
+        "title": "Execution and ongoing compliance",
+        "description": "We manage signing, statutory filings and post-closing conditions, then hand over a compliance calendar so nothing lapses quietly."
+      }
+    ],
+    "benefits": [
+      "Documentation drafted to survive litigation, not just to close a deal",
+      "Single point of contact across corporate, tax and regulatory questions",
+      "Fixed-fee quotes for defined transactional scopes",
+      "Compliance calendars that prevent avoidable penalties"
+    ],
+    "metaDescription": "Corporate law advisory for incorporation, shareholders' agreements, M&A, due diligence and governance compliance. Speak to Singla & Singla Law Firm.",
+    "keywords": ["corporate lawyer", "company incorporation", "shareholders agreement", "M&A advisory", "due diligence"]
+  },
+  {
+    "slug": "civil-litigation",
+    "title": "Civil Litigation",
+    "tagline": "Assertive representation in contract, recovery and declaratory disputes.",
+    "icon": "scale",
+    "featured": true,
+    "overview": [
+      "We appear in civil suits before trial courts, District Courts, the High Court and appellate forums in matters ranging from breach of contract and money recovery to specific performance, injunctions, partition and declaratory relief.",
+      "Civil litigation in India rewards preparation and punishes drift. We invest heavily in pleadings and documentary groundwork at the outset, because a well-framed plaint or written statement shapes every hearing that follows — and frequently produces a settlement on better terms than a judgment would."
+    ],
+    "servicesOffered": [
+      "Suits for recovery of money and damages",
+      "Breach of contract and specific performance claims",
+      "Injunctions, stay applications and interim relief",
+      "Partition, declaration and possession suits",
+      "Execution of decrees and enforcement proceedings",
+      "Civil appeals, revisions and writ petitions"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Case assessment",
+        "description": "We review your documents against limitation, jurisdiction and cause of action, and tell you candidly how strong the claim is before you commit to it."
+      },
+      {
+        "step": 2,
+        "title": "Notice and settlement attempt",
+        "description": "A properly drafted legal notice resolves a meaningful share of disputes. Where it does not, it strengthens the record for the suit that follows."
+      },
+      {
+        "step": 3,
+        "title": "Pleadings and interim relief",
+        "description": "We file the plaint or written statement with a complete documentary compilation, and move immediately for interim protection where assets or possession are at risk."
+      },
+      {
+        "step": 4,
+        "title": "Trial, judgment and execution",
+        "description": "We conduct evidence and arguments, and follow through on execution — a decree that is never enforced is not a result."
+      }
+    ],
+    "benefits": [
+      "Honest merits assessment before you incur litigation costs",
+      "Interim relief pursued early to protect assets and possession",
+      "Written hearing updates after every listed date",
+      "Execution handled as part of the mandate, not as an afterthought"
+    ],
+    "metaDescription": "Civil litigation lawyers for recovery suits, breach of contract, injunctions, partition and civil appeals. Get a candid case assessment.",
+    "keywords": ["civil litigation lawyer", "recovery suit", "breach of contract", "injunction", "civil appeal"]
+  },
+  {
+    "slug": "criminal-defense",
+    "title": "Criminal Defense",
+    "tagline": "Urgent, discreet defence at every stage — from FIR to appeal.",
+    "icon": "gavel",
+    "featured": true,
+    "overview": [
+      "We defend individuals and companies across the criminal process: anticipatory and regular bail, quashing of FIRs, trial defence, and appeals. We also act for complainants where a genuine offence has been met with police inaction.",
+      "Criminal matters are decided in the first seventy-two hours as often as at trial. Our priority in a new brief is immediate — secure liberty, preserve the client's ability to answer the allegation, and prevent avoidable damage to reputation. All criminal instructions are handled with strict confidentiality and, where required, under legal professional privilege."
+    ],
+    "servicesOffered": [
+      "Anticipatory bail, regular bail and interim protection",
+      "Quashing petitions and challenges to FIRs and charge sheets",
+      "Trial defence before Magistrate and Sessions Courts",
+      "Economic offence, white-collar and fraud defence",
+      "Criminal appeals, revisions and suspension of sentence",
+      "Representation in police investigation and summons"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Immediate response",
+        "description": "We take urgent criminal calls outside office hours. The first conversation covers custody risk, what to say to the police, and what not to sign."
+      },
+      {
+        "step": 2,
+        "title": "Protecting liberty",
+        "description": "We move for anticipatory or regular bail at the appropriate forum without delay, and seek interim protection where arrest is imminent."
+      },
+      {
+        "step": 3,
+        "title": "Building the defence",
+        "description": "We obtain the case diary and prosecution material, identify contradictions, and prepare a defence theory supported by documents and witnesses."
+      },
+      {
+        "step": 4,
+        "title": "Trial and appellate stages",
+        "description": "We conduct cross-examination and final arguments, and pursue appeal or revision where the outcome warrants it."
+      }
+    ],
+    "benefits": [
+      "Availability for genuinely urgent arrest and custody situations",
+      "Strict confidentiality on every criminal instruction",
+      "Clear guidance on conduct during investigation",
+      "Defence strategy explained in plain language, in writing"
+    ],
+    "metaDescription": "Criminal defence advocates for bail, FIR quashing, trial defence and criminal appeals. Confidential consultation available.",
+    "keywords": ["criminal lawyer", "anticipatory bail", "FIR quashing", "criminal defence advocate", "bail application"]
+  },
+  {
+    "slug": "family-law",
+    "title": "Family Law",
+    "tagline": "Steady counsel on custody, maintenance, guardianship and succession.",
+    "icon": "family",
+    "featured": true,
+    "overview": [
+      "We advise on child custody and guardianship, maintenance and interim maintenance, domestic violence proceedings, adoption, and succession and inheritance disputes across the personal laws applicable in India.",
+      "Family matters carry consequences that outlast the litigation, particularly where children are involved. We push for negotiated and mediated outcomes wherever they are achievable and safe, and litigate firmly where they are not. Where there are allegations of violence or coercion, protection comes before procedure."
+    ],
+    "servicesOffered": [
+      "Child custody, visitation and guardianship petitions",
+      "Maintenance and interim maintenance claims and defences",
+      "Domestic violence complaints and protection orders",
+      "Adoption and legal guardianship documentation",
+      "Succession certificates, probate and inheritance disputes",
+      "Family settlement and partition agreements"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Private consultation",
+        "description": "A confidential session to understand the family situation, the immediate risks, and what outcome would actually work for you."
+      },
+      {
+        "step": 2,
+        "title": "Protection and interim orders",
+        "description": "Where there is risk to a spouse or child, or a maintenance shortfall, we seek interim relief before the main proceeding advances."
+      },
+      {
+        "step": 3,
+        "title": "Negotiation or mediation",
+        "description": "We attempt a settlement or mediated parenting arrangement where it is safe and realistic, documented so it is enforceable."
+      },
+      {
+        "step": 4,
+        "title": "Court proceedings",
+        "description": "Where settlement fails, we conduct the petition through evidence and arguments, keeping the child's interest at the centre of the case."
+      }
+    ],
+    "benefits": [
+      "Consultations handled with discretion and without judgement",
+      "Settlement pursued first, litigation conducted firmly when needed",
+      "Realistic guidance on custody and maintenance outcomes",
+      "Enforceable documentation for negotiated arrangements"
+    ],
+    "metaDescription": "Family law advocates for child custody, maintenance, guardianship, domestic violence and succession matters. Confidential consultation.",
+    "keywords": ["family lawyer", "child custody", "maintenance case", "guardianship", "succession certificate"]
+  },
+  {
+    "slug": "divorce-law",
+    "title": "Divorce Law",
+    "tagline": "Mutual-consent and contested divorce, handled with discretion.",
+    "icon": "heartBroken",
+    "featured": true,
+    "overview": [
+      "We act in mutual-consent and contested divorce petitions, judicial separation, nullity, and the financial and custodial questions that accompany them — alimony, permanent maintenance, division of assets and parenting arrangements.",
+      "A mutual-consent divorce that is properly documented is faster, cheaper and far less damaging than a contested one. We test whether that route is available in every matter before advising otherwise, and where a contest is unavoidable, we prepare for it thoroughly from the first hearing."
+    ],
+    "servicesOffered": [
+      "Mutual-consent divorce petitions and settlement deeds",
+      "Contested divorce on statutory grounds",
+      "Alimony, permanent maintenance and asset division",
+      "Judicial separation and nullity petitions",
+      "Custody and parenting arrangements within divorce proceedings",
+      "Transfer petitions and NRI divorce matters"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Confidential assessment",
+        "description": "We identify the applicable personal law, the available grounds, and whether a mutual-consent route is realistically achievable."
+      },
+      {
+        "step": 2,
+        "title": "Terms of settlement",
+        "description": "Where consent is possible, we negotiate and draft settlement terms covering maintenance, assets and custody so nothing resurfaces later."
+      },
+      {
+        "step": 3,
+        "title": "Petition and appearances",
+        "description": "We file the petition, prepare you for statements before the court, and manage the statutory waiting period and its waiver where available."
+      },
+      {
+        "step": 4,
+        "title": "Decree and enforcement",
+        "description": "We obtain the decree and, where required, enforce maintenance or property terms that are not voluntarily honoured."
+      }
+    ],
+    "benefits": [
+      "Mutual-consent route tested first to reduce cost and conflict",
+      "Settlement deeds drafted to be final and enforceable",
+      "Sensitive handling of matters involving children",
+      "Experience with NRI and transfer petition complications"
+    ],
+    "metaDescription": "Divorce lawyers for mutual consent and contested divorce, alimony, maintenance and custody. Discreet, practical advice.",
+    "keywords": ["divorce lawyer", "mutual consent divorce", "contested divorce", "alimony", "NRI divorce"]
+  },
+  {
+    "slug": "property-law",
+    "title": "Property Law",
+    "tagline": "Title diligence, transfers and possession disputes resolved cleanly.",
+    "icon": "home",
+    "featured": true,
+    "overview": [
+      "We handle title verification, sale and transfer documentation, mutation and registration, partition of joint family property, and disputes over possession, easements and encroachment.",
+      "Most property litigation traces back to a document that was signed without diligence. We would rather spend a week verifying a title chain than three years litigating it, and we say so plainly when a proposed transaction should not proceed on the papers available."
+    ],
+    "servicesOffered": [
+      "Title search, verification and legal opinion",
+      "Sale deeds, gift deeds, lease deeds and agreements to sell",
+      "Registration, stamp duty advisory and mutation",
+      "Partition suits and family property division",
+      "Possession, encroachment and easement disputes",
+      "Landlord and tenant disputes and eviction proceedings"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Document review",
+        "description": "We examine the title chain, revenue records and encumbrances, and issue a written opinion identifying every defect we find."
+      },
+      {
+        "step": 2,
+        "title": "Risk decision",
+        "description": "We distinguish defects that can be cured from those that cannot, so you can decide whether to proceed, renegotiate or walk away."
+      },
+      {
+        "step": 3,
+        "title": "Documentation and registration",
+        "description": "We draft and register the operative documents, advise on stamp duty, and complete mutation in the revenue records."
+      },
+      {
+        "step": 4,
+        "title": "Dispute resolution",
+        "description": "Where a dispute already exists, we pursue injunction, declaration or possession relief, or negotiate a documented settlement."
+      }
+    ],
+    "benefits": [
+      "Written title opinions that state risk plainly",
+      "Stamp duty and registration handled end to end",
+      "Clear advice on when not to buy",
+      "Revenue record follow-through after registration"
+    ],
+    "metaDescription": "Property lawyers for title verification, sale deeds, registration, partition suits and possession disputes. Get a written title opinion.",
+    "keywords": ["property lawyer", "title verification", "sale deed", "partition suit", "property dispute"]
+  },
+  {
+    "slug": "consumer-protection",
+    "title": "Consumer Protection",
+    "tagline": "Holding builders, insurers and service providers to their promises.",
+    "icon": "cart",
+    "featured": true,
+    "overview": [
+      "We represent consumers before the District, State and National Consumer Disputes Redressal Commissions in complaints against builders, insurers, banks, hospitals, e-commerce platforms and service providers.",
+      "Consumer forums are designed to be accessible, and the remedies — refund, compensation, interest and litigation costs — are real. We also defend businesses facing consumer complaints, which gives us a working sense of how these cases are actually argued and settled."
+    ],
+    "servicesOffered": [
+      "Complaints against builders for delayed or defective possession",
+      "Insurance claim repudiation and deficiency of service",
+      "Banking, NBFC and financial service complaints",
+      "Medical negligence and professional deficiency claims",
+      "E-commerce, unfair trade practice and misleading advertisement matters",
+      "Defence of businesses in consumer commission proceedings"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Deficiency assessment",
+        "description": "We check whether the facts amount to a deficiency in service or unfair trade practice, and confirm the correct forum and pecuniary limit."
+      },
+      {
+        "step": 2,
+        "title": "Notice and documentation",
+        "description": "We issue a notice and assemble the paper trail — contracts, receipts, correspondence — that consumer commissions decide cases on."
+      },
+      {
+        "step": 3,
+        "title": "Filing the complaint",
+        "description": "We draft and file the complaint with a clear, quantified prayer for refund, compensation and interest."
+      },
+      {
+        "step": 4,
+        "title": "Hearing and execution",
+        "description": "We argue the matter and pursue execution of the order, including recovery proceedings where the opposite party delays."
+      }
+    ],
+    "benefits": [
+      "Cost-proportionate approach suited to consumer claims",
+      "Correct forum and valuation chosen at the outset",
+      "Quantified compensation claims, not vague prayers",
+      "Execution pursued until the award is actually paid"
+    ],
+    "metaDescription": "Consumer protection lawyers for builder delays, insurance claim rejection, medical negligence and unfair trade practices.",
+    "keywords": ["consumer court lawyer", "builder delay complaint", "insurance claim rejection", "consumer commission", "medical negligence"]
+  },
+  {
+    "slug": "cheque-bounce",
+    "title": "Cheque Bounce",
+    "tagline": "Section 138 complaints and defence, driven to recovery rather than a decree.",
+    "icon": "cheque",
+    "featured": true,
+    "overview": [
+      "We act for payees prosecuting dishonoured cheques under Section 138 of the Negotiable Instruments Act, 1881, and for drawers defending those complaints — alongside the parallel summary suit under Order XXXVII that is often the faster route to the money itself.",
+      "Cheque bounce matters are won or lost on dates. The demand notice must issue within thirty days of the bank memo, the drawer gets fifteen days to pay, and the complaint must be filed within the month that follows. We calendar those windows the day you instruct us, because a notice sent a day late converts a strong case into no case at all."
+    ],
+    "servicesOffered": [
+      "Statutory demand notices under Section 138 within the limitation window",
+      "Filing and conduct of Section 138 complaints before the Magistrate",
+      "Defence of drawers, including challenges to notice, service and legally enforceable debt",
+      "Summary suits under Order XXXVII for recovery of the cheque amount with interest",
+      "Interim compensation and appeal applications under Section 143A and 148",
+      "Compounding, settlement and execution of the compensation order"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Memo and limitation check",
+        "description": "We read the return memo, the underlying transaction and the dates. Before anything else, you are told exactly how many days remain on each statutory window."
+      },
+      {
+        "step": 2,
+        "title": "Demand notice",
+        "description": "We draft and dispatch the notice by registered post and email with proof of service, framed so the debt and the demand are unambiguous on the face of it."
+      },
+      {
+        "step": 3,
+        "title": "Complaint or defence",
+        "description": "If payment does not follow, we file the complaint with the bank records and notice trail annexed — or, for a drawer, we test whether the debt was legally enforceable and whether the notice was validly served."
+      },
+      {
+        "step": 4,
+        "title": "Settlement, trial and recovery",
+        "description": "Most of these matters settle once summons issue, and we negotiate on that footing. Where they do not, we conduct the trial and then execute the compensation order until it is actually paid."
+      }
+    ],
+    "benefits": [
+      "Statutory deadlines diarised at intake so the remedy is never lost",
+      "Parallel summary suit advised where recovery, not conviction, is the object",
+      "Interim compensation pursued under Section 143A while the trial runs",
+      "Execution followed through — an order on paper is not payment"
+    ],
+    "metaDescription": "Cheque bounce lawyers for Section 138 complaints, demand notices, drawer defence, Order XXXVII summary suits and recovery of the cheque amount.",
+    "keywords": ["cheque bounce lawyer", "section 138 complaint", "cheque dishonour case", "demand notice cheque bounce", "cheque bounce defence"]
+  },
+  {
+    "slug": "arbitration",
+    "title": "Arbitration & Mediation",
+    "tagline": "Private, faster resolution of commercial disputes.",
+    "icon": "handshake",
+    "featured": true,
+    "overview": [
+      "We act as counsel in domestic and international commercial arbitrations, draft and stress-test arbitration clauses, and represent clients in Section 9 and Section 34 proceedings before the courts under the Arbitration and Conciliation Act, 1996.",
+      "Arbitration delivers speed and privacy when the clause is well drafted and the process is run tightly. It delivers neither when the clause is copied from an unrelated contract. We spend real time on the dispute resolution clause at the drafting stage, because that is where arbitration succeeds or fails."
+    ],
+    "servicesOffered": [
+      "Drafting and review of arbitration and dispute resolution clauses",
+      "Counsel in domestic and international commercial arbitration",
+      "Interim measures under Section 9 and Section 17",
+      "Challenge and enforcement of arbitral awards",
+      "Institutional and ad-hoc arbitrator appointment",
+      "Commercial mediation and conciliation"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Clause and forum analysis",
+        "description": "We confirm the seat, governing law, appointment mechanism and scope, and identify any defect that could be used to derail the reference."
+      },
+      {
+        "step": 2,
+        "title": "Invocation and constitution",
+        "description": "We issue the notice of arbitration and manage constitution of the tribunal, including court applications where appointment stalls."
+      },
+      {
+        "step": 3,
+        "title": "Pleadings and hearings",
+        "description": "We prepare statements of claim or defence, documentary compilations and witness evidence, and argue the hearings."
+      },
+      {
+        "step": 4,
+        "title": "Award, challenge or enforcement",
+        "description": "We enforce a favourable award or defend it against challenge, and advise on setting aside where the award is unsustainable."
+      }
+    ],
+    "benefits": [
+      "Arbitration clauses drafted to work under pressure",
+      "Confidential process that keeps commercial disputes out of public record",
+      "Interim protection secured while the reference proceeds",
+      "Enforcement strategy planned before the award is delivered"
+    ],
+    "metaDescription": "Arbitration and mediation counsel for commercial disputes, arbitration clause drafting, interim measures and award enforcement.",
+    "keywords": ["arbitration lawyer", "commercial arbitration", "arbitration clause", "award enforcement", "mediation"]
+  },
+  {
+    "slug": "cyber-law",
+    "title": "Cyber Law",
+    "tagline": "Response and remedy for online fraud, defamation and data breach.",
+    "icon": "monitor",
+    "featured": true,
+    "overview": [
+      "We advise on cybercrime complaints, online financial fraud recovery, data protection compliance, content takedown and online defamation, and represent clients in proceedings under the Information Technology Act, 2000 and applicable data protection law.",
+      "Cyber matters are time-sensitive in a way most litigation is not: evidence disappears, funds move, and content spreads. Our first step is always preservation — freezing the trail through the correct complaint channels while the remedy is worked out."
+    ],
+    "servicesOffered": [
+      "Cybercrime complaints and coordination with cyber cells",
+      "Online financial fraud, phishing and UPI fraud recovery",
+      "Content takedown, online defamation and impersonation",
+      "Data protection and privacy compliance advisory",
+      "Data breach response and regulatory notification",
+      "IT Act, intermediary liability and cyber defence matters"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Evidence preservation",
+        "description": "We help you capture and preserve digital evidence correctly, so it remains admissible and the trail does not go cold."
+      },
+      {
+        "step": 2,
+        "title": "Complaint and reporting",
+        "description": "We file with the appropriate cyber cell or portal and follow up formally, including bank and platform escalation for fraud recovery."
+      },
+      {
+        "step": 3,
+        "title": "Takedown or recovery action",
+        "description": "We pursue takedown notices, platform grievance escalation, or civil and criminal action depending on what will actually work."
+      },
+      {
+        "step": 4,
+        "title": "Compliance hardening",
+        "description": "For business clients, we close the gap that allowed the incident — policies, contracts, consent flows and breach procedures."
+      }
+    ],
+    "benefits": [
+      "Same-day guidance on preserving digital evidence",
+      "Practical fraud recovery route through banks and platforms",
+      "Discreet handling of reputation and defamation matters",
+      "Compliance advice that reduces the chance of a repeat"
+    ],
+    "metaDescription": "Cyber law advocates for online fraud recovery, cybercrime complaints, content takedown, defamation and data protection compliance.",
+    "keywords": ["cyber law advocate", "online fraud recovery", "cybercrime complaint", "data protection", "online defamation"]
+  },
+  {
+    "slug": "taxation",
+    "title": "Taxation",
+    "tagline": "Direct and indirect tax advisory, assessment and appeals.",
+    "icon": "receipt",
+    "featured": true,
+    "overview": [
+      "We advise individuals, firms and companies on direct and indirect tax positions, represent clients in scrutiny assessments, reassessment and search proceedings, and appear in appeals before the Commissioner, Tribunal and higher forums.",
+      "Tax disputes are won on documentation created long before the notice arrives. We advise on positions prospectively where we can, and where a notice has already issued, we respond on the record with the material that supports the position actually taken in the return."
+    ],
+    "servicesOffered": [
+      "Income tax notices, scrutiny assessments and reassessment",
+      "GST registration, compliance, audits and show-cause notices",
+      "Appeals before CIT(A), ITAT and appellate authorities",
+      "Tax planning for transactions and business restructuring",
+      "Search, survey and summons representation",
+      "Penalty, prosecution and rectification proceedings"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Notice and position review",
+        "description": "We read the notice against the return and underlying records to establish exactly what is being questioned and what supports your position."
+      },
+      {
+        "step": 2,
+        "title": "Reply and representation",
+        "description": "We draft the reply with supporting documentation and appear before the assessing or adjudicating authority."
+      },
+      {
+        "step": 3,
+        "title": "Appeal strategy",
+        "description": "Where an adverse order issues, we advise on appeal prospects and stay of demand before filing, not after."
+      },
+      {
+        "step": 4,
+        "title": "Appellate proceedings",
+        "description": "We prepare grounds, paper books and case law compilations, and argue the appeal before the Tribunal or High Court."
+      }
+    ],
+    "benefits": [
+      "Deadline-sensitive handling of notices and appeals",
+      "Stay of demand pursued alongside the appeal",
+      "Coordination with your accountant rather than duplication",
+      "Prospective advice that reduces future exposure"
+    ],
+    "metaDescription": "Taxation lawyers for income tax notices, GST disputes, scrutiny assessments, appeals before CIT(A) and ITAT, and tax planning.",
+    "keywords": ["tax lawyer", "income tax notice", "GST dispute", "ITAT appeal", "tax assessment"]
+  },
+  {
+    "slug": "banking-law",
+    "title": "Banking & Finance Law",
+    "tagline": "Recovery, SARFAESI, DRT and insolvency representation.",
+    "icon": "bank",
+    "featured": false,
+    "overview": [
+      "We act for borrowers, guarantors, lenders and financial creditors in recovery proceedings, SARFAESI enforcement, Debt Recovery Tribunal matters and insolvency proceedings under the IBC.",
+      "Borrowers frequently engage counsel only after possession notice, by which point the available remedies have narrowed. Early advice on restructuring, one-time settlement or a securitisation application usually produces a materially better outcome than a late challenge."
+    ],
+    "servicesOffered": [
+      "SARFAESI notices, securitisation applications and appeals",
+      "Debt Recovery Tribunal and DRAT proceedings",
+      "One-time settlement and loan restructuring negotiation",
+      "Loan recall notices, NPA classification and account challenges",
+      "Insolvency and bankruptcy proceedings before the NCLT",
+      "Guarantor liability and mortgage enforcement disputes"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Exposure assessment",
+        "description": "We map the facility documents, security interests and guarantees to establish real exposure and the timelines you are working against."
+      },
+      {
+        "step": 2,
+        "title": "Immediate protective steps",
+        "description": "We act within statutory windows — objections, securitisation applications or stay — before enforcement forecloses the options."
+      },
+      {
+        "step": 3,
+        "title": "Settlement negotiation",
+        "description": "We negotiate restructuring or one-time settlement with the lender, documented so the discharge is unambiguous."
+      },
+      {
+        "step": 4,
+        "title": "Tribunal representation",
+        "description": "We represent you before the DRT, DRAT or NCLT where a negotiated outcome is not available."
+      }
+    ],
+    "benefits": [
+      "Statutory deadlines tracked so remedies are not lost",
+      "Realistic settlement expectations, set early",
+      "Guarantor and director exposure addressed explicitly",
+      "Experience on both lender and borrower side"
+    ],
+    "metaDescription": "Banking and finance lawyers for SARFAESI, DRT recovery, one-time settlement, cheque dishonour and IBC insolvency proceedings.",
+    "keywords": ["banking lawyer", "SARFAESI", "DRT advocate", "loan recovery notice", "IBC insolvency"]
+  }
+]

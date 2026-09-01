@@ -1,0 +1,30 @@
+[
+  {
+    "id": "s1",
+    "label": "Years of Experience",
+    "value": 29,
+    "suffix": "+",
+    "icon": "award"
+  },
+  {
+    "id": "s2",
+    "label": "Cases Won",
+    "value": 4000,
+    "suffix": "+",
+    "icon": "gavel"
+  },
+  {
+    "id": "s3",
+    "label": "Happy Clients",
+    "value": 2500,
+    "suffix": "+",
+    "icon": "users"
+  },
+  {
+    "id": "s4",
+    "label": "Practice Areas",
+    "value": 12,
+    "suffix": "",
+    "icon": "scale"
+  }
+]

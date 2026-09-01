@@ -1,0 +1,62 @@
+{
+  "introduction": [
+    "Singla & Singla Law Firm is a premier full-service legal practice based in Delhi-NCR delivering trusted advocacy since 1997. Built on over two decades of legal excellence, our firm provides strategic representation across Criminal, Civil, Matrimonial law and other legal matters.",
+    "We combine deep courtroom expertise with a nuanced, client-first approach to protect rights and resolve complex disputes effectively. From defending intricate criminal matters to navigating sensitive family dynamics and commercial conflicts, our team is committed to upholding justice with unwavering integrity. At Singla & Singla, we offer clear, results-driven solutions designed to safeguard our clients' interests at every stage of litigation.",
+    "Trusted experience. Professional counsel. Dedicated representation."
+  ],
+  "history": [
+    "The practice opened in 1997 with enrolment at the Bar Council, and its first years were spent at Tis Hazari Courts — two under a senior advocate, then in an independent chamber taking criminal, matrimonial, civil and MCD panel work. It grew by referral rather than advertising, adding a chamber at Karkardooma in 2009, a presence across Delhi's district courts through the years that followed, and a Delhi High Court practice from 2015.",
+    "Nearly three decades on, the firm advises across twelve disciplines from three chambers in East Delhi — Karkardooma Court, Trilokpuri and Mayur Vihar Phase 1 — with eight partners and associates and a support team that manages compliance calendars, filings and hearing schedules. The scale has changed; the operating principle has not."
+  ],
+  "mission": "Our mission is to provide accessible, ethical, and result-oriented legal services while upholding the highest standards of integrity, professionalism, and client trust. We are committed to protecting our clients’ rights and delivering effective legal solutions with dedication and diligence.",
+  "vision": "To be the practice that regional families and businesses turn to first, trusted less for the cases we win than for the advice we give before a case exists.",
+  "trustReasons": [
+    {
+      "id": "tr1",
+      "title": "Continuity of counsel",
+      "description": "The partner who advises you at the consultation appears in your matter. Associates assist; they do not quietly replace.",
+      "icon": "users"
+    },
+    {
+      "id": "tr2",
+      "title": "Fees settled in writing first",
+      "description": "An engagement letter setting out the fee basis precedes any work, with government charges itemised separately from professional fees.",
+      "icon": "receipt"
+    },
+    {
+      "id": "tr3",
+      "title": "Written updates, every hearing",
+      "description": "You receive a short written note after each listed date explaining what happened and what comes next — not a phone call you have to chase.",
+      "icon": "document"
+    },
+    {
+      "id": "tr4",
+      "title": "Candid merits assessment",
+      "description": "We tell clients when a case is weak, when the timeline makes litigation uneconomic, and when settling is the better commercial answer.",
+      "icon": "scale"
+    },
+    {
+      "id": "tr5",
+      "title": "Cross-practice coordination",
+      "description": "A dispute touching tax, banking and corporate exposure is handled by the relevant partners together, not routed around the gaps.",
+      "icon": "handshake"
+    },
+    {
+      "id": "tr6",
+      "title": "Follow-through to enforcement",
+      "description": "Execution and recovery are part of the mandate. A decree that is never enforced is not a result, and we do not treat it as one.",
+      "icon": "check"
+    }
+  ],
+  "founder": {
+    "name": "Naveen Singla",
+    "designation": "Founder",
+    "image": "/images/team/naveen-singla.jpg",
+    "imageAlt": "Portrait of Naveen Singla, Founder",
+    "message": [
+      "I opened this practice in 1997 because I had watched too many clients receive advice they could not act on — technically correct, comprehensively hedged, and useless for deciding what to do on Monday morning. I wanted to build a chamber that answered the question the client actually asked.",
+      "That is harder than it sounds, because the honest answer is frequently unwelcome. It means telling a client with a genuine grievance that the limitation period has run. It means advising a company that the clause it relied on will not hold. It means recommending settlement to someone who came in wanting to fight. We have lost instructions over such conversations, and I would rather lose them that way.",
+      "What we offer is not a promise of outcomes — no advocate can honestly make one. It is a promise about process: you will know where you stand, what it will cost, who is handling it, and what happened at every hearing. Nearly three decades of clients returning, and sending their families and businesses to us, suggests that is worth more than any assurance about results."
+    ]
+  }
+}

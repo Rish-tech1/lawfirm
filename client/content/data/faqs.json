@@ -1,0 +1,100 @@
+[
+  {
+    "id": "f1",
+    "question": "How do I book a consultation with the firm?",
+    "answer": "You can book in three ways: submit the enquiry form on our contact page, message us on WhatsApp, or telephone the office during working hours. Form enquiries receive an acknowledgement email immediately and a substantive response within one working day. When you enquire, please mention the practice area and a one-line summary of the issue so we can allocate the matter to the right partner before we call you back.",
+    "category": "Consultation",
+    "featured": true
+  },
+  {
+    "id": "f2",
+    "question": "What documents should I bring to my first consultation?",
+    "answer": "Bring whatever you already have — an incomplete file is still useful. Most helpful are: any agreement or deed at the centre of the dispute, correspondence with the other side including WhatsApp and email, any court or authority notice you have received, government-issued photo identification, and for property matters the title documents and latest revenue record. If you are unsure, send us a list before the appointment and we will tell you what actually matters.",
+    "category": "Documents",
+    "featured": true
+  },
+  {
+    "id": "f3",
+    "question": "Do you provide online or telephone consultation?",
+    "answer": "Yes. We conduct consultations by video call and telephone for clients outside the city and for non-resident clients, with appointments scheduled across time zones. Documents can be exchanged securely in advance, and where a matter requires representation we can arrange a vakalatnama and power of attorney remotely, so you generally need not travel for routine appearances.",
+    "category": "Consultation",
+    "featured": true
+  },
+  {
+    "id": "f4",
+    "question": "How much does a consultation cost?",
+    "answer": "Consultation is charged at a fixed fee that is quoted to you before the appointment is confirmed, so there are no surprises. The fee varies with the practice area and the volume of documents to be reviewed beforehand. For matters we go on to handle, we provide a written engagement letter setting out the fee basis — fixed, stage-wise or per-appearance — before any work begins.",
+    "category": "Fees",
+    "featured": true
+  },
+  {
+    "id": "f5",
+    "question": "What practice areas does the firm handle?",
+    "answer": "We practise across twelve areas: corporate law, civil litigation, criminal defence, family law, divorce, property law, consumer protection, cheque bounce, arbitration and mediation, cyber law, taxation, and banking and finance. Where a matter falls outside our competence, we say so and refer you on rather than accepting the brief.",
+    "category": "General",
+    "featured": true
+  },
+  {
+    "id": "f6",
+    "question": "How long will my case take?",
+    "answer": "It depends on the forum and whether the matter is contested. A legal notice may resolve a dispute in weeks. A consumer complaint or a cheque bounce trial commonly takes several months to a year. A contested civil suit can run for years, and an arbitration is usually faster than a suit but slower than a notice. At your consultation we give you a realistic range based on current listing practice at the relevant forum, and we tell you when the timeline itself is a reason to consider settlement.",
+    "category": "Process",
+    "featured": true
+  },
+  {
+    "id": "f7",
+    "question": "Will the advocate I meet be the one handling my matter?",
+    "answer": "Yes. The partner who takes your first consultation retains responsibility for the matter, and appears in it. Associates may assist on drafting and research, and a colleague may cover a procedural date where unavoidable, but you will not find your brief quietly reassigned. If a matter needs a different partner's expertise, we tell you and introduce them directly.",
+    "category": "Process",
+    "featured": false
+  },
+  {
+    "id": "f8",
+    "question": "How do you charge — hourly, fixed or per appearance?",
+    "answer": "It depends on the work. Drafting, notices, registrations and diligence are almost always fixed fee, quoted upfront. Litigation is typically charged stage-wise or per appearance, so you are not billed for time you cannot verify. Retainer advisory is a monthly fee covering routine queries. Court fees, stamp duty, government charges and out-of-pocket expenses are always stated separately from professional fees.",
+    "category": "Fees",
+    "featured": false
+  },
+  {
+    "id": "f9",
+    "question": "Is everything I tell you confidential?",
+    "answer": "Yes. Communications with your advocate for the purpose of obtaining legal advice are privileged and we treat them as such, including at the enquiry stage before any engagement is agreed. Enquiries submitted through this website are stored securely and are seen only by the partner and staff handling your matter. We do not publish client names or matter details without express written consent.",
+    "category": "General",
+    "featured": false
+  },
+  {
+    "id": "f10",
+    "question": "Can you take my case if the hearing is in another city?",
+    "answer": "Often, yes. We appear regularly before forums across the region and can act in other jurisdictions through a local counsel arrangement, where we retain conduct of the strategy and drafting while a local advocate handles appearance. We tell you upfront when that arrangement applies and what it adds to the cost, and where a purely local firm would serve you better, we will say so.",
+    "category": "Process",
+    "featured": false
+  },
+  {
+    "id": "f11",
+    "question": "What happens immediately after I submit the enquiry form?",
+    "answer": "Your enquiry is recorded and routed to the relevant practice area, and you receive an automatic acknowledgement email confirming we have it. A member of the team reviews it and responds within one working day, either with a request for documents or with an appointment slot. For urgent criminal matters involving arrest or custody, please telephone rather than use the form.",
+    "category": "Consultation",
+    "featured": false
+  },
+  {
+    "id": "f12",
+    "question": "Do you handle urgent matters outside office hours?",
+    "answer": "For genuinely urgent criminal matters — an arrest, a detention, an imminent search — yes. Telephone the office number and the call will reach the criminal practice partner. Please do not rely on the website form or email for anything time-critical, as these are monitored during working hours only.",
+    "category": "General",
+    "featured": false
+  },
+  {
+    "id": "f13",
+    "question": "Can you review a case another lawyer is already handling?",
+    "answer": "Yes, we accept second-opinion instructions and take over matters mid-course. Bring the complete file including pleadings, orders and the last few hearing sheets. We will give you a written view on where the matter stands and whether a change of counsel is genuinely in your interest — sometimes it is not, and we tell clients that.",
+    "category": "Process",
+    "featured": false
+  },
+  {
+    "id": "f14",
+    "question": "What if I cannot afford the fee?",
+    "answer": "Talk to us. We keep a limited number of matters each year on a reduced-fee or pro bono basis, prioritising cases involving domestic violence, wrongful detention and vulnerable claimants. We can also structure fees in stages so payment tracks the progress of the matter. Separately, if you may qualify for free legal aid through the District Legal Services Authority, we will point you to it.",
+    "category": "Fees",
+    "featured": false
+  }
+]

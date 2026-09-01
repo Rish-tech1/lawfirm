@@ -1,0 +1,38 @@
+[
+  {
+    "id": "w1",
+    "title": "Experienced Advocates",
+    "description": "Nearly three decades of courtroom practice across twelve disciplines. The partner who advises you at the first consultation is the advocate who argues your matter — briefs are not quietly reassigned.",
+    "icon": "award"
+  },
+  {
+    "id": "w2",
+    "title": "Client Confidentiality",
+    "description": "Every instruction is privileged from the first conversation, before any engagement is agreed. Enquiries are stored securely, and no client name or matter detail is published without express written consent.",
+    "icon": "lock"
+  },
+  {
+    "id": "w3",
+    "title": "Transparent Consultation",
+    "description": "Fees are quoted before work begins, in a written engagement letter. Court fees, stamp duty and government charges are always itemised separately from professional fees, so nothing is buried.",
+    "icon": "receipt"
+  },
+  {
+    "id": "w4",
+    "title": "Quick Response",
+    "description": "Website enquiries are acknowledged immediately and answered within one working day. For arrest, detention or search matters, the office line reaches our criminal practice partner outside working hours.",
+    "icon": "clock"
+  },
+  {
+    "id": "w5",
+    "title": "Personalised Legal Advice",
+    "description": "Documentation is drafted for your facts rather than adapted from a template, and strategy is set around the outcome you actually need — which is not always the one a court can order.",
+    "icon": "target"
+  },
+  {
+    "id": "w6",
+    "title": "Ethical Practice",
+    "description": "We give you the honest merits of your case, including when litigation is the wrong route or the claim is weak. Where a matter falls outside our competence, we refer it on rather than accept the brief.",
+    "icon": "shield"
+  }
+]

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#211c15"/>
+  <!-- Shelf behind the desk -->
+  <rect x="480" y="40" width="290" height="330" fill="#332b20"/>
+  <g fill="#8f7335" fill-opacity="0.7">
+    <rect x="500" y="66" width="250" height="18"/><rect x="500" y="128" width="210" height="18"/>
+    <rect x="500" y="190" width="250" height="18"/><rect x="500" y="252" width="180" height="18"/>
+    <rect x="500" y="314" width="250" height="18"/>
+  </g>
+  <g stroke="#463a2a" stroke-width="4"><path d="M480 104h290M480 166h290M480 228h290M480 290h290M480 352h290"/></g>
+  <!-- Desk -->
+  <rect x="60" y="360" width="520" height="26" fill="#6b5a3f"/>
+  <rect x="90" y="386" width="460" height="160" fill="#42382a"/>
+  <!-- Case files stacked -->
+  <g fill="#f2f0eb">
+    <rect x="130" y="326" width="120" height="12"/>
+    <rect x="134" y="338" width="112" height="12" fill="#e5e1d7"/>
+    <rect x="128" y="314" width="124" height="12"/>
+  </g>
+  <!-- Desk lamp with pooled light -->
+  <g>
+    <rect x="404" y="286" width="8" height="74" fill="#1a160f"/>
+    <path d="M370 286h76l-20-40h-36z" fill="#111111"/>
+    <ellipse cx="408" cy="360" rx="120" ry="26" fill="#C8A75B" fill-opacity="0.16"/>
+  </g>
+  <!-- Chair back -->
+  <rect x="240" y="420" width="150" height="180" rx="12" fill="#2a241c"/>
+  <rect y="546" width="800" height="54" fill="#17130d"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#efece5"/>
+  <!-- Panelled wall -->
+  <rect y="0" width="800" height="360" fill="#e3ded3"/>
+  <g fill="none" stroke="#d0c9b8" stroke-width="3">
+    <rect x="70" y="60" width="180" height="230"/>
+    <rect x="310" y="60" width="180" height="230"/>
+    <rect x="550" y="60" width="180" height="230"/>
+  </g>
+  <!-- Framed certificate -->
+  <rect x="330" y="86" width="140" height="180" fill="#ffffff" stroke="#8f7335" stroke-width="4"/>
+  <g stroke="#d8d3c7" stroke-width="3"><path d="M354 130h92M354 158h92M354 186h72"/></g>
+  <circle cx="400" cy="228" r="20" fill="#C8A75B"/>
+  <!-- Small round table -->
+  <ellipse cx="400" cy="420" rx="150" ry="46" fill="#5a4c37"/>
+  <rect x="386" y="420" width="28" height="110" fill="#4a3f2e"/>
+  <ellipse cx="400" cy="530" rx="70" ry="20" fill="#4a3f2e"/>
+  <!-- Two facing armchairs -->
+  <g fill="#3a352c">
+    <rect x="130" y="360" width="130" height="130" rx="14"/>
+    <rect x="540" y="360" width="130" height="130" rx="14"/>
+  </g>
+  <g fill="#2b2822">
+    <rect x="130" y="360" width="130" height="26" rx="10"/>
+    <rect x="540" y="360" width="130" height="26" rx="10"/>
+  </g>
+  <rect y="540" width="800" height="60" fill="#ddd8cc"/>
+</svg>
