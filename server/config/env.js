@@ -26,8 +26,19 @@ const env = {
 
   mongoUri: process.env.MONGODB_URI || '',
 
-  /** Origins permitted by CORS. Include every deployed frontend URL. */
+  /**
+   * Origins permitted by CORS. `ALLOWED_ORIGINS` overrides this list entirely,
+   * so set it on the host whenever the deployed frontend URLs change.
+   *
+   * The production domains are in the default rather than left to the env var
+   * alone because `server/.env` is gitignored and never reaches the deploy
+   * host: if the var is missing there, the fallback is what actually serves
+   * traffic, and a localhost-only fallback rejects every real browser request
+   * with a preflight that carries no Access-Control-Allow-Origin.
+   */
   allowedOrigins: parseList(process.env.ALLOWED_ORIGINS, [
+    'https://www.singlalawfirm.in',
+    'https://singlalawfirm.in',
     'http://localhost:3000',
     'http://127.0.0.1:3000',
   ]),
