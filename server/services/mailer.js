@@ -1,28 +1,11 @@
-
-
 'use strict';
 
 /**
- * SMTP transport via Nodemailer.
+ * Mail transport service supporting both SMTP (Nodemailer) and Resend HTTPS API.
  *
- * Configured for Gmail, where the SMTP login is the mailbox and `SMTP_PASS` is
- * a 16-character App Password. The transport itself is provider-agnostic — the
- * SMTP *login* and the visible *sender* are separate settings (`smtp.user` vs
- * `smtp.fromAddress`) because some relays issue a login that is not a mailbox.
- * See README §"Email setup".
- *
- * Development fallback
- * --------------------
- * If the configured transport cannot be verified at boot — wrong password, an
- * un-allowlisted IP, a provider still pending activation — a development server
- * falls back to an Ethereal test inbox rather than leaving the contact form
- * broken. Ethereal accepts any mail and returns a preview URL instead of
- * delivering it, so the whole flow stays testable while the real provider is
- * being sorted out.
- *
- * This NEVER happens when NODE_ENV=production: silently diverting a client's
- * enquiry to a fake inbox would be far worse than failing loudly. Set
- * MAIL_DEV_FALLBACK=false to disable it in development too.
+ * Configured for Resend / Gmail. If `SMTP_PASS` is a Resend API key (`re_...`),
+ * emails are sent via HTTPS (Port 443) to guarantee delivery even on cloud
+ * hosts (like Render free tier) that block outbound SMTP ports.
  */
 const nodemailer = require('nodemailer');
 const { env } = require('../config/env');
@@ -35,7 +18,7 @@ let isFallbackTransport = false;
 
 const fallbackAllowed = !env.isProduction && process.env.MAIL_DEV_FALLBACK !== 'false';
 
-/** Lazily created and reused, so the connection pool survives across requests. */
+/** Lazily created and reused for standard SMTP. */
 function getTransporter() {
   if (transporter) return transporter;
   if (!env.isMailConfigured) return null;
@@ -45,6 +28,9 @@ function getTransporter() {
     port: env.smtp.port,
     secure: env.smtp.secure,
     family: 4,
+    connectionTimeout: 10000,
+    greetingTimeout: 5000,
+    socketTimeout: 10000,
     auth: {
       user: env.smtp.user,
       pass: env.smtp.pass,
@@ -55,6 +41,32 @@ function getTransporter() {
   });
 
   return transporter;
+}
+
+/** Sends an email payload directly via Resend HTTPS API (Port 443 - unblocked). */
+async function sendResendApiMail({ from, to, replyTo, subject, text, html }) {
+  const response = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${env.smtp.pass}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from,
+      to: Array.isArray(to) ? to : [to],
+      reply_to: replyTo,
+      subject,
+      text,
+      html,
+    }),
+  });
+
+  const data = await response.json();
+  if (!response.ok) {
+    const errorMsg = data.message || data.error?.message || `Resend API HTTP ${response.status}`;
+    throw new Error(errorMsg);
+  }
+  return data;
 }
 
 /** Builds a throwaway Ethereal account and swaps it in as the active transport. */
@@ -86,11 +98,11 @@ async function useEtherealFallback(reason) {
 }
 
 /**
- * Verifies credentials at boot rather than on the first enquiry — a
- * misconfigured transport should show up in the deploy logs, not as a lost
- * client message hours later.
+ * Verifies credentials at boot rather than on the first enquiry.
  */
 async function verifyMailer() {
+  const isResendKey = Boolean(env.smtp.pass && env.smtp.pass.startsWith('re_'));
+
   const transport = getTransporter();
 
   if (!transport) {
@@ -99,6 +111,7 @@ async function verifyMailer() {
     return false;
   }
 
+  // If using Resend API key, verify via SMTP first or accept HTTPS API readiness
   try {
     await transport.verify();
     isFallbackTransport = false;
@@ -108,6 +121,12 @@ async function verifyMailer() {
     return true;
   } catch (error) {
     logger.error('[mail] SMTP verification failed:', error.message);
+
+    if (isResendKey) {
+      logger.info(`[mail] Resend API configured via HTTPS (sending as ${env.smtp.fromAddress}).`);
+      isFallbackTransport = false;
+      return true;
+    }
 
     if (fallbackAllowed) {
       transporter = null;
@@ -120,50 +139,67 @@ async function verifyMailer() {
 
 /**
  * Sends the firm notification and the client acknowledgement.
- *
- * Never throws. The two sends are independent and settled in parallel, so a
- * bounced auto-reply (bad client address, say) still lets the firm's own
- * notification through. The caller records the returned statuses.
  */
 async function sendEnquiryEmails(enquiry) {
+  const isResendKey = Boolean(env.smtp.pass && env.smtp.pass.startsWith('re_'));
   const transport = getTransporter();
 
-  if (!transport) {
+  if (!transport && !isResendKey) {
     return { notification: 'skipped', autoReply: 'skipped', error: 'Mail transport not configured.' };
   }
 
   const from = isFallbackTransport
     ? `"${env.smtp.fromName} (dev)" <no-reply@ethereal.email>`
-    : // The verified sender, which is not necessarily the SMTP login.
-    `"${env.smtp.fromName}" <${env.smtp.fromAddress}>`;
+    : `"${env.smtp.fromName}" <${env.smtp.fromAddress}>`;
 
   const notification = buildNotificationEmail(enquiry);
   const autoReply = buildAutoReplyEmail(enquiry);
 
-  const [notificationResult, autoReplyResult] = await Promise.allSettled([
-    transport.sendMail({
-      from,
-      to: env.enquiryRecipient,
-      // Replying in the mail client goes to the enquirer, not back to ourselves.
-      replyTo: `"${enquiry.fullName}" <${enquiry.email}>`,
-      subject: notification.subject,
-      text: notification.text,
-      html: notification.html,
-    }),
+  const useHttpsApi = isResendKey && !isFallbackTransport;
 
-    transport.sendMail({
-      from,
-      to: enquiry.email,
-      replyTo: env.enquiryRecipient,
-      subject: autoReply.subject,
-      text: autoReply.text,
-      html: autoReply.html,
-      headers: {
-        // Stops out-of-office replies from bouncing back into the inbox.
-        'Auto-Submitted': 'auto-replied',
-        'X-Auto-Response-Suppress': 'All',
-      },
-    }),
+  const notificationPromise = useHttpsApi
+    ? sendResendApiMail({
+        from,
+        to: env.enquiryRecipient,
+        replyTo: `"${enquiry.fullName}" <${enquiry.email}>`,
+        subject: notification.subject,
+        text: notification.text,
+        html: notification.html,
+      })
+    : transport.sendMail({
+        from,
+        to: env.enquiryRecipient,
+        replyTo: `"${enquiry.fullName}" <${enquiry.email}>`,
+        subject: notification.subject,
+        text: notification.text,
+        html: notification.html,
+      });
+
+  const autoReplyPromise = useHttpsApi
+    ? sendResendApiMail({
+        from,
+        to: enquiry.email,
+        replyTo: env.enquiryRecipient,
+        subject: autoReply.subject,
+        text: autoReply.text,
+        html: autoReply.html,
+      })
+    : transport.sendMail({
+        from,
+        to: enquiry.email,
+        replyTo: env.enquiryRecipient,
+        subject: autoReply.subject,
+        text: autoReply.text,
+        html: autoReply.html,
+        headers: {
+          'Auto-Submitted': 'auto-replied',
+          'X-Auto-Response-Suppress': 'All',
+        },
+      });
+
+  const [notificationResult, autoReplyResult] = await Promise.allSettled([
+    notificationPromise,
+    autoReplyPromise,
   ]);
 
   const errors = [];
