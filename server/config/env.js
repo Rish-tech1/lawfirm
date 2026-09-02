@@ -16,7 +16,7 @@ function parseList(value, fallback = []) {
   if (!value) return fallback;
   return value
     .split(',')
-    .map((item) => item.trim())
+    .map((item) => item.trim().replace(/\/$/, ''))
     .filter(Boolean);
 }
 

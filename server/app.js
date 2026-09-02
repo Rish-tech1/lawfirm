@@ -55,15 +55,17 @@ const corsOptions = {
   origin(origin, callback) {
     if (!origin) return callback(null, true);
 
-    if (env.allowedOrigins.includes(origin)) return callback(null, true);
+    const cleanOrigin = origin.replace(/\/$/, '');
 
-    // Any *.vercel.app preview deployment of this project.
-    if (/^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(origin) && !env.isProduction) {
+    if (env.allowedOrigins.includes(cleanOrigin)) return callback(null, true);
+
+    // Allow any *.vercel.app deployment (production and previews)
+    if (/^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(cleanOrigin)) {
       return callback(null, true);
     }
 
-    logger.warn(`[cors] Blocked origin: ${origin}`);
-    return callback(new Error('This origin is not permitted by CORS policy.'));
+    logger.warn(`[cors] Blocked origin: ${cleanOrigin}`);
+    return callback(null, false);
   },
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Accept'],
