@@ -44,6 +44,7 @@ function getTransporter() {
     host: env.smtp.host,
     port: env.smtp.port,
     secure: env.smtp.secure,
+    family: 4,
     auth: {
       user: env.smtp.user,
       pass: env.smtp.pass,
