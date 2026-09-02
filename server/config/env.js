@@ -58,8 +58,8 @@ const env = {
    */
   smtp: {
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
-    port: Number(process.env.SMTP_PORT) || 465,
-    secure: process.env.SMTP_SECURE ? process.env.SMTP_SECURE === 'true' : true,
+    port: Number(process.env.SMTP_PORT) || 587,
+    secure: process.env.SMTP_SECURE ? process.env.SMTP_SECURE === 'true' : (Number(process.env.SMTP_PORT || 587) === 465),
     user: process.env.SMTP_USER || process.env.GMAIL_USER || '',
     pass: process.env.SMTP_PASS || process.env.GMAIL_APP_PASSWORD || '',
     fromName: process.env.MAIL_FROM_NAME || 'Singla & Singla Law Firm',
