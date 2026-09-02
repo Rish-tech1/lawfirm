@@ -103,6 +103,12 @@ async function useEtherealFallback(reason) {
 async function verifyMailer() {
   const isResendKey = Boolean(env.smtp.pass && env.smtp.pass.startsWith('re_'));
 
+  if (isResendKey) {
+    isFallbackTransport = false;
+    logger.info(`[mail] Resend HTTPS API ready (sending as ${env.smtp.fromAddress}).`);
+    return true;
+  }
+
   const transport = getTransporter();
 
   if (!transport) {
@@ -111,7 +117,6 @@ async function verifyMailer() {
     return false;
   }
 
-  // If using Resend API key, verify via SMTP first or accept HTTPS API readiness
   try {
     await transport.verify();
     isFallbackTransport = false;
@@ -121,12 +126,6 @@ async function verifyMailer() {
     return true;
   } catch (error) {
     logger.error('[mail] SMTP verification failed:', error.message);
-
-    if (isResendKey) {
-      logger.info(`[mail] Resend API configured via HTTPS (sending as ${env.smtp.fromAddress}).`);
-      isFallbackTransport = false;
-      return true;
-    }
 
     if (fallbackAllowed) {
       transporter = null;
