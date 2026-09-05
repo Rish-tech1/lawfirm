@@ -484,6 +484,48 @@ treated as a double-click and silently ignored.
 
 Validate structured data at <https://search.google.com/test/rich-results>.
 
+### Deepening a practice-area page
+
+Each entry in `practice-areas.json` takes four **optional** fields. Every one of
+them renders only when present, so an area that declares none looks exactly as it
+did before they existed — fill them in area by area, at whatever pace suits.
+
+`cheque-bounce` is filled in as a **worked reference example**. Copy its shape.
+It was drafted against the bare Acts and **has not been reviewed by the firm** —
+read it before you rely on it, and treat it as a template rather than as
+published copy.
+
+| Field      | Renders as                          | Why it matters                                                     |
+| ---------- | ----------------------------------- | ------------------------------------------------------------------ |
+| `faqs`     | Accordion + `FAQPage` structured data | The highest-value field. Makes answers eligible to appear as expandable rows under the search result |
+| `keyLaws`  | "Governing Law" grid + schema `about` | States the page's subject in a form that does not depend on parsing prose |
+| `courts`   | "Where We Appear" chips             | Carries local intent onto the page — this is what "lawyer near me" matches against |
+| `related`  | The "Related" block                 | Without it, related areas are picked by position in the JSON file, linking Corporate Law to Civil Litigation because one follows the other |
+
+Two more rules worth following:
+
+- **Set `updated` when you edit an entry.** It becomes that URL's `lastmod` in
+  the sitemap. Leave it off and the area inherits `CONTENT_LAST_REVIEWED` from
+  `content/site.ts`.
+- **Write answers that stand alone.** Six substantial FAQ answers roughly double
+  a practice-area page's word count, which is the single biggest lever available
+  without adding routes. Two-line answers add markup but no substance.
+
+### Known gaps
+
+Deliberately out of scope in the current build, in rough order of what they'd be
+worth:
+
+1. **No blog or articles section.** 20 URLs total. There is no surface for
+   informational queries, which is where most legal search volume sits.
+2. **No location pages.** The firm practises across Delhi NCR and has chambers at
+   Karkardooma, Trilokpuri and Mayur Vihar, but no page targets a place name.
+3. **No per-advocate pages.** All eleven sit on `/team`, so there is nothing to
+   rank for an advocate's own name and little to carry author credibility.
+4. **Practice-area overviews run 60–105 words.** Competing Delhi firms run
+   considerably longer. The optional fields above are the cheapest way to close
+   this without a rewrite.
+
 **After deploying:** set `NEXT_PUBLIC_SITE_URL` to the real domain, submit
 `sitemap.xml` in Google Search Console, and create a Google Business Profile —
 for a local law firm that drives more enquiries than any on-page work.

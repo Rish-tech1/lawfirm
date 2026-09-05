@@ -44,6 +44,27 @@ export interface ProcessStep {
   description: string;
 }
 
+/**
+ * A question and answer specific to one practice area.
+ *
+ * Deliberately not the site-wide `Faq` shape: these need no `id`, `category` or
+ * `featured` flag because they are scoped to a single page and never filtered.
+ */
+export interface PracticeAreaFaq {
+  question: string;
+  answer: string;
+}
+
+/** A statute the area is practised under, listed on the area page. */
+export interface KeyLaw {
+  /** As it should read on the page, e.g. `Negotiable Instruments Act, 1881 — s. 138`. */
+  name: string;
+  /** One or two sentences on what the statute does in this context. */
+  description: string;
+  /** Optional link to the bare act, normally on indiacode.nic.in. */
+  url?: string;
+}
+
 export interface PracticeArea {
   slug: string;
   title: string;
@@ -60,6 +81,41 @@ export interface PracticeArea {
   /** Feeds the per-area page meta description and keywords. */
   metaDescription: string;
   keywords: string[];
+
+  /* -------------------------------------------------------------------------
+   * Optional depth. Every field below renders only when present, so an area
+   * that has none of them builds and looks exactly as it did before. Fill them
+   * in area by area — see README §"Deepening a practice-area page".
+   * ---------------------------------------------------------------------- */
+
+  /**
+   * Questions specific to this area. Renders an accordion **and** emits
+   * `FAQPage` structured data on the page, which is what makes the answers
+   * eligible to appear as expandable results under the listing.
+   */
+  faqs?: PracticeAreaFaq[];
+
+  /** Statutes the area is governed by. A direct topical-relevance signal. */
+  keyLaws?: KeyLaw[];
+
+  /** Courts and tribunals the firm appears in for this area. */
+  courts?: string[];
+
+  /**
+   * Slugs of genuinely related areas, shown in the "Related" block.
+   *
+   * Without this the block falls back to the next three entries in the array,
+   * which links areas by array adjacency rather than by subject — Corporate Law
+   * to Civil Litigation, because one happens to follow the other in the file.
+   */
+  related?: string[];
+
+  /**
+   * ISO date (`YYYY-MM-DD`) this area's copy was last revised, used as the
+   * sitemap `lastmod`. Bump it when you edit the entry; leave it off and the
+   * area falls back to the site-wide review date.
+   */
+  updated?: string;
 }
 
 export interface Service {

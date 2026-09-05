@@ -1,3 +1,4 @@
+
 /**
  * Single source of truth for firm identity, contact details and navigation.
  *
@@ -26,6 +27,51 @@ const siteUrl = envOr(process.env.NEXT_PUBLIC_SITE_URL, 'https://www.singlalawfi
 
 /** Digits only, with country code — required by the wa.me link format. */
 const whatsappNumber = envOr(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER, '919811135465');
+
+/**
+ * Off-site profiles, emitted as `sameAs` in the organisation schema.
+ *
+ * `null` means the firm has no such account, and every consumer filters those
+ * out. This is typed rather than inlined so a missing profile is a deliberate
+ * `null` and not an invented URL.
+ *
+ * These are not decorative. `sameAs` is how Google ties this website to the
+ * firm's other profiles when resolving it to a single Knowledge Graph entity,
+ * and it fetches every URL it is handed. Three invented `example.*` addresses
+ * used to sit here, so the one signal whose job is to consolidate the firm's
+ * identity was pointing at pages that do not exist. Add a real URL only once
+ * the profile is live.
+ */
+interface SocialProfiles {
+  linkedin: string | null;
+  facebook: string | null;
+  twitter: string | null;
+  instagram: string | null;
+  /** Handle without the `@`, for Twitter card metadata. */
+  twitterHandle: string | null;
+}
+
+const social: SocialProfiles = {
+  linkedin: 'https://www.linkedin.com/company/singla-singla-law-firm/',
+  facebook: null,
+  twitter: null,
+  instagram: null,
+  twitterHandle: null,
+};
+
+/**
+ * Date the site's copy was last reviewed, in `YYYY-MM-DD`.
+ *
+ * This is the sitemap's fallback `lastmod`. It is a hand-maintained constant
+ * rather than `new Date()` because a build timestamp tells search engines that
+ * every page changed every time anything shipped — including deploys that only
+ * touched CSS. A crawler that is told the whole site changed weekly, and then
+ * finds identical content, learns to discount the signal entirely.
+ *
+ * Bump this when you revise copy broadly; for a single page, set `updated` on
+ * that route or practice area instead and leave this alone.
+ */
+export const CONTENT_LAST_REVIEWED = '2026-09-05';
 
 export const site = {
   name: 'Singla & Singla Law Firm',
@@ -90,6 +136,29 @@ export const site = {
     longitude: 77.3003,
   },
 
+  /**
+   * Every city the firm accepts instructions in, principal seat first.
+   *
+   * Feeds `areaServed` on the organisation and per-practice-area schema, and
+   * the geographic terms in page keywords. The chambers are in East Delhi but
+   * the practice runs across the National Capital Region, and the schema
+   * previously claimed `Delhi` alone — the narrower of the two truths, and the
+   * one that keeps the firm out of results for the rest of the NCR.
+   *
+   * Only list a city the firm will genuinely take work in. `areaServed` is a
+   * claim about the business, and a list padded with places it does not
+   * practise is the kind of thing that gets a Business Profile suspended.
+   */
+  areaServed: [
+    'Delhi',
+    'New Delhi',
+    'Noida',
+    'Greater Noida',
+    'Ghaziabad',
+    'Gurugram',
+    'Faridabad',
+  ],
+
   /** Business hours drive both the visible list and the LocalBusiness schema. */
   hours: [
     { days: 'Monday – Friday', time: '9:30 AM – 7:00 PM', open: '09:30', close: '19:00', dayCodes: ['Mo', 'Tu', 'We', 'Th', 'Fr'] },
@@ -97,15 +166,8 @@ export const site = {
     { days: 'Sunday', time: 'Closed — urgent matters by phone', open: null, close: null, dayCodes: ['Su'] },
   ],
 
-  /** LinkedIn is the firm's real profile. The rest are PLACEHOLDERS — replace or delete. */
-  social: {
-    linkedin: 'https://www.linkedin.com/company/singla-singla-law-firm/',
-    facebook: 'https://www.facebook.com/example.singlalawfirm',
-    twitter: 'https://twitter.com/example_singlalaw',
-    instagram: 'https://www.instagram.com/example.singlalawfirm',
-    /** Handle without the @, for Twitter card metadata. */
-    twitterHandle: 'example_singlalaw',
-  },
+  /** See the `SocialProfiles` note above. Only live profiles belong here. */
+  social,
 
   /**
    * Google Maps: `embedQuery` builds a keyless iframe embed, `directionsUrl`
@@ -201,25 +263,56 @@ export interface NavItem {
   href: string;
 }
 
+/**
+ * Whether the testimonials page and the home-page slider are built at all.
+ *
+ * Defaults to **on**, so nothing changes until someone opts out. Set
+ * `NEXT_PUBLIC_SHOW_TESTIMONIALS=false` to drop the route, its navigation
+ * entry, its sitemap entry, the home-page slider and the `Review` structured
+ * data in one move.
+ *
+ * The switch exists because `testimonials.json` currently holds invented
+ * clients. That is two separate problems: Bar Council of India Rule 36
+ * restricts advocate testimonials (README §"Regulatory note"), and fabricated
+ * client accounts on an indexed page are exactly the first-hand-experience
+ * signal Google's quality guidance treats as a trust failure. Whether to
+ * publish them is the firm's decision, not a code decision — so this is a flag
+ * rather than a deletion.
+ */
+export const showTestimonials = process.env.NEXT_PUBLIC_SHOW_TESTIMONIALS !== 'false';
+
 export const mainNav: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Services', href: '/services' },
   { label: 'Practice Areas', href: '/practice-areas' },
   { label: 'Team', href: '/team' },
-  { label: 'Testimonials', href: '/testimonials' },
+  ...(showTestimonials ? [{ label: 'Testimonials', href: '/testimonials' }] : []),
   { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ];
 
+export interface StaticRoute {
+  path: string;
+  priority: number;
+  changeFrequency: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+  /**
+   * ISO date (`YYYY-MM-DD`) this page's copy was last revised. Omit and the
+   * route falls back to `CONTENT_LAST_REVIEWED`.
+   */
+  updated?: string;
+}
+
 /** Every indexable route, consumed by `app/sitemap.ts`. */
-export const staticRoutes = [
-  { path: '/', priority: 1.0, changeFrequency: 'monthly' as const },
-  { path: '/about', priority: 0.8, changeFrequency: 'yearly' as const },
-  { path: '/services', priority: 0.9, changeFrequency: 'monthly' as const },
-  { path: '/practice-areas', priority: 0.9, changeFrequency: 'monthly' as const },
-  { path: '/team', priority: 0.7, changeFrequency: 'yearly' as const },
-  { path: '/testimonials', priority: 0.6, changeFrequency: 'monthly' as const },
-  { path: '/faq', priority: 0.7, changeFrequency: 'monthly' as const },
-  { path: '/contact', priority: 0.9, changeFrequency: 'yearly' as const },
+export const staticRoutes: StaticRoute[] = [
+  { path: '/', priority: 1.0, changeFrequency: 'monthly' },
+  { path: '/about', priority: 0.8, changeFrequency: 'yearly' },
+  { path: '/services', priority: 0.9, changeFrequency: 'monthly' },
+  { path: '/practice-areas', priority: 0.9, changeFrequency: 'monthly' },
+  { path: '/team', priority: 0.7, changeFrequency: 'yearly' },
+  ...(showTestimonials
+    ? [{ path: '/testimonials', priority: 0.6, changeFrequency: 'monthly' as const }]
+    : []),
+  { path: '/faq', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/contact', priority: 0.9, changeFrequency: 'yearly' },
 ];

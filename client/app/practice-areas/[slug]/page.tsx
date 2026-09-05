@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { TbArrowRight, TbCheck } from 'react-icons/tb';
 import { PageBanner } from '@/components/layout/PageBanner';
+import { Accordion } from '@/components/ui/Accordion';
 import { Button } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
 import { Icon } from '@/components/ui/Icon';
@@ -12,7 +13,9 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { ContactSection } from '@/sections/ContactSection';
 import { getPracticeArea, practiceAreas } from '@/content';
 import { site } from '@/content/site';
-import { breadcrumbSchema, practiceAreaSchema } from '@/lib/jsonld';
+import { breadcrumbSchema, faqPageSchema, practiceAreaSchema } from '@/lib/jsonld';
+import { cn } from '@/lib/utils';
+import type { PracticeArea } from '@/types';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -69,15 +72,57 @@ export default async function PracticeAreaPage({ params }: PageProps) {
     { name: area.title, href: `/practice-areas/${area.slug}` },
   ];
 
-  /** Three sibling areas for internal linking, wrapping around the list. */
+  /**
+   * Sibling areas for internal linking.
+   *
+   * Prefers the area's declared `related` slugs, because a link between two
+   * genuinely adjacent areas — cheque bounce to banking law — passes topical
+   * relevance, while a link chosen by array position does not. Falls back to
+   * the next three entries in the file for areas that have not declared any,
+   * so the block is never empty. Unknown slugs are dropped rather than
+   * rendering a dead card.
+   */
   const currentIndex = practiceAreas.findIndex((item) => item.slug === area.slug);
-  const related = [1, 2, 3].map(
-    (offset) => practiceAreas[(currentIndex + offset) % practiceAreas.length]!,
+  const declared = (area.related ?? [])
+    .map((slug) => getPracticeArea(slug))
+    .filter((item): item is PracticeArea => Boolean(item) && item!.slug !== area.slug);
+
+  const related =
+    declared.length > 0
+      ? declared
+      : [1, 2, 3].map((offset) => practiceAreas[(currentIndex + offset) % practiceAreas.length]!);
+
+  /**
+   * The optional depth sections that this area actually declares, in render
+   * order. Their backgrounds alternate across whichever are present rather than
+   * being hardcoded, because an area declaring only one of the three would
+   * otherwise sit flush against a same-coloured neighbour and read as one
+   * undifferentiated block.
+   */
+  const depthSections = (['keyLaws', 'courts', 'faqs'] as const).filter(
+    (key) => (area[key]?.length ?? 0) > 0,
   );
+
+  /** Benefits, immediately above, is white — so the first present section is stone. */
+  const depthBg = (key: (typeof depthSections)[number]) =>
+    depthSections.indexOf(key) % 2 === 0 ? 'bg-stone' : '';
+
+  const relatedBg = depthSections.length % 2 === 0 ? 'bg-stone' : '';
 
   return (
     <>
-      <JsonLd data={[breadcrumbSchema(breadcrumbs), practiceAreaSchema(area)]} />
+      {/*
+        FAQPage is emitted per area rather than only on /faq, so each area page
+        carries the questions that belong to it. This is what makes the answers
+        eligible to render as expandable rows beneath the result.
+      */}
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          practiceAreaSchema(area),
+          ...(area.faqs?.length ? [faqPageSchema(area.faqs)] : []),
+        ]}
+      />
 
       <PageBanner
         eyebrow="Practice Area"
@@ -215,8 +260,111 @@ export default async function PracticeAreaPage({ params }: PageProps) {
         </Container>
       </section>
 
+      {/*
+        Statutes. Renders only when the area declares them — an area with no
+        `keyLaws` looks exactly as it did before this section existed.
+      */}
+      {area.keyLaws?.length ? (
+        <section className={cn('py-20 lg:py-28', depthBg('keyLaws'))}>
+          <Container>
+            <SectionHeading
+              eyebrow="Governing Law"
+              title="The statutes this work runs on"
+              description="The primary legislation we act under in this area. Links go to the bare Act."
+              align="left"
+            />
+
+            <Stagger className="mt-14 grid gap-px bg-line sm:grid-cols-2">
+              {area.keyLaws.map((law) => (
+                <StaggerItem key={law.name} className="h-full">
+                  <div className="flex h-full flex-col bg-white p-8">
+                    <h3 className="font-display text-lg leading-snug text-ink">
+                      {law.url ? (
+                        <a
+                          href={law.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="transition-colors hover:text-gold-700"
+                        >
+                          {law.name}
+                        </a>
+                      ) : (
+                        law.name
+                      )}
+                    </h3>
+
+                    <p className="mt-3 text-sm leading-relaxed text-muted">{law.description}</p>
+                  </div>
+                </StaggerItem>
+              ))}
+            </Stagger>
+          </Container>
+        </section>
+      ) : null}
+
+      {/* Courts — carries local intent onto every area page. */}
+      {area.courts?.length ? (
+        <section className={cn('py-20 lg:py-28', depthBg('courts'))}>
+          <Container>
+            <div className="grid gap-14 lg:grid-cols-12 lg:gap-16">
+              <Reveal className="lg:col-span-5">
+                <p className="eyebrow mb-5">Where We Appear</p>
+                <h2 className="text-display">Courts and tribunals</h2>
+                <div className="rule-gold mt-6" aria-hidden="true" />
+                <p className="mt-7 text-base leading-relaxed text-muted">
+                  We conduct {area.title.toLowerCase()} matters before the forums below, across{' '}
+                  {site.areaServed.slice(0, -1).join(', ')} and {site.areaServed.at(-1)}.
+                </p>
+              </Reveal>
+
+              <Reveal delay={0.08} className="lg:col-span-7">
+                <ul className="flex flex-wrap gap-3">
+                  {area.courts.map((court) => (
+                    <li
+                      key={court}
+                      className="border border-line bg-white px-5 py-3 text-sm font-medium text-ink"
+                    >
+                      {court}
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            </div>
+          </Container>
+        </section>
+      ) : null}
+
+      {/*
+        Per-area FAQs. The accordion keeps collapsed answers mounted and
+        height-collapsed, so every answer is in the served HTML for crawlers
+        whether or not the panel is open.
+      */}
+      {area.faqs?.length ? (
+        <section className={cn('py-20 lg:py-28', depthBg('faqs'))}>
+          <Container>
+            <SectionHeading
+              eyebrow="Common Questions"
+              title={`${area.title} — questions we are asked`}
+              align="left"
+            />
+
+            <Reveal className="mt-14">
+              <Accordion
+                items={area.faqs.map((faq, index) => ({
+                  id: `${area.slug}-faq-${index}`,
+                  question: faq.question,
+                  answer: faq.answer,
+                }))}
+                defaultOpen={null}
+                className="max-w-4xl"
+              />
+            </Reveal>
+          </Container>
+        </section>
+      ) : null}
+
       {/* Related areas — internal linking */}
-      <section className="bg-stone py-20 lg:py-28">
+      <section className={cn('py-20 lg:py-28', relatedBg)}>
         <Container>
           <SectionHeading eyebrow="Related" title="Other areas we practise in" align="left" />
 

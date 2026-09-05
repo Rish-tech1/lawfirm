@@ -1,13 +1,35 @@
 import Link from 'next/link';
-import { TbBrandLinkedin, TbClock, TbMail, TbMapPin, TbPhone } from 'react-icons/tb';
+import {
+  TbBrandFacebook,
+  TbBrandInstagram,
+  TbBrandLinkedin,
+  TbBrandX,
+  TbClock,
+  TbMail,
+  TbMapPin,
+  TbPhone,
+} from 'react-icons/tb';
 import { Container } from '@/components/ui/Container';
 import { Logo } from './Logo';
 import { formattedAddress, mainNav, site } from '@/content/site';
 import { practiceAreas, services } from '@/content';
 
+/**
+ * All four profiles are listed; the ones the firm does not have are `null` in
+ * site.ts and drop out here. Adding a real URL there lights up the icon *and*
+ * adds it to `sameAs` in the organisation schema, which is the half that
+ * actually matters for search.
+ *
+ * The predicate narrows rather than just filtering: a plain `Boolean(...)`
+ * filter leaves `href` typed `string | null`, which is how three invented
+ * profile URLs stayed compilable in the first place.
+ */
 const socialLinks = [
   { href: site.social.linkedin, label: 'LinkedIn', Icon: TbBrandLinkedin },
-].filter((link) => Boolean(link.href));
+  { href: site.social.facebook, label: 'Facebook', Icon: TbBrandFacebook },
+  { href: site.social.twitter, label: 'X', Icon: TbBrandX },
+  { href: site.social.instagram, label: 'Instagram', Icon: TbBrandInstagram },
+].filter((link): link is typeof link & { href: string } => Boolean(link.href));
 
 export function Footer() {
   const year = new Date().getFullYear();

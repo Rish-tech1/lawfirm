@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { TestimonialCard } from '@/components/cards/TestimonialCard';
 import { PageBanner } from '@/components/layout/PageBanner';
 import { Container } from '@/components/ui/Container';
@@ -8,7 +9,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { StarRating } from '@/components/ui/StarRating';
 import { CtaBanner } from '@/sections/CtaBanner';
 import { testimonials } from '@/content';
-import { site } from '@/content/site';
+import { showTestimonials, site } from '@/content/site';
 import { breadcrumbSchema, reviewSchema } from '@/lib/jsonld';
 
 const description = `Client testimonials and success stories from matters handled by ${site.name} across corporate, family, property, consumer, banking, criminal, cyber and cheque bounce matters.`;
@@ -22,6 +23,13 @@ export const metadata: Metadata = {
     title: `Client Testimonials | ${site.name}`,
     description,
   },
+  /**
+   * Belt and braces alongside the `notFound()` below. If the page is switched
+   * off after having been indexed, a crawler holding the old URL gets an
+   * explicit noindex as well as a 404, which drops it from results faster than
+   * the 404 alone.
+   */
+  ...(showTestimonials ? {} : { robots: { index: false, follow: false } }),
 };
 
 const breadcrumbs = [
@@ -30,6 +38,14 @@ const breadcrumbs = [
 ];
 
 export default function TestimonialsPage() {
+  /**
+   * Switched off via NEXT_PUBLIC_SHOW_TESTIMONIALS=false — see the note on
+   * `showTestimonials` in content/site.ts. Rendering the 404 rather than an
+   * empty page means the route is genuinely gone: no thin page for a crawler
+   * to index, and no `Review` structured data emitted for invented clients.
+   */
+  if (!showTestimonials) notFound();
+
   const averageRating =
     testimonials.reduce((total, item) => total + item.rating, 0) / testimonials.length;
 

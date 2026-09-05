@@ -1,3 +1,4 @@
+
 /**
  * JSON-LD structured data builders.
  *
@@ -9,7 +10,7 @@
  * Validate output with https://search.google.com/test/rich-results
  */
 import { site } from '@/content/site';
-import type { Faq, PracticeArea, TeamMember, Testimonial } from '@/types';
+import type { PracticeArea, TeamMember, Testimonial } from '@/types';
 import { absoluteUrl } from './utils';
 
 type JsonLdObject = Record<string, unknown>;
@@ -37,6 +38,30 @@ function postalAddress(): JsonLdObject {
     postalCode: site.address.postalCode,
     addressCountry: site.address.countryCode,
   };
+}
+
+/**
+ * The firm's service area as schema nodes.
+ *
+ * `City` for each named place, then the containing state and country, so a
+ * consumer that does not recognise "Gurugram" still resolves the broader claim.
+ */
+function areaServed(): JsonLdObject[] {
+  return [
+    ...site.areaServed.map((city) => ({ '@type': 'City', name: city })),
+    { '@type': 'AdministrativeArea', name: 'National Capital Region' },
+    { '@type': 'Country', name: site.address.country },
+  ];
+}
+
+/** Live off-site profiles only — see the `SocialProfiles` note in site.ts. */
+function sameAs(): string[] {
+  return [
+    site.social.linkedin,
+    site.social.facebook,
+    site.social.twitter,
+    site.social.instagram,
+  ].filter((url): url is string => Boolean(url));
 }
 
 function openingHours(): JsonLdObject[] {
@@ -85,18 +110,9 @@ export function organisationSchema(): JsonLdObject {
     /** Consultation is fee-based and quoted per matter; ₹₹ signals mid-market. */
     priceRange: '₹₹',
     currenciesAccepted: 'INR',
-    areaServed: [
-      { '@type': 'City', name: site.address.city },
-      { '@type': 'State', name: site.address.state },
-      { '@type': 'Country', name: site.address.country },
-    ],
+    areaServed: areaServed(),
     knowsLanguage: ['en', 'hi', 'pa'],
-    sameAs: Object.values({
-      linkedin: site.social.linkedin,
-      facebook: site.social.facebook,
-      twitter: site.social.twitter,
-      instagram: site.social.instagram,
-    }).filter(Boolean),
+    sameAs: sameAs(),
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -156,7 +172,17 @@ export function practiceAreaSchema(area: PracticeArea): JsonLdObject {
     url: absoluteUrl(`/practice-areas/${area.slug}`, site.url),
     serviceType: area.title,
     provider: { '@id': ORGANISATION_ID },
-    areaServed: { '@type': 'State', name: site.address.state },
+    areaServed: areaServed(),
+    /**
+     * The statutes the area is practised under. `Legislation` is a subclass of
+     * `CreativeWork`, so this is a valid `about` value; it states what the page
+     * is topically about in a form that does not rely on parsing the prose.
+     */
+    about: area.keyLaws?.map((law) => ({
+      '@type': 'Legislation',
+      name: law.name,
+      ...(law.url ? { url: law.url } : {}),
+    })),
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: `${area.title} services`,
@@ -190,10 +216,10 @@ export function attorneySchema(member: TeamMember): JsonLdObject {
     knowsAbout: member.expertise.length > 0 ? member.expertise : undefined,
     hasCredential: member.qualification
       ? {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'degree',
-          name: member.qualification,
-        }
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: 'degree',
+        name: member.qualification,
+      }
       : undefined,
     worksFor: { '@id': ORGANISATION_ID },
     address: postalAddress(),
@@ -214,7 +240,15 @@ export function attorneyListSchema(members: TeamMember[]): JsonLdObject {
   };
 }
 
-export function faqPageSchema(items: Faq[]): JsonLdObject {
+/**
+ * Takes the structural minimum rather than `Faq`, so the site-wide FAQ list and
+ * the per-practice-area questions — which carry no id, category or featured
+ * flag — both feed it without either shape having to grow fields it does not
+ * use. `Faq` satisfies this signature as-is.
+ */
+export function faqPageSchema(
+  items: ReadonlyArray<{ question: string; answer: string }>,
+): JsonLdObject {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',

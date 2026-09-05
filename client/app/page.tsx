@@ -11,7 +11,7 @@ import { TeamPreview } from '@/sections/TeamPreview';
 import { TestimonialsSlider } from '@/sections/TestimonialsSlider';
 import { WhyChooseUs } from '@/sections/WhyChooseUs';
 import { featuredFaqs, practiceAreas, testimonials } from '@/content';
-import { site } from '@/content/site';
+import { showTestimonials, site } from '@/content/site';
 import { faqPageSchema, serviceCatalogueSchema } from '@/lib/jsonld';
 
 export const metadata: Metadata = {
@@ -37,7 +37,7 @@ export default function HomePage() {
       <AboutPreview />
       <PracticeAreasPreview limit={6} />
       <WhyChooseUs />
-      <TestimonialsSlider testimonials={testimonials} />
+      {showTestimonials ? <TestimonialsSlider testimonials={testimonials} /> : null}
       <TeamPreview />
       <CtaBanner />
       <FaqPreview />

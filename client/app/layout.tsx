@@ -39,6 +39,12 @@ export const metadata: Metadata = {
   publisher: site.name,
   generator: 'Next.js',
 
+  /**
+   * Google has ignored `<meta name="keywords">` since 2009. It stays because a
+   * few smaller engines still read it and it costs nothing — but the tag that
+   * actually carries this firm's geography is `areaServed` in the JSON-LD
+   * (see lib/jsonld.ts), not this list. Do not add terms here expecting a lift.
+   */
   keywords: [
     'law firm',
     'advocates',
@@ -51,7 +57,8 @@ export const metadata: Metadata = {
     'civil litigation',
     'arbitration',
     'legal consultation',
-    site.address.city,
+    ...site.areaServed,
+    'Delhi NCR',
   ],
 
   alternates: {
@@ -67,12 +74,21 @@ export const metadata: Metadata = {
     description: site.description,
   },
 
+  /**
+   * `creator`/`site` are attached only when there is a real handle. They used
+   * to interpolate unconditionally, so every page shipped `@example_singlalaw`
+   * — a handle nobody owns — as the firm's attribution.
+   */
   twitter: {
     card: 'summary_large_image',
     title: `${site.name} | Advocates & Legal Consultants`,
     description: site.description,
-    creator: `@${site.social.twitterHandle}`,
-    site: `@${site.social.twitterHandle}`,
+    ...(site.social.twitterHandle
+      ? {
+          creator: `@${site.social.twitterHandle}`,
+          site: `@${site.social.twitterHandle}`,
+        }
+      : {}),
   },
 
   robots: {
