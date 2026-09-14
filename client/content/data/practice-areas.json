@@ -2,651 +2,964 @@
   {
     "slug": "corporate-law",
     "title": "Corporate Law",
-    "tagline": "Structuring, governance and compliance for businesses at every stage.",
+    "tagline": "Structuring, governance and commercial compliance for businesses across Delhi NCR.",
     "icon": "building",
     "featured": true,
     "overview": [
-      "Our corporate practice advises founders, promoters, family businesses and established companies on the full commercial lifecycle — from choosing the right entity and drafting a founders' agreement, to negotiating investment rounds, restructuring shareholdings and planning an exit.",
-      "We combine transactional drafting with a working knowledge of the Companies Act, 2013, FEMA and SEBI regulations, so the paperwork we produce holds up under scrutiny from regulators, investors and, if it comes to it, a court. Where a matter touches tax, banking or a dispute already before a court, we bring in the relevant partner rather than working around the gap."
+      "Our corporate practice advises founders, promoters, family businesses and established companies across Delhi NCR on the full commercial lifecycle — from choosing the right entity and drafting founders' agreements, to negotiating investment rounds, restructuring shareholdings and managing NCLT proceedings.",
+      "We combine transactional drafting with extensive mastery of the Companies Act 2013, FEMA, and SEBI regulations. Our documentation holds up rigorously before regulatory bodies, investors, and courts. When corporate disputes arise, our team provides assertive representation before the National Company Law Tribunal (NCLT Delhi), Delhi High Court, and appellate authorities."
     ],
     "servicesOffered": [
-      "Company, LLP and partnership incorporation and structuring",
+      "Company, LLP and partnership incorporation and structuring in Delhi NCR",
       "Shareholders' agreements, joint ventures and founders' agreements",
       "Commercial contract drafting, review and negotiation",
       "Mergers, acquisitions and business transfer agreements",
       "Corporate governance, board advisory and secretarial compliance",
-      "Due diligence for investment and acquisition transactions"
+      "NCLT insolvency, oppression and mismanagement litigation"
     ],
     "process": [
       {
         "step": 1,
         "title": "Commercial briefing",
-        "description": "We start with what the business is trying to achieve, not the document you think you need. Often the right instrument is different from the one requested."
+        "description": "We start with what the business is trying to achieve, not just the document requested. Often the optimal corporate vehicle or instrument differs from initial assumptions."
       },
       {
         "step": 2,
         "title": "Structure and risk mapping",
-        "description": "We set out the available structures with their tax, liability and compliance consequences, and flag the two or three risks that genuinely matter."
+        "description": "We set out available structures with tax, liability and compliance consequences under Delhi NCR regulations, identifying the critical commercial risks."
       },
       {
         "step": 3,
         "title": "Drafting and negotiation",
-        "description": "We draft the documentation, mark up counterparty drafts and represent you in negotiations, keeping a clear record of every concession and its rationale."
+        "description": "We draft bespoke documentation, mark up counterparty agreements and represent you in negotiations with a clear record of every clause."
       },
       {
         "step": 4,
         "title": "Execution and ongoing compliance",
-        "description": "We manage signing, statutory filings and post-closing conditions, then hand over a compliance calendar so nothing lapses quietly."
+        "description": "We oversee execution, statutory filings with ROC Delhi, and provide a clear compliance calendar to ensure seamless operations."
       }
     ],
     "benefits": [
-      "Documentation drafted to survive litigation, not just to close a deal",
-      "Single point of contact across corporate, tax and regulatory questions",
-      "Fixed-fee quotes for defined transactional scopes",
-      "Compliance calendars that prevent avoidable penalties"
+      "Documentation drafted to withstand litigation scrutiny in Delhi courts",
+      "Single point of contact across corporate, tax and regulatory compliance",
+      "Transparent fee quotes for defined transactional and retainer scopes",
+      "Active representation before NCLT Delhi and Delhi High Court"
     ],
-    "metaDescription": "Corporate law advisory for incorporation, shareholders' agreements, M&A, due diligence and governance compliance. Speak to Singla & Singla Law Firm.",
-    "keywords": ["corporate lawyer", "company incorporation", "shareholders agreement", "M&A advisory", "due diligence"]
+    "metaDescription": "Top corporate lawyers in Delhi NCR for company incorporation, shareholders agreements, M&A, due diligence and NCLT corporate litigation. Singla & Singla Law Firm.",
+    "keywords": [
+      "top corporate lawyer in delhi",
+      "corporate law firm delhi ncr",
+      "best corporate advocates delhi",
+      "company incorporation lawyer delhi",
+      "shareholders agreement advocate",
+      "NCLT lawyer delhi",
+      "commercial contract lawyer delhi ncr"
+    ],
+    "courts": [
+      "National Company Law Tribunal (NCLT Principal Bench & New Delhi)",
+      "National Company Law Appellate Tribunal (NCLAT)",
+      "High Court of Delhi (Commercial Division)",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Companies Act, 2013",
+        "description": "The primary legislation regulating company incorporation, governance, director duties, mergers, and corporate compliance across India."
+      },
+      {
+        "name": "Insolvency and Bankruptcy Code, 2016 (IBC)",
+        "description": "Governs corporate insolvency resolution process, liquidation, and creditor rights before the NCLT."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I choose between an LLP and a Private Limited Company in Delhi?",
+        "answer": "A Private Limited Company is preferable if you plan to raise equity capital from venture capital or angel investors. An LLP offers greater operational flexibility and fewer statutory audit requirements if you are running a self-funded or consulting business. We evaluate your business model during consultation to determine the optimal structure."
+      },
+      {
+        "question": "What is the procedure for initiating NCLT proceedings in Delhi?",
+        "answer": "NCLT proceedings for insolvency or oppression/mismanagement begin with a detailed petition supported by affidavit, statutory demand notices, and evidence of default or oppressive conduct filed at the NCLT New Delhi or Principal Bench. Our advocates handle complete drafting and appearance."
+      }
+    ]
   },
   {
     "slug": "civil-litigation",
     "title": "Civil Litigation",
-    "tagline": "Assertive representation in contract, recovery and declaratory disputes.",
+    "tagline": "Assertive representation in money recovery, property, contract and injunction disputes across Delhi courts.",
     "icon": "scale",
     "featured": true,
     "overview": [
-      "We appear in civil suits before trial courts, District Courts, the High Court and appellate forums in matters ranging from breach of contract and money recovery to specific performance, injunctions, partition and declaratory relief.",
-      "Civil litigation in India rewards preparation and punishes drift. We invest heavily in pleadings and documentary groundwork at the outset, because a well-framed plaint or written statement shapes every hearing that follows — and frequently produces a settlement on better terms than a judgment would."
+      "We appear in civil suits before Karkardooma District Court, Tis Hazari, Saket, Patiala House, Rohini, Dwarka, and the Delhi High Court in matters ranging from breach of contract and recovery of money to specific performance, permanent injunctions, partition and declaratory relief.",
+      "Civil litigation in India rewards meticulous preparation and punishes drift. We invest heavily in initial pleadings and documentary compilation, because a well-framed plaint or written statement shapes every hearing that follows — and frequently produces a settlement on better terms before prolonged trial."
     ],
     "servicesOffered": [
-      "Suits for recovery of money and damages",
-      "Breach of contract and specific performance claims",
-      "Injunctions, stay applications and interim relief",
-      "Partition, declaration and possession suits",
-      "Execution of decrees and enforcement proceedings",
-      "Civil appeals, revisions and writ petitions"
+      "Suits for recovery of money, damages and summary suits under Order XXXVII CPC",
+      "Breach of commercial contract and specific performance claims",
+      "Stay orders, interim relief and permanent injunctions",
+      "Partition, declaration of title and possession suits",
+      "Execution of decrees and bank account/property attachments",
+      "Civil appeals, revision petitions and writ petitions in Delhi High Court"
     ],
     "process": [
       {
         "step": 1,
         "title": "Case assessment",
-        "description": "We review your documents against limitation, jurisdiction and cause of action, and tell you candidly how strong the claim is before you commit to it."
+        "description": "We review your title deeds, contracts, limitation, and jurisdiction, providing a candid merits assessment before initiating litigation."
       },
       {
         "step": 2,
-        "title": "Notice and settlement attempt",
-        "description": "A properly drafted legal notice resolves a meaningful share of disputes. Where it does not, it strengthens the record for the suit that follows."
+        "title": "Notice and pre-institution mediation",
+        "description": "A comprehensive legal notice often resolves disputes swiftly. For commercial suits, we initiate mandatory pre-institution mediation under the Commercial Courts Act."
       },
       {
         "step": 3,
-        "title": "Pleadings and interim relief",
-        "description": "We file the plaint or written statement with a complete documentary compilation, and move immediately for interim protection where assets or possession are at risk."
+        "title": "Pleadings and interim injunction",
+        "description": "We file the plaint or written statement with complete documentary evidence and immediately move for interim protection where property or funds are at risk."
       },
       {
         "step": 4,
         "title": "Trial, judgment and execution",
-        "description": "We conduct evidence and arguments, and follow through on execution — a decree that is never enforced is not a result."
+        "description": "We lead examination of witnesses, conduct cross-examination, deliver arguments, and execute decrees to ensure actual financial recovery."
       }
     ],
     "benefits": [
-      "Honest merits assessment before you incur litigation costs",
-      "Interim relief pursued early to protect assets and possession",
-      "Written hearing updates after every listed date",
-      "Execution handled as part of the mandate, not as an afterthought"
+      "Honest merits assessment before incurring litigation costs",
+      "Prompt interim relief to secure property, possession and assets",
+      "Written hearing updates following every listing in Delhi courts",
+      "End-to-end execution of court decrees and attachment of assets"
     ],
-    "metaDescription": "Civil litigation lawyers for recovery suits, breach of contract, injunctions, partition and civil appeals. Get a candid case assessment.",
-    "keywords": ["civil litigation lawyer", "recovery suit", "breach of contract", "injunction", "civil appeal"]
+    "metaDescription": "Leading civil litigation lawyers in Delhi NCR for recovery suits, injunctions, partition suits, breach of contract and appeals across Karkardooma and Delhi High Court.",
+    "keywords": [
+      "best civil lawyer in delhi",
+      "civil litigation lawyer delhi ncr",
+      "recovery suit advocate karkardooma court",
+      "injunction lawyer delhi",
+      "partition suit advocate east delhi",
+      "delhi high court civil lawyer",
+      "tis hazari civil litigation advocate"
+    ],
+    "courts": [
+      "Karkardooma District Court Complex, Delhi",
+      "Tis Hazari District Court, Delhi",
+      "Patiala House District Court, Delhi",
+      "Saket District Court, Delhi",
+      "Rohini & Dwarka District Courts, Delhi",
+      "High Court of Delhi (Original & Appellate Side)",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Code of Civil Procedure, 1908 (CPC)",
+        "description": "The foundational procedural code governing civil suits, injunctions under Order 39, summary suits under Order 37, and execution of decrees."
+      },
+      {
+        "name": "Specific Relief Act, 1963",
+        "description": "Provides statutory remedies for specific performance of contracts, declaratory decrees, and temporary/permanent injunctions."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How quickly can I get a stay order or temporary injunction in Delhi?",
+        "answer": "In urgent matters where there is imminent threat of dispossession, demolition, or alienation of property, an application under Order 39 Rules 1 & 2 CPC can be moved on the very first day of listing for ex-parte ad-interim injunction."
+      },
+      {
+        "question": "What is the limitation period for filing a money recovery suit?",
+        "answer": "Under the Limitation Act 1963, the limitation period for filing a money recovery suit is generally three years from the date the cause of action arose or when the payment fell due."
+      }
+    ]
   },
   {
     "slug": "criminal-defense",
     "title": "Criminal Defense",
-    "tagline": "Urgent, discreet defence at every stage — from FIR to appeal.",
+    "tagline": "Urgent, discreet defence across Delhi NCR — from anticipatory bail and FIR quashing to trial and appeal.",
     "icon": "gavel",
     "featured": true,
     "overview": [
-      "We defend individuals and companies across the criminal process: anticipatory and regular bail, quashing of FIRs, trial defence, and appeals. We also act for complainants where a genuine offence has been met with police inaction.",
-      "Criminal matters are decided in the first seventy-two hours as often as at trial. Our priority in a new brief is immediate — secure liberty, preserve the client's ability to answer the allegation, and prevent avoidable damage to reputation. All criminal instructions are handled with strict confidentiality and, where required, under legal professional privilege."
+      "We defend individuals, directors, and professionals across the full spectrum of criminal law: Anticipatory Bail, Regular Bail, FIR Quashing under Section 482 CrPC / Section 528 BNSS, Trial Defence, and Criminal Appeals across Karkardooma Court, Delhi District Courts, and the Delhi High Court.",
+      "Criminal matters are frequently won or lost in the first seventy-two hours. Our immediate focus is protecting personal liberty, safeguarding constitutional rights, preventing arbitrary arrest, and defending our clients with unwavering rigor in court. All criminal matters are handled under strict confidentiality and legal privilege."
     ],
     "servicesOffered": [
-      "Anticipatory bail, regular bail and interim protection",
-      "Quashing petitions and challenges to FIRs and charge sheets",
-      "Trial defence before Magistrate and Sessions Courts",
-      "Economic offence, white-collar and fraud defence",
-      "Criminal appeals, revisions and suspension of sentence",
-      "Representation in police investigation and summons"
+      "Anticipatory bail applications before Sessions Courts and Delhi High Court",
+      "Regular bail, interim bail and medical bail hearings",
+      "FIR quashing petitions under Section 482 CrPC / Section 528 BNSS",
+      "Trial defence in IPC/BNS offences, matrimonial 498A, and financial crimes",
+      "Economic Offences Wing (EOW), CBI, and ED defence representation",
+      "Criminal appeals, revision petitions, and suspension of sentences"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Immediate response",
-        "description": "We take urgent criminal calls outside office hours. The first conversation covers custody risk, what to say to the police, and what not to sign."
+        "title": "Immediate emergency response",
+        "description": "We take urgent criminal enquiries immediately. The initial consultation assesses custody risk, police summons, and protective legal steps."
       },
       {
         "step": 2,
-        "title": "Protecting liberty",
-        "description": "We move for anticipatory or regular bail at the appropriate forum without delay, and seek interim protection where arrest is imminent."
+        "title": "Securing anticipatory or regular bail",
+        "description": "We draft and move urgent bail applications before the Sessions Judge or Delhi High Court without delay to secure freedom."
       },
       {
         "step": 3,
-        "title": "Building the defence",
-        "description": "We obtain the case diary and prosecution material, identify contradictions, and prepare a defence theory supported by documents and witnesses."
+        "title": "Evidentiary review and quashing",
+        "description": "We scrutinize the FIR, charge sheet, and police case diary to identify contradictions, filing quashing petitions where allegations are baseless."
       },
       {
         "step": 4,
-        "title": "Trial and appellate stages",
-        "description": "We conduct cross-examination and final arguments, and pursue appeal or revision where the outcome warrants it."
+        "title": "Courtroom trial and cross-examination",
+        "description": "We conduct strategic cross-examination of prosecution witnesses, present defence evidence, and deliver closing arguments."
       }
     ],
     "benefits": [
-      "Availability for genuinely urgent arrest and custody situations",
-      "Strict confidentiality on every criminal instruction",
-      "Clear guidance on conduct during investigation",
-      "Defence strategy explained in plain language, in writing"
+      "24/7 availability for emergency arrest, custody, and remand situations",
+      "Senior advocates with 28+ years of criminal trial advocacy experience",
+      "Chamber F-622 located directly within Karkardooma Court Complex",
+      "Uncompromising confidentiality and ethical representation"
     ],
-    "metaDescription": "Criminal defence advocates for bail, FIR quashing, trial defence and criminal appeals. Confidential consultation available.",
-    "keywords": ["criminal lawyer", "anticipatory bail", "FIR quashing", "criminal defence advocate", "bail application"]
+    "metaDescription": "Top criminal lawyers in Delhi NCR for anticipatory bail, regular bail, FIR quashing, 498A defence and criminal trials at Karkardooma Court and Delhi High Court.",
+    "keywords": [
+      "top criminal lawyer in delhi",
+      "best criminal defence advocate delhi ncr",
+      "anticipatory bail lawyer karkardooma court",
+      "bail advocate delhi high court",
+      "FIR quashing lawyer delhi",
+      "498A defence advocate delhi",
+      "criminal lawyer east delhi karkardooma"
+    ],
+    "courts": [
+      "Karkardooma District & Sessions Courts, Delhi",
+      "Tis Hazari District & Sessions Courts, Delhi",
+      "Patiala House District Courts (Special CBI & ED Courts)",
+      "Saket, Rohini, and Dwarka District Courts, Delhi",
+      "Rouse Avenue Special Courts, New Delhi",
+      "High Court of Delhi (Criminal Appellate & Writ Jurisdiction)",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Bharatiya Nyaya Sanhita, 2023 (BNS) & Indian Penal Code, 1860 (IPC)",
+        "description": "The substantive criminal laws defining offences, criminal liability, and statutory punishments."
+      },
+      {
+        "name": "Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) & Code of Criminal Procedure, 1973 (CrPC)",
+        "description": "The procedural laws governing investigation, arrest, anticipatory bail (s. 438 CrPC / s. 482 BNSS), regular bail, trial, and appeals."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between anticipatory bail and regular bail in Delhi?",
+        "answer": "Anticipatory bail is sought before arrest when a person apprehends arrest in a non-bailable offence, granting protection from custody. Regular bail is applied for after a person has already been arrested or surrendered before the court."
+      },
+      {
+        "question": "Can an FIR be quashed by the Delhi High Court?",
+        "answer": "Yes. Under Section 482 CrPC (now Section 528 BNSS), the High Court of Delhi has inherent powers to quash an FIR where the allegations do not disclose any offence, where the complaint is purely frivolous or malicious, or where parties in matrimonial or private disputes have reached an amicable settlement."
+      }
+    ]
   },
   {
     "slug": "family-law",
     "title": "Family Law",
-    "tagline": "Steady counsel on custody, maintenance, guardianship and succession.",
+    "tagline": "Empathetic, resolute counsel on child custody, maintenance, domestic violence and succession across Delhi NCR.",
     "icon": "family",
     "featured": true,
     "overview": [
-      "We advise on child custody and guardianship, maintenance and interim maintenance, domestic violence proceedings, adoption, and succession and inheritance disputes across the personal laws applicable in India.",
-      "Family matters carry consequences that outlast the litigation, particularly where children are involved. We push for negotiated and mediated outcomes wherever they are achievable and safe, and litigate firmly where they are not. Where there are allegations of violence or coercion, protection comes before procedure."
+      "We advise on child custody and guardianship, interim maintenance claims, Domestic Violence (DV Act) proceedings, adoption, and succession disputes across Delhi Family Courts and the Delhi High Court.",
+      "Family disputes carry deep emotional impact. We prioritize negotiated settlements and mediation wherever safe and viable, while litigating firmly when client rights or children's welfare are threatened."
     ],
     "servicesOffered": [
-      "Child custody, visitation and guardianship petitions",
-      "Maintenance and interim maintenance claims and defences",
-      "Domestic violence complaints and protection orders",
-      "Adoption and legal guardianship documentation",
-      "Succession certificates, probate and inheritance disputes",
-      "Family settlement and partition agreements"
+      "Child custody, visitation rights and legal guardianship petitions",
+      "Maintenance and interim maintenance under Section 125 CrPC / 144 BNSS",
+      "Protection orders and residence orders under Domestic Violence Act (PWDVA)",
+      "Succession certificates, probate petitions and Letter of Administration",
+      "Family settlement deeds and ancestral property partition agreements",
+      "Adoption documentation and Hindu Minority and Guardianship proceedings"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Private consultation",
-        "description": "A confidential session to understand the family situation, the immediate risks, and what outcome would actually work for you."
+        "title": "Confidential family consultation",
+        "description": "A private session to evaluate immediate domestic safety, financial dependencies, and realistic legal remedies."
       },
       {
         "step": 2,
-        "title": "Protection and interim orders",
-        "description": "Where there is risk to a spouse or child, or a maintenance shortfall, we seek interim relief before the main proceeding advances."
+        "title": "Interim protection and maintenance",
+        "description": "Where there is financial distress or threat of eviction, we seek immediate interim orders for maintenance and protection."
       },
       {
         "step": 3,
-        "title": "Negotiation or mediation",
-        "description": "We attempt a settlement or mediated parenting arrangement where it is safe and realistic, documented so it is enforceable."
+        "title": "Court-annexed mediation",
+        "description": "We participate in structured mediation to achieve fair, binding parenting and financial settlements."
       },
       {
         "step": 4,
-        "title": "Court proceedings",
-        "description": "Where settlement fails, we conduct the petition through evidence and arguments, keeping the child's interest at the centre of the case."
+        "title": "Family court trial",
+        "description": "Where mediation fails, we conduct evidence and arguments before the Family Court Judge, prioritizing child welfare."
       }
     ],
     "benefits": [
-      "Consultations handled with discretion and without judgement",
-      "Settlement pursued first, litigation conducted firmly when needed",
-      "Realistic guidance on custody and maintenance outcomes",
-      "Enforceable documentation for negotiated arrangements"
+      "Compassionate, discreet handling of sensitive family matters",
+      "Focus on securing children's welfare and financial stability",
+      "Experienced negotiators for mediation and family settlements",
+      "Representation across all Family Courts in Delhi NCR"
     ],
-    "metaDescription": "Family law advocates for child custody, maintenance, guardianship, domestic violence and succession matters. Confidential consultation.",
-    "keywords": ["family lawyer", "child custody", "maintenance case", "guardianship", "succession certificate"]
+    "metaDescription": "Top family lawyers in Delhi NCR for child custody, maintenance, domestic violence, and succession certificates. Singla & Singla Law Firm at Karkardooma Court.",
+    "keywords": [
+      "best family lawyer in delhi",
+      "family court advocate karkardooma",
+      "child custody lawyer delhi ncr",
+      "maintenance advocate section 125 crpc",
+      "domestic violence lawyer delhi",
+      "succession certificate advocate delhi"
+    ],
+    "courts": [
+      "Family Courts Complex, Karkardooma Court, Delhi",
+      "Family Courts at Saket, Tis Hazari, Rohini, and Dwarka",
+      "High Court of Delhi (Family Court Appeals)",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Protection of Women from Domestic Violence Act, 2005 (PWDVA)",
+        "description": "Provides civil remedies including protection orders, residence orders, monetary relief, and custody orders."
+      },
+      {
+        "name": "Hindu Marriage Act, 1955 & Special Marriage Act, 1954",
+        "description": "Statutes governing matrimonial rights, restitution of conjugal rights, judicial separation, and maintenance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How is child custody decided in Delhi Family Courts?",
+        "answer": "The paramount consideration of Delhi Family Courts in determining child custody is the welfare and best interests of the child, assessing financial stability, emotional bond, educational environment, and the child's preference (if of discerning age)."
+      },
+      {
+        "question": "Can a wife claim interim maintenance immediately upon filing?",
+        "answer": "Yes. Applications for interim maintenance can be filed alongside the main petition under Section 125 CrPC (s. 144 BNSS), Section 24 HMA, or the DV Act, and courts assess both parties' income affidavits under Supreme Court guidelines (Rajnesh v. Neha)."
+      }
+    ]
   },
   {
     "slug": "divorce-law",
     "title": "Divorce Law",
-    "tagline": "Mutual-consent and contested divorce, handled with discretion.",
+    "tagline": "Mutual consent and contested divorce, alimony, and asset division handled with precision and discretion.",
     "icon": "heartBroken",
     "featured": true,
     "overview": [
-      "We act in mutual-consent and contested divorce petitions, judicial separation, nullity, and the financial and custodial questions that accompany them — alimony, permanent maintenance, division of assets and parenting arrangements.",
-      "A mutual-consent divorce that is properly documented is faster, cheaper and far less damaging than a contested one. We test whether that route is available in every matter before advising otherwise, and where a contest is unavoidable, we prepare for it thoroughly from the first hearing."
+      "We represent spouses in mutual consent divorce petitions, contested divorce proceedings, judicial separation, annulment of marriage, and related financial settlements including permanent alimony, Streedhan recovery, and child custody.",
+      "A mutual-consent divorce handled properly is faster, cost-effective, and far less stressful. We guide clients on achieving clean settlement agreements, and where a contested divorce is necessary, we build a thorough evidentiary case from the outset."
     ],
     "servicesOffered": [
-      "Mutual-consent divorce petitions and settlement deeds",
-      "Contested divorce on statutory grounds",
-      "Alimony, permanent maintenance and asset division",
-      "Judicial separation and nullity petitions",
-      "Custody and parenting arrangements within divorce proceedings",
-      "Transfer petitions and NRI divorce matters"
+      "Mutual consent divorce petitions under Section 13B HMA / Section 28 SMA",
+      "Waiver of statutory 6-month cooling-off period applications",
+      "Contested divorce petitions on grounds of cruelty, desertion, and adultery",
+      "Permanent alimony and Streedhan recovery settlement deeds",
+      "NRI divorce proceedings and power of attorney representation",
+      "Transfer petitions before the Supreme Court of India"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Confidential assessment",
-        "description": "We identify the applicable personal law, the available grounds, and whether a mutual-consent route is realistically achievable."
+        "title": "Case evaluation",
+        "description": "We assess grounds of divorce, marriage duration, Streedhan status, and determine whether mutual consent is viable."
       },
       {
         "step": 2,
-        "title": "Terms of settlement",
-        "description": "Where consent is possible, we negotiate and draft settlement terms covering maintenance, assets and custody so nothing resurfaces later."
+        "title": "Settlement & MOU drafting",
+        "description": "For mutual consent, we draft a comprehensive Memorandum of Understanding settling all monetary, property, and custody terms."
       },
       {
         "step": 3,
-        "title": "Petition and appearances",
-        "description": "We file the petition, prepare you for statements before the court, and manage the statutory waiting period and its waiver where available."
+        "title": "First & second motion filings",
+        "description": "We file the First Motion petition, prepare parties for statements, and move applications for waiving the statutory waiting period."
       },
       {
         "step": 4,
-        "title": "Decree and enforcement",
-        "description": "We obtain the decree and, where required, enforce maintenance or property terms that are not voluntarily honoured."
+        "title": "Divorce decree & enforcement",
+        "description": "We obtain the certified final decree of divorce and ensure complete compliance with financial and custody settlement terms."
       }
     ],
     "benefits": [
-      "Mutual-consent route tested first to reduce cost and conflict",
-      "Settlement deeds drafted to be final and enforceable",
-      "Sensitive handling of matters involving children",
-      "Experience with NRI and transfer petition complications"
+      "Expedited mutual consent divorce with cooling-off period waiver",
+      "Carefully drafted MOUs preventing future litigation",
+      "Discreet, sensitive legal handling for high-net-worth and NRI clients",
+      "Regular appearances before Karkardooma and all Delhi Family Courts"
     ],
-    "metaDescription": "Divorce lawyers for mutual consent and contested divorce, alimony, maintenance and custody. Discreet, practical advice.",
-    "keywords": ["divorce lawyer", "mutual consent divorce", "contested divorce", "alimony", "NRI divorce"]
+    "metaDescription": "Best divorce lawyers in Delhi NCR for mutual consent divorce, contested divorce, alimony, child custody and NRI divorce matters. Singla & Singla Law Firm.",
+    "keywords": [
+      "best divorce lawyer in delhi",
+      "mutual consent divorce lawyer delhi ncr",
+      "divorce advocate karkardooma court",
+      "contested divorce lawyer delhi",
+      "alimony and child custody advocate delhi",
+      "NRI divorce lawyer in delhi"
+    ],
+    "courts": [
+      "Family Courts, Karkardooma Court Complex, Delhi",
+      "Family Courts at Saket, Tis Hazari, Patiala House, Rohini, Dwarka",
+      "High Court of Delhi",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Hindu Marriage Act, 1955 — Section 13 & 13B",
+        "description": "Governs contested divorce on statutory grounds and mutual consent divorce with two-motion procedure."
+      },
+      {
+        "name": "Special Marriage Act, 1954 — Section 28",
+        "description": "Provides for mutual consent divorce for marriages registered under civil law."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How quickly can a mutual consent divorce be finalized in Delhi?",
+        "answer": "With the Supreme Court ruling in Amardeep Singh v. Harveen Kaur, Delhi Family Courts can waive the 6-month cooling-off period between First and Second Motion if all settlement terms are fulfilled, allowing the divorce decree to be granted in as little as a few weeks."
+      },
+      {
+        "question": "Can an NRI obtain mutual consent divorce without appearing in person in Delhi?",
+        "answer": "Yes. Delhi Family Courts permit NRI spouses residing abroad to record statements via video conferencing through authorized Special Power of Attorney (SPA) representation."
+      }
+    ]
   },
   {
     "slug": "property-law",
     "title": "Property Law",
-    "tagline": "Title diligence, transfers and possession disputes resolved cleanly.",
+    "tagline": "Title due diligence, registry documentation, partition and possession disputes across Delhi NCR.",
     "icon": "home",
     "featured": true,
     "overview": [
-      "We handle title verification, sale and transfer documentation, mutation and registration, partition of joint family property, and disputes over possession, easements and encroachment.",
-      "Most property litigation traces back to a document that was signed without diligence. We would rather spend a week verifying a title chain than three years litigating it, and we say so plainly when a proposed transaction should not proceed on the papers available."
+      "We handle property title verification, builder-buyer disputes, sale and conveyance deed registrations, mutation in revenue records, partition of ancestral property, and eviction/possession litigation across East Delhi, Karkardooma Court, and Delhi NCR.",
+      "Most real estate litigation stems from signing sale agreements without independent title due diligence. We examine 30-year title chains, encumbrance certificates, master plan zoning, and revenue records to protect our clients before transactions conclude."
     ],
     "servicesOffered": [
-      "Title search, verification and legal opinion",
-      "Sale deeds, gift deeds, lease deeds and agreements to sell",
-      "Registration, stamp duty advisory and mutation",
-      "Partition suits and family property division",
-      "Possession, encroachment and easement disputes",
-      "Landlord and tenant disputes and eviction proceedings"
+      "Property title verification, 30-year search and legal search reports",
+      "Sale deed, gift deed, relinquishment deed and lease agreement drafting",
+      "Registration and sub-registrar appearance across Delhi NCR",
+      "Partition suits, declaration of ownership and injunctions",
+      "Possession, illegal encroachment and boundary dispute litigation",
+      "RERA complaints and builder delay compensation claims"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Document review",
-        "description": "We examine the title chain, revenue records and encumbrances, and issue a written opinion identifying every defect we find."
+        "title": "Title & document search",
+        "description": "We examine chain deeds, mutation records, Sub-Registrar records, and municipal approvals, providing a clear written title opinion."
       },
       {
         "step": 2,
-        "title": "Risk decision",
-        "description": "We distinguish defects that can be cured from those that cannot, so you can decide whether to proceed, renegotiate or walk away."
+        "title": "Risk & defect analysis",
+        "description": "We distinguish curable defects from fatal encumbrances, advising whether to proceed, renegotiate price, or exit safely."
       },
       {
         "step": 3,
-        "title": "Documentation and registration",
-        "description": "We draft and register the operative documents, advise on stamp duty, and complete mutation in the revenue records."
+        "title": "Drafting & Sub-Registrar execution",
+        "description": "We draft operative conveyance deeds, compute precise stamp duty, and assist in physical execution at the Sub-Registrar office."
       },
       {
         "step": 4,
-        "title": "Dispute resolution",
-        "description": "Where a dispute already exists, we pursue injunction, declaration or possession relief, or negotiate a documented settlement."
+        "title": "Court litigation & stay orders",
+        "description": "Where disputes exist, we move for immediate stay orders, injunctions against third-party sale, and pursue partition or possession decrees."
       }
     ],
     "benefits": [
-      "Written title opinions that state risk plainly",
-      "Stamp duty and registration handled end to end",
-      "Clear advice on when not to buy",
-      "Revenue record follow-through after registration"
+      "Thorough 30-year title search protecting property investments",
+      "End-to-end conveyance drafting, stamp duty advisory and registration",
+      "Assertive trial representation in Karkardooma and Delhi District Courts",
+      "Experienced handling of complex joint-family property partitions"
     ],
-    "metaDescription": "Property lawyers for title verification, sale deeds, registration, partition suits and possession disputes. Get a written title opinion.",
-    "keywords": ["property lawyer", "title verification", "sale deed", "partition suit", "property dispute"]
+    "metaDescription": "Leading property lawyers in Delhi NCR for title verification, partition suits, sale deed registration, and property dispute litigation. Singla & Singla Law Firm.",
+    "keywords": [
+      "best property lawyer in delhi",
+      "property dispute advocate karkardooma",
+      "property title verification lawyer delhi ncr",
+      "partition suit advocate delhi",
+      "sale deed registration lawyer east delhi",
+      "RERA advocate delhi"
+    ],
+    "courts": [
+      "Karkardooma District Court Complex, Delhi",
+      "Tis Hazari District Court, Delhi",
+      "Saket District Court, Delhi",
+      "Delhi Real Estate Regulatory Authority (RERA) & Appellate Tribunal (REAT)",
+      "High Court of Delhi"
+    ],
+    "keyLaws": [
+      {
+        "name": "Transfer of Property Act, 1882",
+        "description": "Governs the sale, mortgage, lease, gift, and exchange of immovable property in India."
+      },
+      {
+        "name": "Registration Act, 1908 & Indian Stamp Act, 1899",
+        "description": "Mandates compulsory registration of property conveyances and the payment of state stamp duty."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What documents are required for complete property title verification in Delhi?",
+        "answer": "Complete title verification requires the parent sale deeds spanning 30 years, sanctioned building plans, mutation certificate from MCD/DDA, latest house tax receipts, electricity bills, non-encumbrance certificate from the Sub-Registrar, and verification of title in revenue records."
+      },
+      {
+        "question": "How do I stop someone from selling my ancestral property in Delhi?",
+        "answer": "You can immediately file a suit for partition and declaration along with an urgent application for temporary injunction under Order 39 Rules 1 & 2 CPC to obtain a court stay restraining the co-sharer from selling or alienating the property."
+      }
+    ]
   },
   {
     "slug": "consumer-protection",
     "title": "Consumer Protection",
-    "tagline": "Holding builders, insurers and service providers to their promises.",
+    "tagline": "Holding builders, insurers, banks, and corporations accountable before Consumer Commissions.",
     "icon": "cart",
     "featured": true,
     "overview": [
-      "We represent consumers before the District, State and National Consumer Disputes Redressal Commissions in complaints against builders, insurers, banks, hospitals, e-commerce platforms and service providers.",
-      "Consumer forums are designed to be accessible, and the remedies — refund, compensation, interest and litigation costs — are real. We also defend businesses facing consumer complaints, which gives us a working sense of how these cases are actually argued and settled."
+      "We represent consumers, home-buyers, and commercial entities before District Consumer Commissions (including Karkardooma East Delhi), the Delhi State Consumer Commission, and the National Consumer Disputes Redressal Commission (NCDRC).",
+      "From builder delays in handing over flats to insurance claim repudiations and medical negligence, we pursue maximum compensation, refunds with interest, and litigation costs under the Consumer Protection Act, 2019."
     ],
     "servicesOffered": [
-      "Complaints against builders for delayed or defective possession",
-      "Insurance claim repudiation and deficiency of service",
-      "Banking, NBFC and financial service complaints",
-      "Medical negligence and professional deficiency claims",
-      "E-commerce, unfair trade practice and misleading advertisement matters",
-      "Defence of businesses in consumer commission proceedings"
+      "Complaints against real estate developers for delayed possession and refunds",
+      "Insurance claim rejection and deficiency of service disputes",
+      "Banking, credit card, and NBFC unauthorized transaction disputes",
+      "Medical negligence and healthcare malpractice claims",
+      "E-commerce product defects and unfair trade practice claims",
+      "Execution and recovery proceedings for consumer awards"
     ],
     "process": [
       {
         "step": 1,
         "title": "Deficiency assessment",
-        "description": "We check whether the facts amount to a deficiency in service or unfair trade practice, and confirm the correct forum and pecuniary limit."
+        "description": "We examine the contractual default, quantify financial loss, and determine whether District, State, or National Commission has pecuniary jurisdiction."
       },
       {
         "step": 2,
-        "title": "Notice and documentation",
-        "description": "We issue a notice and assemble the paper trail — contracts, receipts, correspondence — that consumer commissions decide cases on."
+        "title": "Statutory legal notice",
+        "description": "We issue a formal legal notice granting the service provider 15–30 days to rectify deficiency, establishing strong grounds for litigation."
       },
       {
         "step": 3,
-        "title": "Filing the complaint",
-        "description": "We draft and file the complaint with a clear, quantified prayer for refund, compensation and interest."
+        "title": "Commission filing & arguments",
+        "description": "We draft and file the consumer complaint with evidence, arguing for full refund, interest, and punitive damages."
       },
       {
         "step": 4,
-        "title": "Hearing and execution",
-        "description": "We argue the matter and pursue execution of the order, including recovery proceedings where the opposite party delays."
+        "title": "Execution & recovery",
+        "description": "We enforce recovery warrants and execution proceedings under Section 71 & 72 of the Consumer Protection Act to ensure actual payment."
       }
     ],
     "benefits": [
-      "Cost-proportionate approach suited to consumer claims",
-      "Correct forum and valuation chosen at the outset",
-      "Quantified compensation claims, not vague prayers",
-      "Execution pursued until the award is actually paid"
+      "Cost-effective litigation with defined recovery objectives",
+      "Comprehensive claims for refund, interest and mental agony damages",
+      "Regular appearances before NCDRC New Delhi and State Commission",
+      "Rigorous execution until compensation is credited to client accounts"
     ],
-    "metaDescription": "Consumer protection lawyers for builder delays, insurance claim rejection, medical negligence and unfair trade practices.",
-    "keywords": ["consumer court lawyer", "builder delay complaint", "insurance claim rejection", "consumer commission", "medical negligence"]
-  },
-  {
-    "slug": "cheque-bounce",
-    "title": "Cheque Bounce",
-    "tagline": "Section 138 complaints and defence, driven to recovery rather than a decree.",
-    "icon": "cheque",
-    "featured": true,
-    "overview": [
-      "We act for payees prosecuting dishonoured cheques under Section 138 of the Negotiable Instruments Act, 1881, and for drawers defending those complaints — alongside the parallel summary suit under Order XXXVII that is often the faster route to the money itself.",
-      "Cheque bounce matters are won or lost on dates. The demand notice must issue within thirty days of the bank memo, the drawer gets fifteen days to pay, and the complaint must be filed within the month that follows. We calendar those windows the day you instruct us, because a notice sent a day late converts a strong case into no case at all."
+    "metaDescription": "Top consumer court lawyers in Delhi NCR for builder delays, insurance claim rejection, NCDRC complaints and medical negligence. Singla & Singla Law Firm.",
+    "keywords": [
+      "consumer court lawyer delhi",
+      "NCDRC advocate delhi",
+      "builder delay consumer complaint delhi ncr",
+      "insurance claim rejection lawyer",
+      "district consumer forum karkardooma lawyer"
     ],
-    "servicesOffered": [
-      "Statutory demand notices under Section 138 within the limitation window",
-      "Filing and conduct of Section 138 complaints before the Magistrate",
-      "Defence of drawers, including challenges to notice, service and legally enforceable debt",
-      "Summary suits under Order XXXVII for recovery of the cheque amount with interest",
-      "Interim compensation and appeal applications under Section 143A and 148",
-      "Compounding, settlement and execution of the compensation order"
-    ],
-    "process": [
-      {
-        "step": 1,
-        "title": "Memo and limitation check",
-        "description": "We read the return memo, the underlying transaction and the dates. Before anything else, you are told exactly how many days remain on each statutory window."
-      },
-      {
-        "step": 2,
-        "title": "Demand notice",
-        "description": "We draft and dispatch the notice by registered post and email with proof of service, framed so the debt and the demand are unambiguous on the face of it."
-      },
-      {
-        "step": 3,
-        "title": "Complaint or defence",
-        "description": "If payment does not follow, we file the complaint with the bank records and notice trail annexed — or, for a drawer, we test whether the debt was legally enforceable and whether the notice was validly served."
-      },
-      {
-        "step": 4,
-        "title": "Settlement, trial and recovery",
-        "description": "Most of these matters settle once summons issue, and we negotiate on that footing. Where they do not, we conduct the trial and then execute the compensation order until it is actually paid."
-      }
-    ],
-    "benefits": [
-      "Statutory deadlines diarised at intake so the remedy is never lost",
-      "Parallel summary suit advised where recovery, not conviction, is the object",
-      "Interim compensation pursued under Section 143A while the trial runs",
-      "Execution followed through — an order on paper is not payment"
-    ],
-    "metaDescription": "Cheque bounce lawyers for Section 138 complaints, demand notices, drawer defence, Order XXXVII summary suits and recovery of the cheque amount.",
-    "keywords": ["cheque bounce lawyer", "section 138 complaint", "cheque dishonour case", "demand notice cheque bounce", "cheque bounce defence"],
-    "related": ["banking-law", "civil-litigation", "corporate-law"],
-    "updated": "2026-09-05",
     "courts": [
-      "Court of the Judicial Magistrate, Karkardooma Court, Delhi",
-      "Tis Hazari, Saket, Rohini, Dwarka and Patiala House Courts, Delhi",
-      "District Courts at Gautam Budh Nagar, Ghaziabad, Gurugram and Faridabad",
-      "Sessions Courts, on appeal against conviction or acquittal",
-      "High Court of Delhi, on quashing and revision petitions"
+      "District Consumer Disputes Redressal Commission (East Delhi, Karkardooma)",
+      "District Consumer Commissions (New Delhi, South, Central)",
+      "State Consumer Disputes Redressal Commission, Delhi",
+      "National Consumer Disputes Redressal Commission (NCDRC, New Delhi)"
     ],
     "keyLaws": [
       {
-        "name": "Negotiable Instruments Act, 1881 — Section 138",
-        "description": "Creates the offence of dishonouring a cheque drawn for the discharge of a legally enforceable debt. Punishable with imprisonment of up to two years, a fine of up to twice the cheque amount, or both.",
-        "url": "https://www.indiacode.nic.in/handle/123456789/2263"
-      },
-      {
-        "name": "Negotiable Instruments Act, 1881 — Section 139",
-        "description": "Presumes that the cheque was issued to discharge a debt or liability. The presumption is rebuttable, and displacing it is the whole of the drawer's defence."
-      },
-      {
-        "name": "Negotiable Instruments Act, 1881 — Section 142",
-        "description": "Governs who may complain and where. Since the 2015 amendment, jurisdiction lies with the court where the payee's bank branch is situated."
-      },
-      {
-        "name": "Negotiable Instruments Act, 1881 — Sections 143A and 148",
-        "description": "Allow interim compensation of up to twenty per cent of the cheque amount during trial, and a deposit of at least twenty per cent as a condition of appeal."
-      },
-      {
-        "name": "Code of Civil Procedure, 1908 — Order XXXVII",
-        "description": "The summary suit. Frequently the faster route to the money itself, and commonly run in parallel with the Section 138 complaint."
-      },
-      {
-        "name": "Bharatiya Nagarik Suraksha Sanhita, 2023",
-        "description": "Supplies the procedure the complaint follows — summons, plea, evidence and sentencing — having replaced the Code of Criminal Procedure, 1973 with effect from 1 July 2024."
+        "name": "Consumer Protection Act, 2019",
+        "description": "Empowers consumers to seek compensation, product recall, and penalties for unfair trade practices and deficiency of service."
       }
     ],
     "faqs": [
       {
-        "question": "How long do I have to file a cheque bounce case?",
-        "answer": "Three deadlines run in sequence, and missing any one of them ends the remedy. The cheque must be presented within its validity period, which is three months from the date it bears. The demand notice must be sent within thirty days of your bank informing you of the dishonour. The drawer then has fifteen days to pay, and if they do not, the complaint must be filed within the thirty days that follow. A notice issued on the thirty-first day cannot be cured, so the dates are the first thing we check when you instruct us."
+        "question": "What is the pecuniary jurisdiction of consumer courts in Delhi?",
+        "answer": "Under the Consumer Protection Act 2019: District Commissions handle claims up to ₹50 Lakhs; State Consumer Commission handles claims between ₹50 Lakhs and ₹2 Crores; National Commission (NCDRC) handles claims exceeding ₹2 Crores."
+      }
+    ]
+  },
+  {
+    "slug": "cheque-bounce",
+    "title": "Cheque Bounce",
+    "tagline": "Section 138 NI Act complaints, statutory notices and aggressive recovery litigation across Delhi courts.",
+    "icon": "cheque",
+    "featured": true,
+    "overview": [
+      "We act for payees prosecuting dishonoured cheques under Section 138 of the Negotiable Instruments Act, 1881, and for drawers defending those complaints — alongside parallel summary recovery suits under Order XXXVII CPC.",
+      "Cheque bounce matters are won or lost on strict statutory limitation dates. The demand notice must issue within thirty days of the bank return memo, the drawer gets fifteen days to pay, and the complaint must be filed within the following month. We diarize these dates immediately upon intake."
+    ],
+    "servicesOffered": [
+      "Statutory legal demand notices under Section 138 NI Act within limitation",
+      "Filing and trial conduct of Section 138 criminal complaints before the Magistrate",
+      "Drawer defence against fraudulent, security or time-barred cheque claims",
+      "Summary suits under Order XXXVII CPC for speedy financial recovery",
+      "Interim compensation applications under Section 143A (up to 20% of cheque amount)",
+      "Compounding of offence, mediation and execution of compensation orders"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Bank memo & limitation check",
+        "description": "We verify the bank return memo, underlying debt, and calendar the strict statutory windows."
       },
       {
-        "question": "What documents do I need to start a Section 138 case?",
-        "answer": "The dishonoured cheque itself, the bank return memo stating the reason for dishonour, and proof of the debt the cheque was issued against — an invoice, agreement, ledger entry or loan record. Once the notice goes out, the postal receipt and tracking record become part of the file too, because service of the notice is one of the points most often contested at trial."
+        "step": 2,
+        "title": "Statutory demand notice",
+        "description": "We issue the demand notice by registered speed post and email with tracking proof."
       },
       {
-        "question": "Can I recover the cheque amount itself, or only get the drawer convicted?",
-        "answer": "Both routes exist and they are not the same thing. The Section 138 complaint is a criminal proceeding, and the court can award compensation under Section 357 of the sentencing provisions. Where recovery rather than conviction is the object, a summary suit under Order XXXVII of the Civil Procedure Code is usually the faster path to the money, and it can be run alongside the complaint. We advise on which to lead with once we have seen the underlying transaction."
+        "step": 3,
+        "title": "Filing the complaint",
+        "description": "If payment is not made within 15 days, we file the complaint before the Judicial Magistrate with complete original evidence."
       },
       {
-        "question": "The complaint says the cheque was a security cheque. Is that a defence?",
-        "answer": "Sometimes, but it is not automatic. Section 139 presumes the cheque was issued against a legally enforceable debt, and the burden sits on the drawer to displace that presumption on the balance of probabilities. Whether a security cheque falls outside Section 138 depends on whether the debt had crystallised when the cheque was presented. It is an argument that needs the transaction documents behind it, not an assertion from the dock."
+        "step": 4,
+        "title": "Trial & financial recovery",
+        "description": "We examine witnesses, move for interim compensation under Section 143A, and pursue recovery through court execution."
+      }
+    ],
+    "benefits": [
+      "Strict tracking of statutory limitation deadlines so cases never lapse",
+      "Interim compensation of up to 20% pursued during ongoing trial",
+      "Direct chamber presence at Karkardooma Special NI Act Courts",
+      "Enforceable settlements and execution of compensation decrees"
+    ],
+    "metaDescription": "Best cheque bounce lawyers in Delhi NCR for Section 138 NI Act complaints, 138 legal demand notices, Order 37 summary suits and cheque recovery. Singla & Singla Law Firm.",
+    "keywords": [
+      "cheque bounce lawyer delhi",
+      "section 138 NI Act advocate karkardooma",
+      "cheque bounce lawyer delhi ncr",
+      "best 138 advocate delhi",
+      "cheque dishonour case lawyer",
+      "138 legal notice lawyer east delhi"
+    ],
+    "related": ["banking-law", "civil-litigation", "corporate-law"],
+    "updated": "2026-09-14",
+    "courts": [
+      "Special NI Act Courts, Karkardooma District Court, Delhi",
+      "Tis Hazari, Saket, Rohini, Dwarka and Patiala House Courts, Delhi",
+      "District Courts at Gautam Budh Nagar, Ghaziabad, Gurugram and Faridabad",
+      "Sessions Courts & High Court of Delhi (Criminal Revision & Appeals)"
+    ],
+    "keyLaws": [
+      {
+        "name": "Negotiable Instruments Act, 1881 — Section 138",
+        "description": "Makes dishonour of a cheque for insufficient funds a criminal offence punishable with up to 2 years imprisonment, double the cheque amount as fine, or both.",
+        "url": "https://www.indiacode.nic.in/handle/123456789/2263"
       },
       {
-        "question": "Which court will hear my cheque bounce case?",
-        "answer": "The court within whose jurisdiction the branch of the bank where you presented the cheque is situated. That has been the rule since the 2015 amendment to Section 142, which reversed the earlier position and stopped complaints being filed wherever the notice happened to be posted. For clients banking in East Delhi that usually means Karkardooma Court; we appear across the Delhi district courts and in the Gautam Budh Nagar, Ghaziabad, Gurugram and Faridabad courts as the branch dictates."
+        "name": "Negotiable Instruments Act, 1881 — Section 143A & 148",
+        "description": "Empowers courts to grant interim compensation of up to 20% of the cheque amount to the complainant during trial and appeal."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the timeline for filing a Section 138 cheque bounce case in Delhi?",
+        "answer": "The cheque must be presented within 3 months of issuance. Upon dishonour, a legal demand notice must be dispatched within 30 days of receiving the bank memo. The drawer has 15 days from receipt to pay. If they fail to pay, the complaint must be filed in court within 30 days thereafter."
       },
       {
-        "question": "Can a cheque bounce case be settled once it has been filed?",
-        "answer": "Yes. The offence is compoundable under Section 147 of the Act, and a large proportion of these matters settle once summons have issued and the drawer appreciates that the proceedings are real. Settlement is recorded before the court and the complaint is compounded. Where a settlement is reached we make sure the terms are captured in a form that is enforceable, so that a default on the settlement does not leave you starting again."
+        "question": "Can I claim interim compensation in a cheque bounce case in Delhi courts?",
+        "answer": "Yes. Under Section 143A of the NI Act, the Magistrate Court can direct the drawer to pay interim compensation of up to 20% of the cheque amount to the complainant during the trial itself."
       }
     ]
   },
   {
     "slug": "arbitration",
     "title": "Arbitration & Mediation",
-    "tagline": "Private, faster resolution of commercial disputes.",
+    "tagline": "Private, commercial dispute resolution and arbitration advocacy before DIAC and tribunals.",
     "icon": "handshake",
     "featured": true,
     "overview": [
-      "We act as counsel in domestic and international commercial arbitrations, draft and stress-test arbitration clauses, and represent clients in Section 9 and Section 34 proceedings before the courts under the Arbitration and Conciliation Act, 1996.",
-      "Arbitration delivers speed and privacy when the clause is well drafted and the process is run tightly. It delivers neither when the clause is copied from an unrelated contract. We spend real time on the dispute resolution clause at the drafting stage, because that is where arbitration succeeds or fails."
+      "We act as counsel in domestic and international commercial arbitrations, draft robust dispute resolution clauses, and represent clients in Section 9 (interim measures), Section 11 (appointment of arbitrators), and Section 34 (challenge to awards) proceedings before the Delhi High Court and commercial courts.",
+      "Arbitration delivers speed and confidentiality when managed properly. We structure arbitration proceedings to achieve enforceable arbitral awards without avoidable procedural delays."
     ],
     "servicesOffered": [
-      "Drafting and review of arbitration and dispute resolution clauses",
-      "Counsel in domestic and international commercial arbitration",
-      "Interim measures under Section 9 and Section 17",
-      "Challenge and enforcement of arbitral awards",
-      "Institutional and ad-hoc arbitrator appointment",
-      "Commercial mediation and conciliation"
+      "Arbitration advocacy before Delhi International Arbitration Centre (DIAC) and ad-hoc tribunals",
+      "Section 9 petitions for urgent interim protection and freezing of assets in Delhi High Court",
+      "Section 11 applications for appointment of sole arbitrator / tribunal",
+      "Section 34 petitions challenging arbitral awards on grounds of public policy and patent illegality",
+      "Execution and enforcement of domestic and foreign arbitral awards under Section 36",
+      "Commercial mediation and structured settlement agreements"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Clause and forum analysis",
-        "description": "We confirm the seat, governing law, appointment mechanism and scope, and identify any defect that could be used to derail the reference."
+        "title": "Clause review & strategy",
+        "description": "We analyze the arbitration agreement, seat, governing law, and prepare the formal notice invoking arbitration."
       },
       {
         "step": 2,
-        "title": "Invocation and constitution",
-        "description": "We issue the notice of arbitration and manage constitution of the tribunal, including court applications where appointment stalls."
+        "title": "Section 9 interim protection",
+        "description": "Where assets or contract performance are at risk, we move immediately before the High Court of Delhi for interim injunctions."
       },
       {
         "step": 3,
-        "title": "Pleadings and hearings",
-        "description": "We prepare statements of claim or defence, documentary compilations and witness evidence, and argue the hearings."
+        "title": "Tribunal constitution & pleadings",
+        "description": "We oversee tribunal appointment (or file Section 11) and draft statements of claim, defences, and documentary evidence."
       },
       {
         "step": 4,
-        "title": "Award, challenge or enforcement",
-        "description": "We enforce a favourable award or defend it against challenge, and advise on setting aside where the award is unsustainable."
+        "title": "Award & enforcement",
+        "description": "We conduct evidentiary hearings, deliver final arguments, and enforce the award through court execution."
       }
     ],
     "benefits": [
-      "Arbitration clauses drafted to work under pressure",
-      "Confidential process that keeps commercial disputes out of public record",
-      "Interim protection secured while the reference proceeds",
-      "Enforcement strategy planned before the award is delivered"
+      "Extensive experience before the Delhi High Court Original Side and DIAC",
+      "Confidential proceedings preserving commercial reputations",
+      "Prompt interim protection securing disputed funds and assets",
+      "Focused strategy on converting arbitral awards into actual recovery"
     ],
-    "metaDescription": "Arbitration and mediation counsel for commercial disputes, arbitration clause drafting, interim measures and award enforcement.",
-    "keywords": ["arbitration lawyer", "commercial arbitration", "arbitration clause", "award enforcement", "mediation"]
+    "metaDescription": "Top arbitration lawyers in Delhi NCR for DIAC arbitrations, Section 9 interim measures, Section 11 appointment, and Section 34 award challenges in Delhi High Court.",
+    "keywords": [
+      "arbitration lawyer delhi",
+      "commercial arbitration advocate delhi ncr",
+      "DIAC arbitration lawyer delhi",
+      "section 9 interim relief advocate delhi high court",
+      "arbitral award enforcement lawyer"
+    ],
+    "courts": [
+      "Delhi International Arbitration Centre (DIAC)",
+      "High Court of Delhi (Commercial Appellate & Original Division)",
+      "District Commercial Courts, Delhi",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Arbitration and Conciliation Act, 1996",
+        "description": "Governs domestic and international commercial arbitration, interim relief, and award enforcement in India."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I obtain interim relief before the arbitration tribunal is formed in Delhi?",
+        "answer": "Yes. Under Section 9 of the Arbitration and Conciliation Act 1996, a party can approach the High Court of Delhi or District Commercial Court for urgent interim measures, such as freezing bank accounts or restraining termination of contract, even before the tribunal is constituted."
+      }
+    ]
   },
   {
     "slug": "cyber-law",
     "title": "Cyber Law",
-    "tagline": "Response and remedy for online fraud, defamation and data breach.",
+    "tagline": "Immediate legal response for cyber fraud, online defamation, financial scams and IT Act offences.",
     "icon": "monitor",
     "featured": true,
     "overview": [
-      "We advise on cybercrime complaints, online financial fraud recovery, data protection compliance, content takedown and online defamation, and represent clients in proceedings under the Information Technology Act, 2000 and applicable data protection law.",
-      "Cyber matters are time-sensitive in a way most litigation is not: evidence disappears, funds move, and content spreads. Our first step is always preservation — freezing the trail through the correct complaint channels while the remedy is worked out."
+      "We advise victims and defend clients in cybercrime complaints, online financial fraud recovery, unauthorized banking transactions, content takedowns, online defamation, and proceedings under the Information Technology Act, 2000.",
+      "Cyber incidents require immediate evidence preservation and coordination with cyber cells and banks within the golden window to freeze defrauded funds before they are layered."
     ],
     "servicesOffered": [
-      "Cybercrime complaints and coordination with cyber cells",
-      "Online financial fraud, phishing and UPI fraud recovery",
-      "Content takedown, online defamation and impersonation",
-      "Data protection and privacy compliance advisory",
-      "Data breach response and regulatory notification",
-      "IT Act, intermediary liability and cyber defence matters"
+      "Cybercrime FIRs and complaints before Delhi Cyber Crime Cells (East Delhi / Karkardooma)",
+      "Online banking fraud, phishing and UPI scam fund-recovery proceedings",
+      "Content takedown notices and injunctions for online defamation and impersonation",
+      "Representation in IT Act offences, hacking, identity theft, and data breaches",
+      "Coordination with bank nodal officers and cyber police to freeze siphoned funds",
+      "Corporate data privacy and compliance under the DPDP Act"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Evidence preservation",
-        "description": "We help you capture and preserve digital evidence correctly, so it remains admissible and the trail does not go cold."
+        "title": "Digital evidence preservation",
+        "description": "We preserve transaction hashes, IP logs, email headers, and chat transcripts in compliance with Section 65B evidence standards."
       },
       {
         "step": 2,
-        "title": "Complaint and reporting",
-        "description": "We file with the appropriate cyber cell or portal and follow up formally, including bank and platform escalation for fraud recovery."
+        "title": "Emergency portal & police filing",
+        "description": "We lodge immediate formal complaints on the National Cyber Crime Portal (1930) and with Delhi Cyber Cell units."
       },
       {
         "step": 3,
-        "title": "Takedown or recovery action",
-        "description": "We pursue takedown notices, platform grievance escalation, or civil and criminal action depending on what will actually work."
+        "title": "Bank lien & court orders",
+        "description": "We coordinate with banking nodal authorities and obtain magistrate court orders under Section 457 CrPC / 503 BNSS to release frozen funds."
       },
       {
         "step": 4,
-        "title": "Compliance hardening",
-        "description": "For business clients, we close the gap that allowed the incident — policies, contracts, consent flows and breach procedures."
+        "title": "Court prosecution & defense",
+        "description": "We represent clients before Special Cyber Courts and District Courts across Delhi NCR."
       }
     ],
     "benefits": [
-      "Same-day guidance on preserving digital evidence",
-      "Practical fraud recovery route through banks and platforms",
-      "Discreet handling of reputation and defamation matters",
-      "Compliance advice that reduces the chance of a repeat"
+      "Immediate action to trace and freeze defrauded funds in bank accounts",
+      "Chamber located near Karkardooma Cyber Cell jurisdiction",
+      "Strong knowledge of Section 65B BSA electronic evidence rules",
+      "Discreet management of corporate and individual online reputations"
     ],
-    "metaDescription": "Cyber law advocates for online fraud recovery, cybercrime complaints, content takedown, defamation and data protection compliance.",
-    "keywords": ["cyber law advocate", "online fraud recovery", "cybercrime complaint", "data protection", "online defamation"]
+    "metaDescription": "Best cyber crime lawyers in Delhi NCR for online fraud recovery, cyber cell complaints, IT Act offences and online defamation. Singla & Singla Law Firm.",
+    "keywords": [
+      "cyber crime lawyer delhi",
+      "cyber fraud advocate delhi ncr",
+      "online banking fraud lawyer delhi",
+      "cyber cell advocate karkardooma",
+      "IT act lawyer delhi"
+    ],
+    "courts": [
+      "Special Cyber Crime Courts, Karkardooma Courts, Delhi",
+      "Special IT Act Courts, Patiala House Courts, New Delhi",
+      "High Court of Delhi"
+    ],
+    "keyLaws": [
+      {
+        "name": "Information Technology Act, 2000",
+        "description": "Defines electronic records, digital signatures, cyber offences, identity theft, and intermediary liability."
+      },
+      {
+        "name": "Digital Personal Data Protection Act, 2023 (DPDP)",
+        "description": "Regulates the processing of digital personal data and mandates data fiduciary obligations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How can I recover money lost in an online financial fraud in Delhi?",
+        "answer": "Report the fraud immediately to the cyber helpline (1930) and the Delhi Cyber Cell within the first 2 hours to freeze the recipient accounts. Subsequently, file an application before the Metropolitan Magistrate Court under Section 457 CrPC (now BNSS) to seek an order directing the bank to de-freeze and credit the funds back to your account."
+      }
+    ]
   },
   {
     "slug": "taxation",
-    "title": "Taxation",
-    "tagline": "Direct and indirect tax advisory, assessment and appeals.",
+    "title": "Taxation Law",
+    "tagline": "Direct and indirect tax litigation, GST appeals, ITAT hearings, and assessment advisory in Delhi NCR.",
     "icon": "receipt",
     "featured": true,
     "overview": [
-      "We advise individuals, firms and companies on direct and indirect tax positions, represent clients in scrutiny assessments, reassessment and search proceedings, and appear in appeals before the Commissioner, Tribunal and higher forums.",
-      "Tax disputes are won on documentation created long before the notice arrives. We advise on positions prospectively where we can, and where a notice has already issued, we respond on the record with the material that supports the position actually taken in the return."
+      "We advise individuals, high-net-worth families, and companies on direct and indirect tax matters, represent clients in scrutiny assessments, search & seizure cases, and conduct appeals before the CIT(A), Income Tax Appellate Tribunal (ITAT Delhi), and the Delhi High Court.",
+      "Tax disputes demand razor-sharp statutory interpretation and detailed evidentiary records. We represent clients at every assessment and appellate level to protect legitimate positions and seek stays on unjustified demands."
     ],
     "servicesOffered": [
-      "Income tax notices, scrutiny assessments and reassessment",
-      "GST registration, compliance, audits and show-cause notices",
-      "Appeals before CIT(A), ITAT and appellate authorities",
-      "Tax planning for transactions and business restructuring",
-      "Search, survey and summons representation",
-      "Penalty, prosecution and rectification proceedings"
+      "Income tax scrutiny assessment and Section 148 reassessment notice defence",
+      "Appeals before Commissioner of Income Tax (Appeals) and ITAT Delhi",
+      "GST show cause notices, audit inquiries, and appellate authority representation",
+      "Tax litigation before the High Court of Delhi (Tax Division) and Supreme Court",
+      "Stay of tax demand applications and recovery notice challenges",
+      "Search, seizure and survey proceedings under Section 132/133A"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Notice and position review",
-        "description": "We read the notice against the return and underlying records to establish exactly what is being questioned and what supports your position."
+        "title": "Notice analysis",
+        "description": "We scrutinize the statutory notice against filed returns and judicial precedents to formulate the legal defence."
       },
       {
         "step": 2,
-        "title": "Reply and representation",
-        "description": "We draft the reply with supporting documentation and appear before the assessing or adjudicating authority."
+        "title": "Reply & hearing",
+        "description": "We submit detailed written replies backed by supporting accounts, documentary evidence, and case law compilations."
       },
       {
         "step": 3,
-        "title": "Appeal strategy",
-        "description": "Where an adverse order issues, we advise on appeal prospects and stay of demand before filing, not after."
+        "title": "Stay of demand",
+        "description": "Where an adverse assessment order is passed, we apply for a stay of demand before the appellate authority or High Court."
       },
       {
         "step": 4,
-        "title": "Appellate proceedings",
-        "description": "We prepare grounds, paper books and case law compilations, and argue the appeal before the Tribunal or High Court."
+        "title": "Tribunal & High Court appeals",
+        "description": "We prepare paper books and argue appeals before the ITAT Delhi and the Division Bench of Delhi High Court."
       }
     ],
     "benefits": [
-      "Deadline-sensitive handling of notices and appeals",
-      "Stay of demand pursued alongside the appeal",
-      "Coordination with your accountant rather than duplication",
-      "Prospective advice that reduces future exposure"
+      "Expert counsel for complex ITAT and Delhi High Court tax benches",
+      "Prompt applications for stay on coercive recovery notices",
+      "Seamless collaboration with in-house chartered accountants",
+      "Strategic tax dispute management minimizing exposure to penalties"
     ],
-    "metaDescription": "Taxation lawyers for income tax notices, GST disputes, scrutiny assessments, appeals before CIT(A) and ITAT, and tax planning.",
-    "keywords": ["tax lawyer", "income tax notice", "GST dispute", "ITAT appeal", "tax assessment"]
+    "metaDescription": "Top tax lawyers in Delhi NCR for income tax scrutiny, GST disputes, ITAT appeals, and tax litigation in Delhi High Court. Singla & Singla Law Firm.",
+    "keywords": [
+      "tax lawyer in delhi",
+      "income tax appeal advocate delhi",
+      "ITAT delhi advocate",
+      "GST dispute lawyer delhi ncr",
+      "delhi high court tax advocate"
+    ],
+    "courts": [
+      "Income Tax Appellate Tribunal (ITAT), New Delhi",
+      "High Court of Delhi (Tax & Writ Bench)",
+      "GST Appellate Tribunal & Authority, Delhi",
+      "Supreme Court of India"
+    ],
+    "keyLaws": [
+      {
+        "name": "Income Tax Act, 1961",
+        "description": "Governs the taxation of income, scrutiny assessments, search proceedings, penalties, and appellate remedies."
+      },
+      {
+        "name": "Central Goods and Services Tax Act, 2017 (CGST)",
+        "description": "Regulates indirect taxation, input tax credit, show cause notices, and GST appellate procedure."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the procedure to appeal an adverse income tax assessment order?",
+        "answer": "An appeal against an assessment order must be filed before the Commissioner of Income Tax (Appeals) [CIT(A)] within 30 days of service of the demand notice. If dissatisfied with the CIT(A) order, a second appeal lies before the Income Tax Appellate Tribunal (ITAT Delhi) within 60 days."
+      }
+    ]
   },
   {
     "slug": "banking-law",
     "title": "Banking & Finance Law",
-    "tagline": "Recovery, SARFAESI, DRT and insolvency representation.",
+    "tagline": "DRT recovery defence, SARFAESI proceedings, loan settlements, and insolvency litigation across Delhi NCR.",
     "icon": "bank",
     "featured": false,
     "overview": [
-      "We act for borrowers, guarantors, lenders and financial creditors in recovery proceedings, SARFAESI enforcement, Debt Recovery Tribunal matters and insolvency proceedings under the IBC.",
-      "Borrowers frequently engage counsel only after possession notice, by which point the available remedies have narrowed. Early advice on restructuring, one-time settlement or a securitisation application usually produces a materially better outcome than a late challenge."
+      "We represent borrowers, guarantors, corporate entities, and creditors in Debt Recovery Tribunal (DRT Delhi) matters, SARFAESI Section 13(2) and 13(4) possession notices, Securitisation Applications (SA), and one-time settlements (OTS).",
+      "Enforcement under SARFAESI moves quickly once symbolic possession is taken. We take immediate legal steps to obtain stay orders from the DRT, challenge unlawful auction notices, and negotiate structured bank loan settlements."
     ],
     "servicesOffered": [
-      "SARFAESI notices, securitisation applications and appeals",
-      "Debt Recovery Tribunal and DRAT proceedings",
-      "One-time settlement and loan restructuring negotiation",
-      "Loan recall notices, NPA classification and account challenges",
-      "Insolvency and bankruptcy proceedings before the NCLT",
-      "Guarantor liability and mortgage enforcement disputes"
+      "Securitisation Applications (SA) before DRT-I, DRT-II, and DRT-III Delhi",
+      "Challenging Section 13(2) and Section 13(4) SARFAESI notices and physical possession orders",
+      "One-Time Settlement (OTS) and loan restructuring negotiations with banks and NBFCs",
+      "Appeals before the Debt Recovery Appellate Tribunal (DRAT Delhi)",
+      "Insolvency and Bankruptcy Code (IBC) proceedings before NCLT Delhi",
+      "Defence of personal guarantors and mortgage redemption suits"
     ],
     "process": [
       {
         "step": 1,
-        "title": "Exposure assessment",
-        "description": "We map the facility documents, security interests and guarantees to establish real exposure and the timelines you are working against."
+        "title": "Loan document & notice review",
+        "description": "We scrutinize facility agreements, NPA classification dates, and SARFAESI compliance for procedural flaws."
       },
       {
         "step": 2,
-        "title": "Immediate protective steps",
-        "description": "We act within statutory windows — objections, securitisation applications or stay — before enforcement forecloses the options."
+        "title": "Urgent DRT stay application",
+        "description": "We file a Securitisation Application before the DRT to restrain physical possession or public auction of property."
       },
       {
         "step": 3,
-        "title": "Settlement negotiation",
-        "description": "We negotiate restructuring or one-time settlement with the lender, documented so the discharge is unambiguous."
+        "title": "Settlement negotiation (OTS)",
+        "description": "We negotiate a realistic One-Time Settlement with bank authorities, documenting complete waiver and release of title deeds."
       },
       {
         "step": 4,
-        "title": "Tribunal representation",
-        "description": "We represent you before the DRT, DRAT or NCLT where a negotiated outcome is not available."
+        "title": "Tribunal & High Court litigation",
+        "description": "We conduct full arguments before DRT/DRAT and file writ petitions in the Delhi High Court against arbitrary bank actions."
       }
     ],
     "benefits": [
-      "Statutory deadlines tracked so remedies are not lost",
-      "Realistic settlement expectations, set early",
-      "Guarantor and director exposure addressed explicitly",
-      "Experience on both lender and borrower side"
+      "Immediate protective stay applications before DRT Delhi against bank auctions",
+      "Strategic negotiation of One-Time Settlements (OTS) with significant haircuts",
+      "Comprehensive protection for personal and corporate guarantors",
+      "Regular appearances before DRT-I, DRT-II, DRT-III, and DRAT Delhi"
     ],
-    "metaDescription": "Banking and finance lawyers for SARFAESI, DRT recovery, one-time settlement, cheque dishonour and IBC insolvency proceedings.",
-    "keywords": ["banking lawyer", "SARFAESI", "DRT advocate", "loan recovery notice", "IBC insolvency"]
+    "metaDescription": "Best banking and DRT lawyers in Delhi NCR for SARFAESI defence, Debt Recovery Tribunal (DRT Delhi), OTS bank settlements, and loan recovery litigation.",
+    "keywords": [
+      "banking lawyer delhi",
+      "DRT advocate delhi",
+      "SARFAESI act lawyer karkardooma",
+      "debt recovery tribunal advocate delhi ncr",
+      "one time settlement OTS lawyer delhi"
+    ],
+    "courts": [
+      "Debt Recovery Tribunal (DRT-I, DRT-II, DRT-III, Delhi)",
+      "Debt Recovery Appellate Tribunal (DRAT, Delhi)",
+      "National Company Law Tribunal (NCLT Delhi)",
+      "High Court of Delhi (Writ Jurisdiction)"
+    ],
+    "keyLaws": [
+      {
+        "name": "SARFAESI Act, 2002",
+        "description": "Empowers banks and financial institutions to enforce security interests without court intervention, subject to DRT oversight."
+      },
+      {
+        "name": "Recovery of Debts and Bankruptcy Act, 1993 (RDB Act)",
+        "description": "Establishes Debt Recovery Tribunals for adjudication of debt recovery claims above ₹20 Lakhs."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I challenge a SARFAESI possession notice in DRT Delhi?",
+        "answer": "Yes. Once the bank issues a notice under Section 13(4) or obtains a Chief Metropolitan Magistrate (CMM) order under Section 14 to take physical possession, the borrower or guarantor can file a Securitisation Application (SA) under Section 17 before the DRT within 45 days to seek a stay."
+      }
+    ]
   }
 ]

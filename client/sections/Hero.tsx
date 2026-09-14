@@ -46,30 +46,50 @@ export function Hero() {
 
       <Container className="relative py-28 lg:py-32">
         <div className="max-w-3xl">
-          <p className="eyebrow reveal-on-load text-gold-300" style={delay(60)}>
-            {site.registration} · Since {site.foundingYear}
-          </p>
+          <div className="reveal-on-load flex flex-wrap items-center gap-2 text-gold-300" style={delay(60)}>
+            <span className="eyebrow text-gold-300">
+              Top Law Firm in Delhi NCR · Since {site.foundingYear}
+            </span>
+            <span className="hidden h-1 w-1 rounded-full bg-gold/60 sm:inline-block" aria-hidden="true" />
+            <span className="text-[0.6875rem] font-medium tracking-[0.14em] uppercase text-white/60">
+              Chamber F-622, Karkardooma Court
+            </span>
+          </div>
 
-          {/* Deliberately NOT animated: this is the Largest Contentful Paint
-              element, and an entrance starting from opacity 0 risks deferring
-              the paint Chrome measures. Kept static as the safer default —
-              on localhost it measured no different either way, but there LCP is
-              simulated, so the real-network benefit is untested rather than
-              disproven. Everything around it animates; the headline appears. */}
           <h1 className="mt-7 text-hero text-white">
             Justice. Integrity.
             <br />
             <span className="text-gold-gradient">Excellence.</span>
           </h1>
 
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">
-            A full-service practice advising individuals, families and businesses across{' '}
-            {practiceAreas.length} areas of law. You will get a candid assessment of where you
-            stand — and the shortest defensible route to resolving it.
+          <p className="mt-8 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
+            Ranked among the <strong className="font-semibold text-white">top law firms in Delhi NCR</strong>.
+            With over 28 years of courtroom excellence from our principal chambers at Karkardooma Court,
+            our seasoned advocates provide direct counsel across {practiceAreas.length} practice areas before the
+            Supreme Court of India, Delhi High Court, and all Delhi District Courts.
           </p>
 
+          {/* Court jurisdiction tags */}
+          <div className="reveal-on-load mt-6 flex flex-wrap gap-2" style={delay(140)}>
+            {[
+              'Karkardooma Court',
+              'Delhi High Court',
+              'Supreme Court of India',
+              'Tis Hazari Courts',
+              'Saket Courts',
+              'Patiala House',
+            ].map((court) => (
+              <span
+                key={court}
+                className="inline-flex items-center border border-white/15 bg-white/5 px-2.5 py-1 text-[0.6875rem] font-medium tracking-wide text-white/70 backdrop-blur-xs"
+              >
+                {court}
+              </span>
+            ))}
+          </div>
+
           <div
-            className="reveal-on-load mt-11 flex flex-col gap-4 sm:flex-row sm:items-center"
+            className="reveal-on-load mt-10 flex flex-col gap-4 sm:flex-row sm:items-center"
             style={delay(220)}
           >
             <Button
@@ -88,17 +108,15 @@ export function Hero() {
               variant="outlineLight"
               size="lg"
               icon={<TbPhone className="h-4 w-4" />}
-              /* The accessible name must contain the visible label, or screen
-                 readers announce something the user cannot see referenced. */
               aria-label={`Call Now on ${site.phone.primary}`}
             >
-              Call Now
+              Call Now: {site.phone.primary}
             </Button>
           </div>
 
           {/* Trust strip */}
           <dl
-            className="reveal-on-load mt-16 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-8"
+            className="reveal-on-load mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-8"
             style={delay(300)}
           >
             <div className="flex flex-col">
@@ -119,7 +137,7 @@ export function Hero() {
 
             <div className="flex flex-col">
               <dt className="text-[0.6875rem] uppercase tracking-[0.14em] text-white/45">
-                Advocates
+                Advocates & Counsel
               </dt>
               <dd className="order-first font-display text-3xl text-gold">{advocates.length}</dd>
             </div>

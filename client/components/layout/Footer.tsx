@@ -178,6 +178,23 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Court Jurisdictions Strip — Local SEO signal */}
+        <div className="border-t border-white/[0.08] py-6">
+          <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+            <span className="font-body text-[0.6875rem] font-semibold uppercase tracking-[0.16em] text-gold shrink-0">
+              Court Coverage &amp; Chambers:
+            </span>
+            <ul className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-white/50">
+              {site.courts.map((court) => (
+                <li key={court} className="flex items-center gap-2">
+                  <span className="text-gold/60">•</span>
+                  <span>{court}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
         {/* Services strip — secondary internal links. */}
         <div className="border-t border-white/[0.08] py-8">
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-3">
@@ -199,7 +216,7 @@ export function Footer() {
         <div className="border-t border-white/[0.08] py-8">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-xs text-white/40">
-              © {year} {site.name}. All rights reserved.
+              © {year} {site.name}. All rights reserved. | {site.registration}
             </p>
             <p className="text-xs text-white/40">
               {site.tagline}

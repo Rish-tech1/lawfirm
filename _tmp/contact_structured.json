@@ -1,0 +1,45 @@
+{
+  "block_count": 3,
+  "processed_count": 3,
+  "total_bytes": 2886,
+  "truncated": false,
+  "blocks": [
+    {
+      "index": 1,
+      "size_bytes": 2147,
+      "valid": true,
+      "types": [
+        "AdministrativeArea",
+        "City",
+        "ContactPoint",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LegalService",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress"
+      ],
+      "types_truncated": false
+    },
+    {
+      "index": 2,
+      "size_bytes": 478,
+      "valid": true,
+      "types": [
+        "WebSite"
+      ],
+      "types_truncated": false
+    },
+    {
+      "index": 3,
+      "size_bytes": 261,
+      "valid": true,
+      "types": [
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "types_truncated": false
+    }
+  ]
+}

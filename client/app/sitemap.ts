@@ -4,7 +4,8 @@ import { CONTENT_LAST_REVIEWED, site } from '@/content/site';
 import { absoluteUrl } from '@/lib/utils';
 
 /**
- * Generated sitemap, served at /sitemap.xml.
+ * Generated sitemap, served at 
+ * .
  *
  * Driven by `staticRoutes` and the practice-area data, so a new practice area
  * appears in the sitemap the moment its JSON entry is added — no second edit,

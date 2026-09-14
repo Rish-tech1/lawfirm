@@ -1,0 +1,110 @@
+{
+  "url": "https://www.singlalawfirm.in/about",
+  "status_code": 200,
+  "content": "<!DOCTYPE html><!--LTZ2vF6FX2r8YDD18p_l0--><html lang=\"en-IN\" data-scroll-behavior=\"smooth\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=16&amp;q=60 16w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=32&amp;q=60 32w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=48&amp;q=60 48w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=64&amp;q=60 64w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=96&amp;q=60 96w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=128&amp;q=60 128w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=256&amp;q=60 256w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=384&amp;q=60 384w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=640&amp;q=60 640w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=750&amp;q=60 750w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=828&amp;q=60 828w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=1080&amp;q=60 1080w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=1200&amp;q=60 1200w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=1920&amp;q=60 1920w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=2048&amp;q=60 2048w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=3840&amp;q=60 3840w\" imageSizes=\"(min-width: 640px) 172px, 143px\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=16&amp;q=60 16w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=32&amp;q=60 32w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=48&amp;q=60 48w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=64&amp;q=60 64w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=96&amp;q=60 96w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=128&amp;q=60 128w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=256&amp;q=60 256w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=384&amp;q=60 384w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=640&amp;q=60 640w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=750&amp;q=60 750w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=828&amp;q=60 828w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=1080&amp;q=60 1080w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=1200&amp;q=60 1200w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=1920&amp;q=60 1920w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=2048&amp;q=60 2048w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=3840&amp;q=60 3840w\" imageSizes=\"(min-width: 640px) 172px, 143px\"/><link rel=\"stylesheet\" href=\"/_next/static/css/08a9c5a1d3546337.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-ee5ed9611c4f175d.js\"/><script src=\"/_next/static/chunks/c7879cf7-b5ab1053c1d9a2e7.js\" async=\"\"></script><script src=\"/_next/static/chunks/131-b18bcea81ae5ce5a.js\" async=\"\"></script><script src=\"/_next/static/chunks/main-app-d6aceee579de65e1.js\" async=\"\"></script><script src=\"/_next/static/chunks/7345c3c9-2b584fc4bb49c775.js\" async=\"\"></script><script src=\"/_next/static/chunks/197-f7c33a0114fc3db3.js\" async=\"\"></script><script src=\"/_next/static/chunks/765-30972155373e4504.js\" async=\"\"></script><script src=\"/_next/static/chunks/234-f6be8b3e5fe28927.js\" async=\"\"></script><script src=\"/_next/static/chunks/654-c8836445f9f41a5e.js\" async=\"\"></script><script src=\"/_next/static/chunks/app/layout-754972c4da55ca93.js\" async=\"\"></script><script src=\"/_next/static/chunks/app/about/page-705538b4af54ce6d.js\" async=\"\"></script><link rel=\"preload\" href=\"/fonts/playfair-display-latin.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><link rel=\"preload\" href=\"/fonts/inter-latin.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#ffffff\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: dark)\" content=\"#111111\"/><meta name=\"color-scheme\" content=\"light\"/><title>About the Firm | Singla &amp; Singla</title><meta name=\"description\" content=\"Founded in 1997, Singla &amp; Singla Law Firm is a full-service legal practice built on candid advice. Read about our history, mission, values and the founder&#x27;s approach.\"/><meta name=\"application-name\" content=\"Singla &amp; Singla Law Firm\"/><link rel=\"author\" href=\"https://www.singlalawfirm.in\"/><meta name=\"author\" content=\"Singla &amp; Singla Law Firm\"/><meta name=\"generator\" content=\"Next.js\"/><meta name=\"keywords\" content=\"law firm,advocates,legal consultants,corporate lawyer,criminal lawyer,family lawyer,property lawyer,divorce lawyer,civil litigation,arbitration,legal consultation,Delhi,New Delhi,Noida,Greater Noida,Ghaziabad,Gurugram,Faridabad,Delhi NCR\"/><meta name=\"creator\" content=\"Singla &amp; Singla Law Firm\"/><meta name=\"publisher\" content=\"Singla &amp; Singla Law Firm\"/><meta name=\"robots\" content=\"index, follow\"/><meta name=\"googlebot\" content=\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\"/><meta name=\"category\" content=\"Legal Services\"/><link rel=\"canonical\" href=\"https://www.singlalawfirm.in/about\"/><meta name=\"format-detection\" content=\"telephone=no, address=no, email=no\"/><meta property=\"og:title\" content=\"About Singla &amp; Singla Law Firm\"/><meta property=\"og:description\" content=\"Founded in 1997, Singla &amp; Singla Law Firm is a full-service legal practice built on candid advice. Read about our history, mission, values and the founder&#x27;s approach.\"/><meta property=\"og:url\" content=\"https://www.singlalawfirm.in/about\"/><meta name=\"twitter:card\" content=\"summary_large_image\"/><meta name=\"twitter:title\" content=\"Singla &amp; Singla Law Firm | Advocates &amp; Legal Consultants\"/><meta name=\"twitter:description\" content=\"Singla &amp; Singla Law Firm is a full-service legal practice advisi",
+  "raw_content": "<!DOCTYPE html><!--LTZ2vF6FX2r8YDD18p_l0--><html lang=\"en-IN\" data-scroll-behavior=\"smooth\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=16&amp;q=60 16w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=32&amp;q=60 32w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=48&amp;q=60 48w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=64&amp;q=60 64w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=96&amp;q=60 96w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=128&amp;q=60 128w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=256&amp;q=60 256w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=384&amp;q=60 384w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=640&amp;q=60 640w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=750&amp;q=60 750w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=828&amp;q=60 828w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=1080&amp;q=60 1080w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=1200&amp;q=60 1200w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=1920&amp;q=60 1920w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=2048&amp;q=60 2048w, /_next/image?url=%2Fimages%2Flogo-lockup.png&amp;w=3840&amp;q=60 3840w\" imageSizes=\"(min-width: 640px) 172px, 143px\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=16&amp;q=60 16w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=32&amp;q=60 32w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=48&amp;q=60 48w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=64&amp;q=60 64w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=96&amp;q=60 96w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=128&amp;q=60 128w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=256&amp;q=60 256w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=384&amp;q=60 384w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=640&amp;q=60 640w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=750&amp;q=60 750w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=828&amp;q=60 828w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=1080&amp;q=60 1080w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=1200&amp;q=60 1200w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=1920&amp;q=60 1920w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=2048&amp;q=60 2048w, /_next/image?url=%2Fimages%2Flogo-lockup-light.png&amp;w=3840&amp;q=60 3840w\" imageSizes=\"(min-width: 640px) 172px, 143px\"/><link rel=\"stylesheet\" href=\"/_next/static/css/08a9c5a1d3546337.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-ee5ed9611c4f175d.js\"/><script src=\"/_next/static/chunks/c7879cf7-b5ab1053c1d9a2e7.js\" async=\"\"></script><script src=\"/_next/static/chunks/131-b18bcea81ae5ce5a.js\" async=\"\"></script><script src=\"/_next/static/chunks/main-app-d6aceee579de65e1.js\" async=\"\"></script><script src=\"/_next/static/chunks/7345c3c9-2b584fc4bb49c775.js\" async=\"\"></script><script src=\"/_next/static/chunks/197-f7c33a0114fc3db3.js\" async=\"\"></script><script src=\"/_next/static/chunks/765-30972155373e4504.js\" async=\"\"></script><script src=\"/_next/static/chunks/234-f6be8b3e5fe28927.js\" async=\"\"></script><script src=\"/_next/static/chunks/654-c8836445f9f41a5e.js\" async=\"\"></script><script src=\"/_next/static/chunks/app/layout-754972c4da55ca93.js\" async=\"\"></script><script src=\"/_next/static/chunks/app/about/page-705538b4af54ce6d.js\" async=\"\"></script><link rel=\"preload\" href=\"/fonts/playfair-display-latin.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><link rel=\"preload\" href=\"/fonts/inter-latin.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#ffffff\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: dark)\" content=\"#111111\"/><meta name=\"color-scheme\" content=\"light\"/><title>About the Firm | Singla &amp; Singla</title><meta name=\"description\" content=\"Founded in 1997, Singla &amp; Singla Law Firm is a full-service legal practice built on candid advice. Read about our history, mission, values and the founder&#x27;s approach.\"/><meta name=\"application-name\" content=\"Singla &amp; Singla Law Firm\"/><link rel=\"author\" href=\"https://www.singlalawfirm.in\"/><meta name=\"author\" content=\"Singla &amp; Singla Law Firm\"/><meta name=\"generator\" content=\"Next.js\"/><meta name=\"keywords\" content=\"law firm,advocates,legal consultants,corporate lawyer,criminal lawyer,family lawyer,property lawyer,divorce lawyer,civil litigation,arbitration,legal consultation,Delhi,New Delhi,Noida,Greater Noida,Ghaziabad,Gurugram,Faridabad,Delhi NCR\"/><meta name=\"creator\" content=\"Singla &amp; Singla Law Firm\"/><meta name=\"publisher\" content=\"Singla &amp; Singla Law Firm\"/><meta name=\"robots\" content=\"index, follow\"/><meta name=\"googlebot\" content=\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\"/><meta name=\"category\" content=\"Legal Services\"/><link rel=\"canonical\" href=\"https://www.singlalawfirm.in/about\"/><meta name=\"format-detection\" content=\"telephone=no, address=no, email=no\"/><meta property=\"og:title\" content=\"About Singla &amp; Singla Law Firm\"/><meta property=\"og:description\" content=\"Founded in 1997, Singla &amp; Singla Law Firm is a full-service legal practice built on candid advice. Read about our history, mission, values and the founder&#x27;s approach.\"/><meta property=\"og:url\" content=\"https://www.singlalawfirm.in/about\"/><meta name=\"twitter:card\" content=\"summary_large_image\"/><meta name=\"twitter:title\" content=\"Singla &amp; Singla Law Firm | Advocates &amp; Legal Consultants\"/><meta name=\"twitter:description\" content=\"Singla &amp; Singla Law Firm is a full-service legal practice advisi",
+  "is_spa": false,
+  "extracted_text": "Continuity of counsel\nThe partner who advises you at the consultation appears in your matter. Associates assist; they do not quietly replace.\nMonday \u2013 Friday: 9:30 AM \u2013 7:00 PM\nAbout Us\nEstablished in 1997, we advise individuals, families and businesses across twelve areas of law \u2014 and we are as direct about what we cannot do as about what we can.\nWho We Are\nSingla & Singla Law Firm is a premier full-service legal practice based in Delhi-NCR delivering trusted advocacy since 1997. Built on over two decades of legal excellence, our firm provides strategic representation across Criminal, Civil, Matrimonial law and other legal matters.\nWe combine deep courtroom expertise with a nuanced, client-first approach to protect rights and resolve complex disputes effectively. From defending intricate criminal matters to navigating sensitive family dynamics and commercial conflicts, our team is committed to upholding justice with unwavering integrity. At Singla & Singla, we offer clear, results-driven solutions designed to safeguard our clients' interests at every stage of litigation.\nTrusted experience. Professional counsel. Dedicated representation.\nOur mission is to provide accessible, ethical, and result-oriented legal services while upholding the highest standards of integrity, professionalism, and client trust. We are committed to protecting our clients\u2019 rights and delivering effective legal solutions with dedication and diligence.\nTo be the practice that regional families and businesses turn to first, trusted less for the cases we win than for the advice we give before a case exists.\nOur History\nThe practice opened in 1997 with enrolment at the Bar Council, and its first years were spent at Tis Hazari Courts \u2014 two under a senior advocate, then in an independent chamber taking criminal, matrimonial, civil and MCD panel work. It grew by referral rather than advertising, adding a chamber at Karkardooma in 2009, a presence across Delhi's district courts through the years that followed, and a Delhi High Court practice from 2015.\nNearly three decades on, the firm advises across twelve disciplines from three chambers in East Delhi \u2014 Karkardooma Court, Trilokpuri and Mayur Vihar Phase 1 \u2014 with eight partners and associates and a support team that manages compliance calendars, filings and hearing schedules. The scale has changed; the operating principle has not.\nMilestones\nNearly three decades of deliberate expansion \u2014 from a single chamber at Tis Hazari to representation across Delhi's district courts and the High Court.\n1997\nEnrolment & Entry into the Legal Profession\nThe journey began in 1997, with enrolment as an advocate with the Bar Council. With determination and a commitment to the profession, the foundation of a lifelong journey in law was laid.\n1997\u20131999\nTis Hazari Courts\nThe initial two years were spent working under a senior advocate at Tis Hazari Courts, Delhi, gaining valuable courtroom experience and developing a strong foundation in litigation and advocacy.\n1999\u20132000\nChamber at Tis Hazari\nAfter gaining experience under senior guidance, an independent chamber was established at Tis Hazari Courts in association with professional colleagues.\nDuring this phase, the practice also began handling matters connected with the Municipal Corporation of Delhi (MCD) through the MCD panel.\n2000\u20132009\nOver the following decade, the practice developed a strong presence at Tis Hazari Courts, establishing its reputation for committed courtroom representation and client-focused legal service \u2014 particularly in:\n2009\u20132010\nA New Chapter\nThe next major milestone came with the allotment of a chamber at Karkardooma Courts.\nThis marked the beginning of a wider practice extending beyond a single court complex and into different districts of Delhi.\n2010\u20132015\nGrowing Reach, Growing Practice\nThe practice expanded across Delhi\u2019s major district courts \u2014 Karkardooma, Patiala House, Dwarka, Rohini, Rouse Avenue and Tis Hazari.\nWith an expanding team of associates, the scope of legal practice also broadened to include:\n2015\u20132020\nTaking the Practice to the High Court\nWith years of experience in trial-court litigation, the practice expanded into the Delhi High Court, increasingly focusing on matters involving:\n2020\u2013Present\nSingla & Singla Law Firm\nWhat began as one advocate\u2019s professional journey gradually evolved into a structured legal practice supported by a dedicated team of associates and professionals.\nToday, Singla & Singla Law Firm provides legal assistance, litigation services and legal consultancy across a broad range of matters, with representation before Delhi\u2019s District Courts and the Delhi High Court.\n2026\nExperience. Integrity. Commitment.\nAfter nearly three decades of legal practice, the journey continues with the same commitment with which it began in 1997 \u2014 to provide dedicated legal representation, practical legal advice and professional assistance to every client.\nCore Values\nSix operating commitments that shape how every matter in this office is run.\nAn engagement letter setting out the fee basis precedes any work, with government charges itemised separately from professional fees.\nYou receive a short written note after each listed date explaining what happened and what comes next \u2014 not a phone call you have to chase.\nWe tell clients when a case is weak, when the timeline makes litigation uneconomic, and when settling is the better commercial answer.\nA dispute touching tax, banking and corporate exposure is handled by the relevant partners together, not routed around the gaps.\nExecution and recovery are part of the mandate. A decree that is never enforced is not a result, and we do not treat it as one.\nNaveen Singla\nFounder\nI opened this practice in 1997 because I had watched too many clients receive advice they could not act on \u2014 technically correct, comprehensively hedged, and useless for deciding what to do on Monday morning. I wanted to build a chamber that answered the question the client actually a",
+  "publication_date": "2026-01-01",
+  "accessibility_tree": null,
+  "accessibility_error": null,
+  "accessibility_partial": false,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "160059",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline",
+    "Content-Encoding": "br",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https://images.unsplash.com https://maps.gstatic.com https://*.googleapis.com https://*.ggpht.com; connect-src 'self' https://lawfirm-ltfl.onrender.com https://www.google.com; frame-src 'self' https://www.google.com https://maps.google.com; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests",
+    "Content-Type": "text/html; charset=utf-8",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Mon, 07 Sep 2026 11:55:28 GMT",
+    "Etag": "W/\"51e209a4d57cb997bdb504e18ad41ee8\"",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Matched-Path": "/about",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "bom1::zxdb2-1788782128906-0800241e4631",
+    "Transfer-Encoding": "chunked"
+  },
+  "redirect_chain": [],
+  "console_errors": [],
+  "render_diagnostics": [],
+  "render_engine": null,
+  "render_ms": null,
+  "mode_used": "raw",
+  "error": null,
+  "structured_data": {
+    "block_count": 3,
+    "processed_count": 3,
+    "total_bytes": 2882,
+    "truncated": false,
+    "blocks": [
+      {
+        "index": 1,
+        "size_bytes": 2147,
+        "valid": true,
+        "types": [
+          "AdministrativeArea",
+          "City",
+          "ContactPoint",
+          "Country",
+          "GeoCoordinates",
+          "ImageObject",
+          "LegalService",
+          "LocalBusiness",
+          "OpeningHoursSpecification",
+          "PostalAddress"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 2,
+        "size_bytes": 478,
+        "valid": true,
+        "types": [
+          "WebSite"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 3,
+        "size_bytes": 257,
+        "valid": true,
+        "types": [
+          "BreadcrumbList",
+          "ListItem"
+        ],
+        "types_truncated": false
+      }
+    ]
+  },
+  "truncation": {
+    "limit": 6000,
+    "fields": {
+      "content": {
+        "original_chars": 206759,
+        "returned_chars": 6000,
+        "truncated": true
+      },
+      "raw_content": {
+        "original_chars": 206759,
+        "returned_chars": 6000,
+        "truncated": true
+      },
+      "extracted_text": {
+        "original_chars": 7052,
+        "returned_chars": 6000,
+        "truncated": true
+      }
+    }
+  },
+  "output_written": false
+}

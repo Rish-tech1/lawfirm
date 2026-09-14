@@ -9,15 +9,15 @@ import { ContactSection } from '@/sections/ContactSection';
 import { formattedAddress, site } from '@/content/site';
 import { breadcrumbSchema } from '@/lib/jsonld';
 
-const description = `Contact ${site.name} — ${formattedAddress}. Telephone ${site.phone.primary}, email ${site.email.general}. Book a confidential consultation in person, by video call or on WhatsApp.`;
+const description = `Contact Singla & Singla Law Firm — ${formattedAddress}. Telephone ${site.phone.primary}. Book a confidential consultation with top Delhi advocates at Karkardooma Court.`;
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Contact Advocates | Karkardooma Court Chamber F-622 | Singla & Singla',
   description,
   alternates: { canonical: '/contact' },
   openGraph: {
     url: '/contact',
-    title: `Contact ${site.name}`,
+    title: `Contact Top Advocates in Delhi NCR | ${site.name}`,
     description,
   },
 };

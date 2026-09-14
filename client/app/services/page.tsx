@@ -12,15 +12,15 @@ import { site } from '@/content/site';
 import { breadcrumbSchema, serviceCatalogueSchema } from '@/lib/jsonld';
 
 const description =
-  'Legal consultation, litigation and court representation, drafting and documentation, legal notices, due diligence, compliance retainers, registrations and online consultation for NRI clients.';
+  'Comprehensive legal services in Delhi NCR — litigation and court representation, legal notices, contract drafting, title due diligence, corporate compliance and NRI consultation by top advocates at Singla & Singla.';
 
 export const metadata: Metadata = {
-  title: 'Legal Services',
+  title: 'Legal Services in Delhi NCR | Top Advocates & Legal Consultants',
   description,
   alternates: { canonical: '/services' },
   openGraph: {
     url: '/services',
-    title: `Legal Services | ${site.name}`,
+    title: `Legal Services in Delhi NCR | ${site.name}`,
     description,
   },
 };

@@ -14,15 +14,15 @@ import { firm, gallery, timeline } from '@/content';
 import { site } from '@/content/site';
 import { breadcrumbSchema } from '@/lib/jsonld';
 
-const description = `Founded in ${site.foundingYear}, ${site.name} is a full-service legal practice built on candid advice. Read about our history, mission, values and the founder's approach.`;
+const description = `Established in ${site.foundingYear}, ${site.name} is one of the top law firms in Delhi NCR. With principal chambers at Karkardooma Court and regular appearances in Delhi High Court and Supreme Court, learn about our 28+ years of advocacy excellence.`;
 
 export const metadata: Metadata = {
-  title: 'About the Firm',
+  title: 'About the Firm | Top Law Firm in Delhi NCR | Singla & Singla',
   description,
   alternates: { canonical: '/about' },
   openGraph: {
     url: '/about',
-    title: `About ${site.name}`,
+    title: `About ${site.name} | Top Law Firm in Delhi NCR`,
     description,
   },
 };

@@ -71,7 +71,7 @@ const social: SocialProfiles = {
  * Bump this when you revise copy broadly; for a single page, set `updated` on
  * that route or practice area instead and leave this alone.
  */
-export const CONTENT_LAST_REVIEWED = '2026-09-05';
+export const CONTENT_LAST_REVIEWED = '2026-09-14';
 
 export const site = {
   name: 'Singla & Singla Law Firm',
@@ -79,12 +79,12 @@ export const site = {
   legalName: 'Singla & Singla Law Firm',
   /** Monogram used by the logo mark. */
   monogram: 'S&S',
-  tagline: 'Justice. Integrity. Excellence.',
+  tagline: 'Top Law Firm in Delhi NCR | Justice. Integrity. Excellence.',
   /** Taken from the firm's logo artwork, which reads "EST. 1997". */
   foundingYear: 1997,
 
   description:
-    'Singla & Singla Law Firm is a full-service legal practice advising individuals, families and businesses across corporate, civil, criminal, family, property and taxation law. Book a confidential consultation.',
+    'Singla & Singla Law Firm is one of the top law firms in Delhi NCR. With over 28 years of courtroom excellence and chambers at Karkardooma Court, our advocates represent clients in the Supreme Court of India, Delhi High Court, and all Delhi District Courts across Criminal, Civil, Matrimonial, Corporate, Property, and Cheque Bounce matters.',
 
   url: siteUrl,
 
@@ -108,7 +108,7 @@ export const site = {
 
   whatsapp: {
     number: whatsappNumber,
-    message: 'Hello, I would like to book a consultation with Singla & Singla Law Firm.',
+    message: 'Hello, I would like to book a consultation with Singla & Singla Law Firm (Top Law Firm in Delhi NCR).',
   },
 
   /**
@@ -118,7 +118,7 @@ export const site = {
    */
   address: {
     line1: 'Chamber No. F-622, F Block Lawyer’s Chamber',
-    line2: '6th Floor, Karkardooma Court',
+    line2: '6th Floor, Karkardooma Court Complex',
     city: 'Delhi',
     state: 'Delhi',
     postalCode: '110032',
@@ -137,26 +137,48 @@ export const site = {
   },
 
   /**
-   * Every city the firm accepts instructions in, principal seat first.
-   *
-   * Feeds `areaServed` on the organisation and per-practice-area schema, and
-   * the geographic terms in page keywords. The chambers are in East Delhi but
-   * the practice runs across the National Capital Region, and the schema
-   * previously claimed `Delhi` alone — the narrower of the two truths, and the
-   * one that keeps the firm out of results for the rest of the NCR.
-   *
-   * Only list a city the firm will genuinely take work in. `areaServed` is a
-   * claim about the business, and a list padded with places it does not
-   * practise is the kind of thing that gets a Business Profile suspended.
+   * Comprehensive coverage across Delhi zones and NCR satellite cities.
    */
   areaServed: [
     'Delhi',
     'New Delhi',
+    'East Delhi',
+    'South Delhi',
+    'North Delhi',
+    'West Delhi',
+    'Central Delhi',
+    'Shahdara',
+    'Karkardooma',
     'Noida',
     'Greater Noida',
     'Ghaziabad',
     'Gurugram',
     'Faridabad',
+    'Delhi NCR',
+  ],
+
+  /** Courts and forums with active standing representation */
+  courts: [
+    'Supreme Court of India',
+    'High Court of Delhi',
+    'Karkardooma District Court (Chamber F-622)',
+    'Tis Hazari District Court',
+    'Patiala House District Court',
+    'Saket District Court',
+    'Rohini District Court',
+    'Dwarka District Court',
+    'Rouse Avenue District Court',
+    'National Company Law Tribunal (NCLT Delhi)',
+    'National Consumer Disputes Redressal Commission (NCDRC)',
+    'Debt Recovery Tribunal (DRT Delhi)',
+  ],
+
+  /** Professional memberships and bar enrollments */
+  affiliations: [
+    'Bar Council of Delhi',
+    'Shahdara Bar Association, Karkardooma Court',
+    'Delhi High Court Bar Association',
+    'Supreme Court Bar Association (Associate Member)',
   ],
 
   /** Business hours drive both the visible list and the LocalBusiness schema. */

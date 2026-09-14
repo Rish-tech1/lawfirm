@@ -10,15 +10,15 @@ import { team } from '@/content';
 import { site } from '@/content/site';
 import { attorneyListSchema, breadcrumbSchema } from '@/lib/jsonld';
 
-const description = `Meet the advocates at ${site.name} — partners and associates practising in corporate, civil, criminal, family, property, banking and taxation law. Qualifications, experience and direct contact details.`;
+const description = `Meet the experienced advocates and legal counsel at Singla & Singla Law Firm in Delhi NCR. Over 28 years of courtroom representation in Supreme Court, Delhi High Court and Karkardooma Courts.`;
 
 export const metadata: Metadata = {
-  title: 'Our Team',
+  title: 'Top Advocates & Legal Team in Delhi NCR | Singla & Singla',
   description,
   alternates: { canonical: '/team' },
   openGraph: {
     url: '/team',
-    title: `Our Team | ${site.name}`,
+    title: `Advocates & Legal Team in Delhi NCR | ${site.name}`,
     description,
   },
 };

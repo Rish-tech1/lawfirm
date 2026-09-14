@@ -51,10 +51,10 @@ export function AboutPreview() {
           {/* Copy */}
           <div>
             <Reveal>
-              <p className="eyebrow mb-5">About the Firm</p>
+              <p className="eyebrow mb-5">Top Law Firm in Delhi NCR</p>
 
               <h2 className="text-display">
-                Nearly three decades of candid counsel, <span className="text-gold-gradient">not comfortable answers</span>
+                Over 28 years of trusted advocacy across <span className="text-gold-gradient">Delhi &amp; NCR Courts</span>
               </h2>
 
               <div className="rule-gold mt-6" aria-hidden="true" />

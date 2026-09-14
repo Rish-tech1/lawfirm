@@ -1,0 +1,57 @@
+{
+  "block_count": 4,
+  "processed_count": 4,
+  "total_bytes": 10090,
+  "truncated": false,
+  "blocks": [
+    {
+      "index": 1,
+      "size_bytes": 2147,
+      "valid": true,
+      "types": [
+        "AdministrativeArea",
+        "City",
+        "ContactPoint",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LegalService",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress"
+      ],
+      "types_truncated": false
+    },
+    {
+      "index": 2,
+      "size_bytes": 478,
+      "valid": true,
+      "types": [
+        "WebSite"
+      ],
+      "types_truncated": false
+    },
+    {
+      "index": 3,
+      "size_bytes": 4222,
+      "valid": true,
+      "types": [
+        "Offer",
+        "OfferCatalog",
+        "Service"
+      ],
+      "types_truncated": false
+    },
+    {
+      "index": 4,
+      "size_bytes": 3243,
+      "valid": true,
+      "types": [
+        "Answer",
+        "FAQPage",
+        "Question"
+      ],
+      "types_truncated": false
+    }
+  ]
+}

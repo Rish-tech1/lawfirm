@@ -96,5 +96,26 @@
     "answer": "Talk to us. We keep a limited number of matters each year on a reduced-fee or pro bono basis, prioritising cases involving domestic violence, wrongful detention and vulnerable claimants. We can also structure fees in stages so payment tracks the progress of the matter. Separately, if you may qualify for free legal aid through the District Legal Services Authority, we will point you to it.",
     "category": "Fees",
     "featured": false
+  },
+  {
+    "id": "f15",
+    "question": "Why is Singla & Singla Law Firm rated among the top law firms in Delhi NCR?",
+    "answer": "Singla & Singla Law Firm has established a premier reputation across Delhi NCR since 1997 through over 28 years of courtroom integrity, senior advocate continuity, and high trial success rates. Our advocates provide direct representation from our principal chamber at Karkardooma Court Complex across the Delhi High Court, Supreme Court of India, and all Delhi district courts, ensuring transparent fee agreements and candid case merit assessments.",
+    "category": "General",
+    "featured": true
+  },
+  {
+    "id": "f16",
+    "question": "Where is your chamber located in Karkardooma Court and how can I visit?",
+    "answer": "Our principal chamber is located at Chamber No. F-622, F Block Lawyer’s Chamber, 6th Floor, Karkardooma Court Complex, Delhi 110032. We also maintain branch chambers at Mayur Vihar Phase 1 (Shiv Arcade) and Trilokpuri. In-person consultations can be scheduled by phone (+91 98111 35465), WhatsApp, or through our website booking form.",
+    "category": "Consultation",
+    "featured": true
+  },
+  {
+    "id": "f17",
+    "question": "Which courts and tribunals across Delhi NCR does your firm cover?",
+    "answer": "We maintain active, daily representation in the Supreme Court of India, Delhi High Court, and all District Courts across Delhi NCR: Karkardooma Courts, Tis Hazari Courts, Patiala House Courts, Saket Courts, Rohini Courts, Dwarka Courts, and Rouse Avenue Courts. In addition, we appear before the National Company Law Tribunal (NCLT Delhi), National Consumer Disputes Redressal Commission (NCDRC), and Debt Recovery Tribunal (DRT Delhi).",
+    "category": "General",
+    "featured": true
   }
 ]

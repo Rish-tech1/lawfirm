@@ -1,0 +1,423 @@
+{
+  "block_count": 4,
+  "processed_count": 4,
+  "total_bytes": 10090,
+  "truncated": false,
+  "blocks": [
+    {
+      "index": 1,
+      "size_bytes": 2147,
+      "valid": true,
+      "types": [
+        "AdministrativeArea",
+        "City",
+        "ContactPoint",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LegalService",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress"
+      ],
+      "types_truncated": false,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": [
+          "LegalService",
+          "LocalBusiness"
+        ],
+        "@id": "https://www.singlalawfirm.in/#organisation",
+        "name": "Singla & Singla Law Firm",
+        "legalName": "Singla & Singla Law Firm",
+        "alternateName": "Singla & Singla",
+        "description": "Singla & Singla Law Firm is a full-service legal practice advising individuals, families and businesses across corporate, civil, criminal, family, property and taxation law. Book a confidential consultation.",
+        "url": "https://www.singlalawfirm.in",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.singlalawfirm.in/images/logo-lockup.png",
+          "width": 1631,
+          "height": 455
+        },
+        "image": "https://www.singlalawfirm.in/opengraph-image",
+        "telephone": "+919811135465",
+        "email": "naveensinglaadv1@gmail.com",
+        "foundingDate": "1997",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Chamber No. F-622, F Block Lawyer’s Chamber, 6th Floor, Karkardooma Court",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "postalCode": "110032",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 28.6519,
+          "longitude": 77.3003
+        },
+        "hasMap": "https://www.google.com/maps/dir/?api=1&destination=Karkardooma+Court+Complex%2C+Delhi%2C+110032%2C+India",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:30",
+            "closes": "19:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "16:00"
+          }
+        ],
+        "priceRange": "₹₹",
+        "currenciesAccepted": "INR",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Delhi"
+          },
+          {
+            "@type": "City",
+            "name": "New Delhi"
+          },
+          {
+            "@type": "City",
+            "name": "Noida"
+          },
+          {
+            "@type": "City",
+            "name": "Greater Noida"
+          },
+          {
+            "@type": "City",
+            "name": "Ghaziabad"
+          },
+          {
+            "@type": "City",
+            "name": "Gurugram"
+          },
+          {
+            "@type": "City",
+            "name": "Faridabad"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "National Capital Region"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          }
+        ],
+        "knowsLanguage": [
+          "en",
+          "hi",
+          "pa"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/singla-singla-law-firm/"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "Client enquiries",
+            "telephone": "+919811135465",
+            "email": "naveensinglaadv1@gmail.com",
+            "areaServed": "IN",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Punjabi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "size_bytes": 478,
+      "valid": true,
+      "types": [
+        "WebSite"
+      ],
+      "types_truncated": false,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://www.singlalawfirm.in/#website",
+        "url": "https://www.singlalawfirm.in",
+        "name": "Singla & Singla Law Firm",
+        "description": "Singla & Singla Law Firm is a full-service legal practice advising individuals, families and businesses across corporate, civil, criminal, family, property and taxation law. Book a confidential consultation.",
+        "inLanguage": "en-IN",
+        "publisher": {
+          "@id": "https://www.singlalawfirm.in/#organisation"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "size_bytes": 4222,
+      "valid": true,
+      "types": [
+        "Offer",
+        "OfferCatalog",
+        "Service"
+      ],
+      "types_truncated": false,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "OfferCatalog",
+        "name": "Legal services — Singla & Singla Law Firm",
+        "url": "https://www.singlalawfirm.in/practice-areas",
+        "provider": {
+          "@id": "https://www.singlalawfirm.in/#organisation"
+        },
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "position": 1,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Corporate Law",
+              "description": "Structuring, governance and compliance for businesses at every stage.",
+              "url": "https://www.singlalawfirm.in/practice-areas/corporate-law",
+              "serviceType": "Corporate Law",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 2,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Civil Litigation",
+              "description": "Assertive representation in contract, recovery and declaratory disputes.",
+              "url": "https://www.singlalawfirm.in/practice-areas/civil-litigation",
+              "serviceType": "Civil Litigation",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 3,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Criminal Defense",
+              "description": "Urgent, discreet defence at every stage — from FIR to appeal.",
+              "url": "https://www.singlalawfirm.in/practice-areas/criminal-defense",
+              "serviceType": "Criminal Defense",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 4,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Family Law",
+              "description": "Steady counsel on custody, maintenance, guardianship and succession.",
+              "url": "https://www.singlalawfirm.in/practice-areas/family-law",
+              "serviceType": "Family Law",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 5,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Divorce Law",
+              "description": "Mutual-consent and contested divorce, handled with discretion.",
+              "url": "https://www.singlalawfirm.in/practice-areas/divorce-law",
+              "serviceType": "Divorce Law",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 6,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Property Law",
+              "description": "Title diligence, transfers and possession disputes resolved cleanly.",
+              "url": "https://www.singlalawfirm.in/practice-areas/property-law",
+              "serviceType": "Property Law",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 7,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Consumer Protection",
+              "description": "Holding builders, insurers and service providers to their promises.",
+              "url": "https://www.singlalawfirm.in/practice-areas/consumer-protection",
+              "serviceType": "Consumer Protection",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 8,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cheque Bounce",
+              "description": "Section 138 complaints and defence, driven to recovery rather than a decree.",
+              "url": "https://www.singlalawfirm.in/practice-areas/cheque-bounce",
+              "serviceType": "Cheque Bounce",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 9,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Arbitration & Mediation",
+              "description": "Private, faster resolution of commercial disputes.",
+              "url": "https://www.singlalawfirm.in/practice-areas/arbitration",
+              "serviceType": "Arbitration & Mediation",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 10,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cyber Law",
+              "description": "Response and remedy for online fraud, defamation and data breach.",
+              "url": "https://www.singlalawfirm.in/practice-areas/cyber-law",
+              "serviceType": "Cyber Law",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 11,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Taxation",
+              "description": "Direct and indirect tax advisory, assessment and appeals.",
+              "url": "https://www.singlalawfirm.in/practice-areas/taxation",
+              "serviceType": "Taxation",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 12,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Banking & Finance Law",
+              "description": "Recovery, SARFAESI, DRT and insolvency representation.",
+              "url": "https://www.singlalawfirm.in/practice-areas/banking-law",
+              "serviceType": "Banking & Finance Law",
+              "provider": {
+                "@id": "https://www.singlalawfirm.in/#organisation"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "size_bytes": 3243,
+      "valid": true,
+      "types": [
+        "Answer",
+        "FAQPage",
+        "Question"
+      ],
+      "types_truncated": false,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I book a consultation with the firm?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can book in three ways: submit the enquiry form on our contact page, message us on WhatsApp, or telephone the office during working hours. Form enquiries receive an acknowledgement email immediately and a substantive response within one working day. When you enquire, please mention the practice area and a one-line summary of the issue so we can allocate the matter to the right partner before we call you back."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What documents should I bring to my first consultation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bring whatever you already have — an incomplete file is still useful. Most helpful are: any agreement or deed at the centre of the dispute, correspondence with the other side including WhatsApp and email, any court or authority notice you have received, government-issued photo identification, and for property matters the title documents and latest revenue record. If you are unsure, send us a list before the appointment and we will tell you what actually matters."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide online or telephone consultation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We conduct consultations by video call and telephone for clients outside the city and for non-resident clients, with appointments scheduled across time zones. Documents can be exchanged securely in advance, and where a matter requires representation we can arrange a vakalatnama and power of attorney remotely, so you generally need not travel for routine appearances."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a consultation cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Consultation is charged at a fixed fee that is quoted to you before the appointment is confirmed, so there are no surprises. The fee varies with the practice area and the volume of documents to be reviewed beforehand. For matters we go on to handle, we provide a written engagement letter setting out the fee basis — fixed, stage-wise or per-appearance — before any work begins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What practice areas does the firm handle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We practise across twelve areas: corporate law, civil litigation, criminal defence, family law, divorce, property law, consumer protection, cheque bounce, arbitration and mediation, cyber law, taxation, and banking and finance. Where a matter falls outside our competence, we say so and refer you on rather than accepting the brief."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long will my case take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the forum and whether the matter is contested. A legal notice may resolve a dispute in weeks. A consumer complaint or a cheque bounce trial commonly takes several months to a year. A contested civil suit can run for years, and an arbitration is usually faster than a suit but slower than a notice. At your consultation we give you a realistic range based on current listing practice at the relevant forum, and we tell you when the timeline itself is a reason to consider settlement."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

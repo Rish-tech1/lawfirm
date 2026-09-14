@@ -12,15 +12,15 @@ import { practiceAreas } from '@/content';
 import { site } from '@/content/site';
 import { breadcrumbSchema, serviceCatalogueSchema } from '@/lib/jsonld';
 
-const description = `Twelve areas of legal practice — corporate, civil litigation, criminal defence, family, divorce, property, consumer protection, cheque bounce, arbitration, cyber, taxation and banking. ${site.name}.`;
+const description = `Leading legal practice areas in Delhi NCR — Criminal Defence, Civil Litigation, Matrimonial & Divorce, Property Law, Cheque Bounce 138 NI Act, Corporate Law, Arbitration, Taxation & Banking. Singla & Singla Law Firm at Karkardooma Court.`;
 
 export const metadata: Metadata = {
-  title: 'Practice Areas',
+  title: 'Practice Areas | Top Law Firm in Delhi NCR | Singla & Singla',
   description,
   alternates: { canonical: '/practice-areas' },
   openGraph: {
     url: '/practice-areas',
-    title: `Practice Areas | ${site.name}`,
+    title: `Practice Areas | Top Law Firm in Delhi NCR | ${site.name}`,
     description,
   },
 };

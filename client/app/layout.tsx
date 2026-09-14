@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
 
   title: {
-    default: `${site.name} | Advocates & Legal Consultants`,
-    template: `%s | ${site.shortName}`,
+    default: `${site.name} | Top Law Firm in Delhi NCR | Best Advocates in Karkardooma Court & Delhi`,
+    template: `%s | ${site.shortName} - Top Law Firm in Delhi NCR`,
   },
   description: site.description,
 
@@ -39,24 +39,29 @@ export const metadata: Metadata = {
   publisher: site.name,
   generator: 'Next.js',
 
-  /**
-   * Google has ignored `<meta name="keywords">` since 2009. It stays because a
-   * few smaller engines still read it and it costs nothing — but the tag that
-   * actually carries this firm's geography is `areaServed` in the JSON-LD
-   * (see lib/jsonld.ts), not this list. Do not add terms here expecting a lift.
-   */
   keywords: [
-    'law firm',
-    'advocates',
-    'legal consultants',
-    'corporate lawyer',
-    'criminal lawyer',
-    'family lawyer',
-    'property lawyer',
-    'divorce lawyer',
-    'civil litigation',
-    'arbitration',
-    'legal consultation',
+    'top law firm in delhi',
+    'law firm in delhi ncr',
+    '10 best law firm in delhi',
+    'best law firm in delhi',
+    'best advocates in delhi',
+    'karkardooma court advocate',
+    'lawyer in karkardooma court',
+    'karkardooma court lawyers chamber',
+    'delhi high court advocate',
+    'supreme court advocate delhi',
+    'criminal lawyer in delhi',
+    'bail advocate karkardooma court',
+    'divorce lawyer in delhi ncr',
+    'mutual consent divorce lawyer delhi',
+    'civil litigation lawyer delhi',
+    'property lawyer delhi ncr',
+    'cheque bounce lawyer 138 ni act delhi',
+    'corporate lawyer delhi ncr',
+    'arbitration lawyer delhi',
+    'east delhi law firm',
+    'mayur vihar advocate',
+    'trilokpuri legal consultant',
     ...site.areaServed,
     'Delhi NCR',
   ],
@@ -70,18 +75,13 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: site.url,
     siteName: site.name,
-    title: `${site.name} | Advocates & Legal Consultants`,
+    title: `${site.name} | Top Law Firm in Delhi NCR | Best Advocates in Karkardooma Court`,
     description: site.description,
   },
 
-  /**
-   * `creator`/`site` are attached only when there is a real handle. They used
-   * to interpolate unconditionally, so every page shipped `@example_singlalaw`
-   * — a handle nobody owns — as the firm's attribution.
-   */
   twitter: {
     card: 'summary_large_image',
-    title: `${site.name} | Advocates & Legal Consultants`,
+    title: `${site.name} | Top Law Firm in Delhi NCR | Best Advocates in Karkardooma Court`,
     description: site.description,
     ...(site.social.twitterHandle
       ? {
@@ -103,19 +103,18 @@ export const metadata: Metadata = {
     },
   },
 
-  /**
-   * `app/icon.png` and `app/apple-icon.png` are picked up automatically and
-   * hashed for cache-busting, so no explicit `icons` block is needed. Drop a
-   * `favicon.ico` into `app/` as well if you need to support legacy browsers.
-   */
-
   category: 'Legal Services',
   formatDetection: { telephone: true, address: true, email: true },
 
-  /**
-   * Add your Search Console token via env to verify the property.
-   * NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=<token>
-   */
+  other: {
+    'geo.region': 'IN-DL',
+    'geo.placename': 'Delhi, Karkardooma Court, Delhi NCR',
+    'geo.position': `${site.geo.latitude};${site.geo.longitude}`,
+    ICBM: `${site.geo.latitude}, ${site.geo.longitude}`,
+    'revisit-after': '7 days',
+    rating: 'General',
+  },
+
   verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
     ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
     : undefined,

@@ -11,15 +11,15 @@ import { site } from '@/content/site';
 import { breadcrumbSchema, faqPageSchema } from '@/lib/jsonld';
 
 const description =
-  'Answers to common questions about booking a consultation, required documents, online consultation, fees, timelines, confidentiality and how matters are handled.';
+  'Frequently asked questions about hiring top advocates in Delhi NCR, Karkardooma Court chamber consultations, court representation, legal fees, and case timelines.';
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions',
+  title: 'Legal FAQs | Top Law Firm in Delhi NCR | Singla & Singla',
   description,
   alternates: { canonical: '/faq' },
   openGraph: {
     url: '/faq',
-    title: `Frequently Asked Questions | ${site.name}`,
+    title: `Legal FAQs | ${site.name}`,
     description,
   },
 };

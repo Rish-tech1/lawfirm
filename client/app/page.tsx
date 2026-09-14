@@ -15,12 +15,12 @@ import { showTestimonials, site } from '@/content/site';
 import { faqPageSchema, serviceCatalogueSchema } from '@/lib/jsonld';
 
 export const metadata: Metadata = {
-  title: `${site.name} | Advocates & Legal Consultants in ${site.address.city}`,
+  title: 'Top Law Firm in Delhi NCR | Singla & Singla Law Firm | Best Advocates in Karkardooma Court & Delhi',
   description: site.description,
   alternates: { canonical: '/' },
   openGraph: {
     url: '/',
-    title: `${site.name} | Advocates & Legal Consultants`,
+    title: 'Top Law Firm in Delhi NCR | Singla & Singla Law Firm',
     description: site.description,
   },
 };

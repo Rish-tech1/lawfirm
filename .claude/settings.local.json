@@ -5,5 +5,8 @@
       "Bash(npx -y lighthouse@12 http://127.0.0.1:3200/ --port=9222 --only-categories=performance,seo,accessibility,best-practices --preset=desktop --quiet --output=json --output-path=/tmp/lh-desktop.json)",
       "Bash(node -e ' *)"
     ]
+  },
+  "enabledPlugins": {
+    "claude-seo@agricidaniel-claude-seo": true
   }
 }
