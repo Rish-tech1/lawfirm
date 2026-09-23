@@ -20,7 +20,7 @@ function envOr<T extends string | null>(value: string | undefined, fallback: T):
   return trimmed ? trimmed : fallback;
 }
 
-const siteUrl = envOr(process.env.NEXT_PUBLIC_SITE_URL, 'https://www.singlalawfirm.com').replace(
+const siteUrl = envOr(process.env.NEXT_PUBLIC_SITE_URL, 'https://www.singlalawfirm.in').replace(
   /\/$/,
   '',
 );

@@ -12,6 +12,7 @@ import './globals.css';
 const WhatsAppButton = dynamic(() => import('@/components/layout/WhatsAppButton').then((mod) => mod.WhatsAppButton));
 const BackToTop = dynamic(() => import('@/components/layout/BackToTop').then((mod) => mod.BackToTop));
 const ToastProvider = dynamic(() => import('@/components/ui/ToastProvider').then((mod) => mod.ToastProvider));
+const DisclaimerModal = dynamic(() => import('@/components/layout/DisclaimerModal').then((mod) => mod.DisclaimerModal));
 
 /**
  * The two font families are declared by hand in app/globals.css and served from
@@ -198,6 +199,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <WhatsAppButton />
         <BackToTop />
         <ToastProvider />
+        <DisclaimerModal />
         <RevealObserver />
       </body>
     </html>
